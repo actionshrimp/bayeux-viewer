@@ -4,11 +4,12 @@
  */
 import './review.css';
 import type { Horse, StripData } from './types';
+import { Timeline, buildMarkers, sceneAt } from './story';
 
 const $ = <T extends HTMLElement = HTMLElement>(id: string) => document.getElementById(id) as T;
 
 type Status = Horse['stallion'] | 'hidden';
-interface ReviewHorse extends Horse { reviewed?: boolean }
+interface ReviewHorse extends Horse { reviewed?: boolean; added?: boolean }
 
 const canvas = $('view') as HTMLCanvasElement;
 const ctx = canvas.getContext('2d')!;
@@ -20,10 +21,13 @@ let pad = 70;              // strip units of context around the horse
 let view = { x0: 0, y0: 0, s: 1 }; // strip coords of canvas origin, canvas px per strip unit
 const imgs = new Map<string, HTMLImageElement>();
 let cuts: number[] = [];
+let tl: Timeline;
+let lastAdded: ReviewHorse | null = null;
 
 async function boot() {
   strip = await fetch('img/tapestry/strip.json').then((r) => r.json());
   horses = await fetch('/__data/horses').then((r) => r.json());
+  tl = new Timeline(buildMarkers(strip));
   const ims = strip.images;
   cuts = ims.map((im, i) => (ims[i + 1] ? (ims[i + 1].x + im.x + im.width) / 2 : im.x + im.width));
   $('filter').addEventListener('change', () => { buildList(); idx = 0; show(); });
@@ -33,7 +37,7 @@ async function boot() {
   $('next').addEventListener('click', () => step(1));
   bindCanvas();
   document.addEventListener('keydown', onKey);
-  new ResizeObserver(() => draw()).observe(canvas.parentElement!);
+  new ResizeObserver(() => draw()).observe($('stage'));
   buildList();
   show();
 }
@@ -65,7 +69,7 @@ function show() {
   } else {
     item.innerHTML = `
       <p class="id">${h.id} · scene ${h.scene}${h.facing ? ` · facing ${h.facing}` : ''}</p>
-      <p class="status s-${h.stallion}">${label(h)}${h.reviewed ? ' · reviewed' : ''}</p>
+      <p class="status s-${h.stallion}">${label(h)}${h.reviewed ? ' · reviewed' : ''}${h.added ? ' · added by you' : ''}</p>
       ${h.note ? `<p class="note"></p>` : ''}`;
     if (h.note) item.querySelector('.note')!.textContent = h.note;
     draw();
@@ -102,9 +106,9 @@ function image(file: string) {
 function draw() {
   const h = cur();
   if (!h) return;
-  const box = canvas.parentElement!.getBoundingClientRect();
+  const box = $('stage').getBoundingClientRect();
   const dpr = devicePixelRatio || 1;
-  const W = Math.floor(box.width), H = Math.floor(box.height - 40);
+  const W = Math.floor(box.width), H = Math.floor(box.height);
   canvas.width = W * dpr; canvas.height = H * dpr;
   canvas.style.width = `${W}px`; canvas.style.height = `${H}px`;
   ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
@@ -138,7 +142,7 @@ function draw() {
     ctx.strokeStyle = o === h ? 'rgba(255,255,255,.85)' : 'rgba(255,255,255,.35)';
     ctx.lineWidth = o === h ? 2 : 1;
     ctx.strokeRect(ax, ay, bx - ax, by - ay);
-    if (o !== h && o.gx != null) dot(o.gx, o.gy!, 'rgba(255,92,147,.45)', 6);
+    if (o !== h && o.gx != null) dot(o.gx, o.gy!, o.added ? '#ff4f8b' : 'rgba(255,92,147,.45)', o.added ? 9 : 6);
   }
   ctx.setLineDash([]);
   if (h.gx != null) dot(h.gx, h.gy!, h.stallion === 'yes' ? '#ff4f8b' : '#ffb03a', Math.max(10, 9 * s));
@@ -169,7 +173,10 @@ function bindCanvas() {
     if (h.stallion === 'no') h.stallion = 'yes';
     draw();
   };
-  canvas.addEventListener('pointerdown', (e) => { dragging = true; canvas.setPointerCapture(e.pointerId); setFrom(e); });
+  canvas.addEventListener('pointerdown', (e) => {
+    if (e.shiftKey) { addAt(e); return; }
+    dragging = true; canvas.setPointerCapture(e.pointerId); setFrom(e);
+  });
   canvas.addEventListener('pointermove', (e) => { if (dragging) setFrom(e); });
   canvas.addEventListener('pointerup', () => {
     if (!dragging) return;
@@ -177,6 +184,39 @@ function bindCanvas() {
     const h = cur();
     if (h) { h.reviewed = true; show(); save(); }
   });
+}
+
+/** Shift+click: a new stallion marker as its own horse entry (for boxes that hold two horses). */
+function addAt(e: PointerEvent) {
+  const r = canvas.getBoundingClientRect();
+  const x = Math.round(view.x0 + (e.clientX - r.left) / view.s);
+  const y = Math.round(view.y0 + (e.clientY - r.top) / view.s);
+  const n = horses.filter((h) => h.added).length + 1;
+  const h: ReviewHorse = {
+    id: `added-${String(n).padStart(3, '0')}-${Date.now() % 100000}`,
+    x0: x - 45, y0: y - 80, x1: x + 45, y1: y + 40,
+    stallion: 'yes', gx: x, gy: y, scene: sceneAt(tl.pFromX(x)),
+    note: 'added in review', reviewed: true, added: true,
+  };
+  horses.push(h);
+  lastAdded = h;
+  horses.sort((a, b) => a.x0 - b.x0);
+  save();
+  buildList();
+  show();
+  $('save').textContent = `Added a marker in scene ${h.scene}. Press Delete to undo it.`;
+}
+
+function removeCurrent() {
+  // Delete removes the horse you're on if you added it, otherwise undoes your latest addition.
+  const h = cur()?.added ? cur() : lastAdded && horses.includes(lastAdded) ? lastAdded : null;
+  if (!h) { $('save').textContent = 'Only markers you added can be deleted. Use N or H for the others.'; return; }
+  if (h === lastAdded) lastAdded = null;
+  horses.splice(horses.indexOf(h), 1);
+  save();
+  buildList();
+  idx = Math.min(idx, Math.max(0, list.length - 1));
+  show();
 }
 
 function decide(s: Status) {
@@ -208,7 +248,10 @@ function decide(s: Status) {
 }
 
 let saveTimer = 0;
+// ?dry: never write (for testing without touching the real data).
+const DRY = new URLSearchParams(location.search).has('dry');
 function save() {
+  if (DRY) { $('save').textContent = 'Dry run: not saved'; return; }
   clearTimeout(saveTimer);
   $('save').textContent = 'Saving…';
   saveTimer = window.setTimeout(async () => {
@@ -228,6 +271,7 @@ function onKey(e: KeyboardEvent) {
   else if (k === 'arrowleft') step(-1);
   else if (k === '[') { pad = Math.min(400, pad * 1.5); draw(); }
   else if (k === ']') { pad = Math.max(15, pad / 1.5); draw(); }
+  else if (k === 'delete' || k === 'backspace') { e.preventDefault(); removeCurrent(); }
 }
 
 boot();

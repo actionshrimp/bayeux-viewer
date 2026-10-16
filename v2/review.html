@@ -9,8 +9,10 @@
 <body>
   <main class="rv">
     <section class="viewer">
-      <canvas id="view" aria-label="Zoomed view of the horse. Click to set the marker."></canvas>
-      <p class="hint">Click or drag to place the marker · <kbd>Y</kbd> stallion · <kbd>N</kbd> not · <kbd>U</kbd> unsure · <kbd>H</kbd> can't tell (no marker) · <kbd>←</kbd><kbd>→</kbd> prev/next · <kbd>[</kbd><kbd>]</kbd> zoom out/in</p>
+      <div class="stage" id="stage"><canvas id="view" aria-label="Zoomed view of the horse. Click to set the marker."></canvas></div>
+      <p class="hint">Decide on the horse in the <b>solid white box</b>. Dashed boxes and faint dots are its neighbours, reviewed in their own turn.<br>
+        Click or drag to place the marker · <kbd>Shift</kbd>+click adds another marker · <kbd>Delete</kbd> removes one you added ·
+        <kbd>Y</kbd> stallion · <kbd>N</kbd> not · <kbd>U</kbd> unsure · <kbd>H</kbd> can't tell · <kbd>←</kbd><kbd>→</kbd> prev/next · <kbd>[</kbd><kbd>]</kbd> zoom</p>
     </section>
     <aside class="side">
       <h1>Horse review</h1>
