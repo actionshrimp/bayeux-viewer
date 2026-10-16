@@ -27,6 +27,14 @@ The app can save itself for offline use (*Layers → Save for offline use*), but
 
 Over plain `http://` everything else works; it just needs a connection.
 
+## Deploy
+
+Live at <https://actionshrimp.com/bayeux-viewer/>. To publish changes:
+
+```sh
+npm run deploy   # builds, then force-pushes dist/ to the gh-pages branch
+```
+
 ## What's in it
 
 - **Tapestry strip:** native swipe scrolling with momentum and a centre needle. Seams are cut mid-overlap and feathered. Zoom (+/−, ctrl/pinch-wheel on desktop) swaps in 1200px tiles.
