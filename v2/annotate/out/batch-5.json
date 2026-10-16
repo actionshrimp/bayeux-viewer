@@ -1,0 +1,9 @@
+[
+ {"id": "leofwine", "x0": 35790, "y0": 186, "x1": 35846, "y1": 369, "scene": 52, "evidence": "labelled", "note": "Standing spearman at end of LEUUINE caption"},
+ {"id": "gyrth", "x0": 35948, "y0": 186, "x1": 36022, "y1": 369, "scene": 52, "evidence": "labelled", "note": "Under GYRD, speared by horseman"},
+ {"id": "odo", "x0": 37655, "y0": 208, "x1": 37722, "y1": 328, "scene": 54, "evidence": "labelled", "note": "Mounted, raising club, under ODO EPS"},
+ {"id": "william", "x0": 38136, "y0": 188, "x1": 38198, "y1": 315, "scene": 55, "evidence": "labelled", "note": "Mounted, lifting helmet, under HIC EST WILLELM"},
+ {"id": "eustace", "x0": 38204, "y0": 182, "x1": 38326, "y1": 315, "scene": 55, "evidence": "labelled", "note": "Rider pointing at William; E..TIUS above"},
+ {"id": "harold", "x0": 39936, "y0": 190, "x1": 40003, "y1": 369, "scene": 57, "evidence": "narrative", "note": "Arrow-in-eye figure under HAROLD"},
+ {"id": "harold", "x0": 40146, "y0": 280, "x1": 40282, "y1": 369, "scene": 57, "evidence": "narrative", "note": "Falling figure cut down by horseman's sword"}
+]

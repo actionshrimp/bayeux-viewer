@@ -1,0 +1,22 @@
+{
+  "name": "bayeux-journeys-v2",
+  "private": true,
+  "version": "2.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host",
+    "annotations": "python3 annotate/merge.py"
+  },
+  "dependencies": {
+    "maplibre-gl": "^5.24.0",
+    "topojson-client": "^3.1.0"
+  },
+  "devDependencies": {
+    "@types/geojson": "^7946.0.16",
+    "@types/topojson-client": "^3.1.5",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.4"
+  }
+}

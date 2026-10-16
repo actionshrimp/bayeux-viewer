@@ -1,0 +1,90 @@
+{
+  "source": "George Garnett, 'The Bayeux Tapestry with knobs on: what do the tapestry's 93 penises tell us?', History Extra / BBC History Magazine (2018), quoted at length in The History Blog (https://www.thehistoryblog.com/archives/52003); St Hugh's College, Oxford (https://www.st-hughs.ox.ac.uk/professor-garnett-hits-the-news-with-novel-bayeux-tapestry-study); Apollo Magazine (https://apollo-magazine.com/bayeux-tapestry-british-museum-margin-details-middle-ages-riddles-fables/); History... the Interesting Bits on Ælfgyva (https://historytheinterestingbits.com/2022/04/23/%D3%95lfgyva-the-mysterious-woman-in-the-bayeux-tapestry/); The Art Newspaper on Christopher Monk's disputed 94th (https://www.theartnewspaper.com/2025/04/28/medieval-experts-clash-as-bayeux-tapestry-penis-row-continues)",
+  "total": 93,
+  "horses": 88,
+  "humans": 5,
+  "summary": "In 2018 Oxford historian George Garnett counted 93 penises on the Bayeux Tapestry: 88 on horses in the main frieze and 5 on naked men in the top and bottom borders. He argues the horses' endowment mirrors their riders' virility: Harold is first shown on a well-endowed steed, but the largest by far belongs to the charger brought to Duke William just before Hastings. The naked border figures seem to illustrate Aesop's fables about illicit sex and deceit, as a sly comment on the main story.",
+  "entries": [
+    {
+      "scene": 2,
+      "kind": "horse",
+      "count": 1,
+      "where": "main frieze",
+      "pos": null,
+      "note": "Garnett says Harold is 'first shown mounted on an exceptionally well-endowed steed', which is Harold's ride to Bosham.",
+      "confidence": "likely"
+    },
+    {
+      "scene": 13,
+      "kind": "human",
+      "count": 1,
+      "where": "lower border",
+      "pos": null,
+      "note": "Below the scene where Guy brings Harold to William, a naked man with an erection reaches for a naked woman who covers herself; Stephen White links it to a fable about a father who raped his daughter.",
+      "confidence": "documented"
+    },
+    {
+      "scene": 15,
+      "kind": "human",
+      "count": 1,
+      "where": "lower border",
+      "pos": 0.25,
+      "note": "Under Ælfgyva and the cleric, a naked man squats in a 'grand plié' and copies the cleric's pose, his genitals in full view.",
+      "confidence": "documented"
+    },
+    {
+      "scene": 15,
+      "kind": "human",
+      "count": 1,
+      "where": "lower border",
+      "pos": 0.12,
+      "note": "Just to the left of the squatting man, a second naked man works with an axe or adze, possibly the fable of the axe-maker who tricks the trees.",
+      "confidence": "likely"
+    },
+    {
+      "scene": 48,
+      "kind": "horse",
+      "count": 1,
+      "where": "main frieze",
+      "pos": 0.1,
+      "note": "A groom brings Duke William his charger before Hastings; Garnett calls its penis 'the largest equine penis by far' and a sign of William's greater virility.",
+      "confidence": "documented"
+    },
+    {
+      "scene": 48,
+      "kind": "human",
+      "count": 1,
+      "where": "upper border",
+      "pos": null,
+      "note": "Above the Normans riding to battle, a naked man whose penis is hidden by the axe he holds (his testicles still visible) offers something to a naked woman, perhaps the fable of the widow and the cemetery guard.",
+      "confidence": "likely"
+    },
+    {
+      "scene": 48,
+      "kind": "human",
+      "count": 1,
+      "where": "upper border",
+      "pos": null,
+      "note": "A few inches to the right of the axe man is another naked couple, perhaps the fable of the prostitute and her doubting client.",
+      "confidence": "likely"
+    },
+    {
+      "scene": 54,
+      "kind": "horse",
+      "count": 1,
+      "where": "main frieze",
+      "pos": null,
+      "note": "Bishop Odo rallies the troops on a very large horse whose genitals Garnett calls 'modest indeed' next to William's horse.",
+      "confidence": "documented"
+    },
+    {
+      "scene": 57,
+      "kind": "human",
+      "count": 1,
+      "where": "lower border",
+      "pos": null,
+      "note": "Possible extra, not in Garnett's 93: a dead soldier stripped of his mail in the battle's lower border shows one curved line at the crotch that may be a penis.",
+      "confidence": "likely"
+    }
+  ]
+}

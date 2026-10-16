@@ -1,0 +1,185 @@
+import type { StoryData } from '../types';
+
+// Places, journeys and routes for the Bayeux Tapestry map.
+//
+// Story position: the strip's scroll position maps to a continuous number `p`, where
+// p = 14 sits on the museum's painted marker for scene 14 and p = 14.5 is halfway to 15.
+// Each journey stop has an `at` value in those units; the traveller marker is
+// interpolated between stops. `mode` is how the leg arriving at that stop was travelled,
+// and `via` lists [lon, lat] waypoints for that leg (mostly to keep ships off land).
+
+export const JOURNEYS: StoryData = {
+  places: {
+    'westminster':      { name: 'Westminster', lonlat: [-0.1273, 51.4994] },
+    'bosham':           { name: 'Bosham', lonlat: [-0.8597, 50.8285] },
+    'channel-1064':     { name: 'The Channel', lonlat: [0.35, 50.45], sea: true },
+    'ponthieu-coast':   { name: 'Coast of Ponthieu', lonlat: [1.58, 50.23], note: 'Exact landing place unknown; probably near the Somme or Authie estuary.' },
+    'beaurain':         { name: 'Beaurain', lonlat: [1.898, 50.416] },
+    'eu':               { name: 'Eu', lonlat: [1.4196, 50.0466] },
+    'rouen':            { name: 'Rouen', lonlat: [1.0993, 49.4431] },
+    'mont-saint-michel':{ name: 'Mont-Saint-Michel', lonlat: [-1.5115, 48.6361] },
+    'couesnon':         { name: 'River Couesnon', lonlat: [-1.535, 48.615], label: 'left' },
+    'dol':              { name: 'Dol', lonlat: [-1.754, 48.5497] },
+    'rennes':           { name: 'Rennes', lonlat: [-1.6778, 48.1173] },
+    'dinan':            { name: 'Dinan', lonlat: [-2.0503, 48.4555] },
+    'bayeux':           { name: 'Bayeux', lonlat: [-0.7024, 49.2764] },
+    'channel-1065':     { name: 'The Channel', lonlat: [-0.6, 50.15], sea: true },
+    'english-coast':    { name: 'English coast', lonlat: [-0.86, 50.79], note: 'The tapestry does not name the port. Bosham, Harold’s own estate, is a common guess.' },
+    'normandy-coast':   { name: 'Normandy', lonlat: [0.37, 49.76], note: 'The tapestry does not say where the English ship landed. Shown here near Fécamp, a ducal residence.' },
+    'dives':            { name: 'Dives-sur-Mer', lonlat: [-0.1003, 49.2869] },
+    'saint-valery':     { name: 'Saint-Valery-sur-Somme', lonlat: [1.6333, 50.1833] },
+    'channel-1066':     { name: 'The Channel', lonlat: [1.0, 50.55], sea: true },
+    'pevensey':         { name: 'Pevensey', lonlat: [0.334, 50.8192] },
+    'hastings':         { name: 'Hastings', lonlat: [0.5875, 50.856] },
+    'senlac':           { name: 'Senlac Hill (Battle)', lonlat: [0.4876, 50.9128] },
+  },
+
+  journeys: [
+    {
+      id: 'harold-voyage',
+      short: 'Harold’s voyage',
+      name: 'Harold sails to Normandy',
+      date: '1064 or 1065',
+      color: 'var(--wool-madder)',
+      scenes: [1, 15],
+      summary: 'Earl Harold leaves King Edward, rides to his estate at Bosham, prays, feasts and sets sail. He comes ashore in Ponthieu, where Count Guy seizes him and holds him at Beaurain until Duke William’s messengers force his release. William escorts Harold to his palace, most likely at Rouen.',
+      stops: [
+        { place: 'westminster', at: 1 },
+        { place: 'bosham', at: 2.6, mode: 'land', via: [[-0.55, 51.2]] },
+        { place: 'bosham', at: 3.7 },
+        { place: 'channel-1064', at: 4.8, mode: 'sea', via: [[-0.85, 50.74], [-0.4, 50.55]] },
+        { place: 'ponthieu-coast', at: 6.2, mode: 'sea', via: [[1.2, 50.35]] },
+        { place: 'ponthieu-coast', at: 7.2 },
+        { place: 'beaurain', at: 8.4, mode: 'land' },
+        { place: 'beaurain', at: 12.4 },
+        { place: 'eu', at: 13.2, mode: 'land', via: [[1.62, 50.22]] },
+        { place: 'rouen', at: 14.4, mode: 'land', via: [[1.25, 49.75]] },
+        { place: 'rouen', at: 15.5 },
+      ],
+      // Shown while the strip is in these scenes: William's messengers ride to Guy.
+      sideTrips: [
+        { from: 'rouen', to: 'beaurain', scenes: [9.5, 12.5], label: 'William’s messengers', via: [[1.6, 49.95]] },
+      ],
+    },
+    {
+      id: 'breton-campaign',
+      short: 'Brittany',
+      name: 'The Breton campaign',
+      date: '1064 or 1065',
+      color: 'var(--wool-weld)',
+      scenes: [16, 23],
+      summary: 'Harold rides with William against Duke Conan of Brittany. Crossing the river Couesnon near Mont-Saint-Michel, Harold drags soldiers out of the quicksand. Conan escapes Dol down a rope, and the Normans burn Dinan until he hands over the keys. William gives Harold arms, and at Bayeux Harold swears his oath on holy relics.',
+      stops: [
+        { place: 'rouen', at: 15.5 },
+        { place: 'mont-saint-michel', at: 16.4, mode: 'land', via: [[0.2, 49.15], [-1.0, 48.75]] },
+        { place: 'couesnon', at: 17.2, mode: 'land' },
+        { place: 'couesnon', at: 17.7 },
+        { place: 'dol', at: 18.2, mode: 'land' },
+        { place: 'rennes', at: 18.7, mode: 'land' },
+        { place: 'dinan', at: 19.3, mode: 'land', via: [[-1.95, 48.3]] },
+        { place: 'dinan', at: 20.6 },
+        { place: 'bayeux', at: 22.3, mode: 'land', via: [[-1.3, 48.8], [-1.05, 49.1]] },
+        { place: 'bayeux', at: 23.6 },
+      ],
+    },
+    {
+      id: 'harold-return',
+      short: 'Return',
+      name: 'Harold returns to England',
+      date: '1065',
+      color: 'var(--wool-sage)',
+      scenes: [24, 25],
+      summary: 'Harold sails home and reports to King Edward, who appears to admonish him. The tapestry leaves the meeting unexplained, and historians still argue over what passed between them.',
+      stops: [
+        { place: 'bayeux', at: 23.6 },
+        { place: 'channel-1065', at: 24.2, mode: 'sea', via: [[-0.7, 49.42]] },
+        { place: 'english-coast', at: 24.7, mode: 'sea' },
+        { place: 'westminster', at: 25.6, mode: 'land', via: [[-0.55, 51.2]] },
+      ],
+    },
+    {
+      id: 'crown-and-comet',
+      short: 'Crown & comet',
+      name: 'A crown and a comet',
+      date: 'January to April 1066',
+      color: 'var(--wool-woad-light)',
+      scenes: [26, 34],
+      summary: 'Edward dies and is buried in his new abbey at Westminster. Harold is crowned the same day. In April a long-haired star crosses the sky, an omen of disaster, and an English ship carries the news across the Channel to Duke William.',
+      stops: [
+        { place: 'westminster', at: 25.6 },
+        { place: 'westminster', at: 33.5 },
+        { place: 'normandy-coast', at: 34.6, mode: 'sea', via: [[0.75, 51.47], [1.5, 51.1], [0.9, 50.3]] },
+      ],
+    },
+    {
+      id: 'invasion',
+      short: 'Invasion',
+      name: 'William’s invasion',
+      date: 'August to October 1066',
+      color: 'var(--wool-green-dark)',
+      scenes: [35, 47],
+      summary: 'William orders a fleet built. Trees are felled, ships dragged to the sea and loaded with mail shirts, helmets, spears and a cart of wine. The fleet waits for a wind, crosses by night and lands at Pevensey. The army forages, feasts, digs a castle at Hastings and burns the surrounding houses.',
+      stops: [
+        { place: 'normandy-coast', at: 34.6 },
+        { place: 'dives', at: 35.4, mode: 'land', via: [[0.5, 49.45]] },
+        { place: 'dives', at: 37.4 },
+        { place: 'saint-valery', at: 37.85, mode: 'sea', gap: true, via: [[0.0, 49.55], [0.6, 49.85], [1.25, 50.05]] },
+        { place: 'channel-1066', at: 38.3, mode: 'sea' },
+        { place: 'pevensey', at: 38.9, mode: 'sea' },
+        { place: 'pevensey', at: 39.6 },
+        { place: 'hastings', at: 40.4, mode: 'land' },
+        { place: 'hastings', at: 47.6 },
+      ],
+      gapNote: 'Not shown in the tapestry: on 12 September storms drove the fleet from Dives along the coast to Saint-Valery-sur-Somme, where it waited two weeks for a south wind.',
+    },
+    {
+      id: 'battle',
+      short: 'Hastings',
+      name: 'The Battle of Hastings',
+      date: '14 October 1066',
+      color: 'var(--wool-woad-dark)',
+      scenes: [48, 58],
+      summary: 'The Norman knights ride out from Hastings to meet Harold’s army on the ridge at Senlac. The shield wall holds through a day of charges. Harold’s brothers fall, William lifts his helmet to show he still lives, Harold is killed and the English flee.',
+      stops: [
+        { place: 'hastings', at: 47.6 },
+        { place: 'senlac', at: 49.6, mode: 'land' },
+        { place: 'senlac', at: 58.5 },
+      ],
+    },
+  ],
+
+  // Journeys that happened but are not embroidered. Shown with the "Beyond the tapestry" toggle.
+  context: [
+    {
+      id: 'hardrada',
+      name: 'Harald Hardrada invades the north',
+      date: 'September 1066',
+      color: 'var(--context)',
+      summary: 'King Harald of Norway, joined by Harold’s exiled brother Tostig, sails via Shetland and Orkney, raids Scarborough, beats the northern earls at Fulford on 20 September and waits at Stamford Bridge.',
+      points: [[4.85, 61.08], [-1.2, 60.2], [-2.95, 58.98], [-1.6, 57.5], [-1.6, 56.2], [-1.2, 55.2], [-0.4, 54.28], [0.25, 53.8], [0.1, 53.55], [-0.75, 53.7], [-1.06, 53.835], [-1.07, 53.93], [-0.91, 53.99]],
+      labels: [[[4.85, 61.08], 'Norway'], [[-0.4, 54.28], 'Scarborough'], [[-1.07, 53.93], 'Fulford, 20 Sep'], [[-0.91, 53.99], 'Stamford Bridge, 25 Sep']],
+    },
+    {
+      id: 'harold-march',
+      name: 'Harold’s forced marches',
+      date: 'September to October 1066',
+      color: 'var(--context)',
+      summary: 'Harold races about 300 km north and destroys the Norwegian army at Stamford Bridge on 25 September. Three days later William lands at Pevensey. Harold marches back south through London and reaches Senlac on the night of 13 October.',
+      points: [[-0.1273, 51.4994], [-0.7, 52.6], [-1.26, 53.88], [-0.91, 53.99], [-1.26, 53.88], [-0.75, 52.6], [-0.1273, 51.4994], [0.25, 51.15], [0.4876, 50.9128]],
+      labels: [[[-1.26, 53.88], 'Tadcaster']],
+    },
+  ],
+
+  // Historic region labels (rough, for orientation only).
+  regions: [
+    { name: 'England', lonlat: [-1.6, 52.3] },
+    { name: 'Normandy', lonlat: [0.3, 49.05] },
+    { name: 'Brittany', lonlat: [-2.9, 48.2] },
+    { name: 'Ponthieu', lonlat: [2.05, 50.2] },
+    { name: 'Flanders', lonlat: [3.1, 50.85] },
+    { name: 'Kingdom of the Franks', lonlat: [2.6, 48.5] },
+    { name: 'Norway', lonlat: [8.5, 61.2] },
+    { name: 'Scotland', lonlat: [-4.1, 56.9] },
+    { name: 'Denmark', lonlat: [9.2, 56.1] },
+  ],
+};

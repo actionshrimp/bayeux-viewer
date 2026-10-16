@@ -1,0 +1,712 @@
+[
+ {
+  "id": "harold",
+  "x0": 334,
+  "y0": 234,
+  "x1": 394,
+  "y1": 384,
+  "scene": 1,
+  "evidence": "narrative",
+  "note": "standing before Edward, hands touching"
+ },
+ {
+  "id": "edward",
+  "x0": 386,
+  "y0": 208,
+  "x1": 478,
+  "y1": 383,
+  "scene": 1,
+  "evidence": "labelled",
+  "note": "enthroned with sceptre, labelled EDWARD REX"
+ },
+ {
+  "id": "harold",
+  "x0": 1000,
+  "y0": 198,
+  "x1": 1120,
+  "y1": 320,
+  "scene": 2,
+  "evidence": "narrative",
+  "note": "leading rider with hawk on wrist"
+ },
+ {
+  "id": "harold",
+  "x0": 1380,
+  "y0": 274,
+  "x1": 1428,
+  "y1": 382,
+  "scene": 3,
+  "evidence": "narrative",
+  "note": "front man entering Bosham church"
+ },
+ {
+  "id": "bosham-church",
+  "x0": 1420,
+  "y0": 200,
+  "x1": 1568,
+  "y1": 385,
+  "scene": 3,
+  "evidence": "labelled",
+  "note": "church labelled ECCLESIA"
+ },
+ {
+  "id": "harold",
+  "x0": 2050,
+  "y0": 224,
+  "x1": 2112,
+  "y1": 385,
+  "scene": 4,
+  "evidence": "narrative",
+  "note": "wading to ship holding hawk"
+ },
+ {
+  "id": "harold",
+  "x0": 3378,
+  "y0": 187,
+  "x1": 3440,
+  "y1": 294,
+  "scene": 6,
+  "evidence": "labelled",
+  "note": "standing in ship prow under HAROLD"
+ },
+ {
+  "id": "guy",
+  "x0": 3725,
+  "y0": 189,
+  "x1": 3825,
+  "y1": 320,
+  "scene": 7,
+  "evidence": "labelled",
+  "note": "mounted, pointing, under WIDO"
+ },
+ {
+  "id": "beaurain",
+  "x0": 5045,
+  "y0": 175,
+  "x1": 5435,
+  "y1": 372,
+  "scene": 9,
+  "evidence": "narrative",
+  "note": "Guy's hall with canopy and pillars"
+ },
+ {
+  "id": "harold",
+  "x0": 5088,
+  "y0": 233,
+  "x1": 5152,
+  "y1": 362,
+  "scene": 9,
+  "evidence": "labelled",
+  "note": "standing with sword point down"
+ },
+ {
+  "id": "guy",
+  "x0": 5193,
+  "y0": 213,
+  "x1": 5294,
+  "y1": 352,
+  "scene": 9,
+  "evidence": "labelled",
+  "note": "seated on throne, pointing at Harold"
+ },
+ {
+  "id": "guy",
+  "x0": 5605,
+  "y0": 210,
+  "x1": 5715,
+  "y1": 376,
+  "scene": 10,
+  "evidence": "narrative",
+  "note": "standing with axe facing messengers"
+ },
+ {
+  "id": "turold",
+  "x0": 5898,
+  "y0": 265,
+  "x1": 5948,
+  "y1": 345,
+  "scene": 10,
+  "evidence": "labelled",
+  "note": "small bearded man holding horses"
+ },
+ {
+  "id": "william",
+  "x0": 6950,
+  "y0": 205,
+  "x1": 7045,
+  "y1": 360,
+  "scene": 12,
+  "evidence": "labelled",
+  "note": "seated duke with sword, messenger kneeling"
+ },
+ {
+  "id": "harold",
+  "x0": 7600,
+  "y0": 203,
+  "x1": 7695,
+  "y1": 315,
+  "scene": 13,
+  "evidence": "narrative",
+  "note": "Mounted with hawk, led to William"
+ },
+ {
+  "id": "william",
+  "x0": 7742,
+  "y0": 200,
+  "x1": 7900,
+  "y1": 315,
+  "scene": 13,
+  "evidence": "labelled",
+  "note": "Mounted, pointing at Harold; WILGELMUM caption"
+ },
+ {
+  "id": "william",
+  "x0": 9090,
+  "y0": 245,
+  "x1": 9162,
+  "y1": 370,
+  "scene": 14,
+  "evidence": "narrative",
+  "note": "Enthroned in his palace"
+ },
+ {
+  "id": "harold",
+  "x0": 9175,
+  "y0": 248,
+  "x1": 9258,
+  "y1": 370,
+  "scene": 14,
+  "evidence": "narrative",
+  "note": "Gesturing as he speaks to William"
+ },
+ {
+  "id": "aelfgyva",
+  "x0": 9490,
+  "y0": 245,
+  "x1": 9527,
+  "y1": 362,
+  "scene": 15,
+  "evidence": "labelled",
+  "note": "Woman in doorway, AELFGYVA caption"
+ },
+ {
+  "id": "cleric",
+  "x0": 9518,
+  "y0": 240,
+  "x1": 9625,
+  "y1": 370,
+  "scene": 15,
+  "evidence": "labelled",
+  "note": "Reaching to her face, CLERICUS caption"
+ },
+ {
+  "id": "mont-saint-michel",
+  "x0": 10415,
+  "y0": 128,
+  "x1": 10585,
+  "y1": 248,
+  "scene": 16,
+  "evidence": "labelled",
+  "note": "Church on mound, MICHAELIS caption"
+ },
+ {
+  "id": "harold",
+  "x0": 10902,
+  "y0": 228,
+  "x1": 10990,
+  "y1": 380,
+  "scene": 17,
+  "evidence": "labelled",
+  "note": "Carrying soldier on back, HAROLD caption"
+ },
+ {
+  "id": "dol",
+  "x0": 11425,
+  "y0": 172,
+  "x1": 11592,
+  "y1": 382,
+  "scene": 18,
+  "evidence": "labelled",
+  "note": "Castle on motte, DOL caption"
+ },
+ {
+  "id": "conan",
+  "x0": 11558,
+  "y0": 186,
+  "x1": 11610,
+  "y1": 270,
+  "scene": 18,
+  "evidence": "labelled",
+  "note": "Sliding down rope from Dol"
+ },
+ {
+  "id": "rennes",
+  "x0": 11870,
+  "y0": 165,
+  "x1": 12095,
+  "y1": 384,
+  "scene": 18,
+  "evidence": "labelled",
+  "note": "Castle on mound, REDNES caption"
+ },
+ {
+  "id": "dinan",
+  "x0": 12640,
+  "y0": 122,
+  "x1": 12912,
+  "y1": 382,
+  "scene": 19,
+  "evidence": "labelled",
+  "note": "Wooden castle on motte, DINANTES caption"
+ },
+ {
+  "id": "conan",
+  "x0": 12842,
+  "y0": 168,
+  "x1": 12890,
+  "y1": 252,
+  "scene": 20,
+  "evidence": "labelled",
+  "note": "In castle, holding keys out on lance"
+ },
+ {
+  "id": "keys",
+  "x0": 12945,
+  "y0": 222,
+  "x1": 13015,
+  "y1": 270,
+  "scene": 20,
+  "evidence": "labelled",
+  "note": "Keys hanging from lance tips"
+ },
+ {
+  "id": "william",
+  "x0": 13030,
+  "y0": 186,
+  "x1": 13125,
+  "y1": 322,
+  "scene": 20,
+  "evidence": "narrative",
+  "note": "Lead rider receiving keys on lance"
+ },
+ {
+  "id": "william",
+  "x0": 13345,
+  "y0": 204,
+  "x1": 13398,
+  "y1": 382,
+  "scene": 21,
+  "evidence": "labelled",
+  "note": "Giving arms to Harold"
+ },
+ {
+  "id": "harold",
+  "x0": 13390,
+  "y0": 214,
+  "x1": 13453,
+  "y1": 382,
+  "scene": 21,
+  "evidence": "labelled",
+  "note": "Receiving arms, holding banner lance"
+ },
+ {
+  "id": "bayeux",
+  "x0": 13850,
+  "y0": 128,
+  "x1": 14035,
+  "y1": 395,
+  "scene": 22,
+  "evidence": "labelled",
+  "note": "Castle on motte, BAGIAS caption"
+ },
+ {
+  "id": "william",
+  "x0": 14062,
+  "y0": 213,
+  "x1": 14180,
+  "y1": 380,
+  "scene": 23,
+  "evidence": "labelled",
+  "note": "Enthroned, pointing; WILLELMO caption"
+ },
+ {
+  "id": "relics",
+  "x0": 14177,
+  "y0": 250,
+  "x1": 14296,
+  "y1": 394,
+  "scene": 23,
+  "evidence": "narrative",
+  "note": "left reliquary on carrying poles"
+ },
+ {
+  "id": "harold",
+  "x0": 14268,
+  "y0": 228,
+  "x1": 14408,
+  "y1": 391,
+  "scene": 23,
+  "evidence": "labelled",
+  "note": "swearing oath, hands on both reliquaries"
+ },
+ {
+  "id": "relics",
+  "x0": 14392,
+  "y0": 240,
+  "x1": 14477,
+  "y1": 397,
+  "scene": 23,
+  "evidence": "narrative",
+  "note": "right reliquary on altar"
+ },
+ {
+  "id": "harold",
+  "x0": 15570,
+  "y0": 234,
+  "x1": 15685,
+  "y1": 400,
+  "scene": 25,
+  "evidence": "narrative",
+  "note": "bowing before Edward"
+ },
+ {
+  "id": "edward",
+  "x0": 15735,
+  "y0": 203,
+  "x1": 15865,
+  "y1": 397,
+  "scene": 25,
+  "evidence": "labelled",
+  "note": "enthroned under canopy, crowned"
+ },
+ {
+  "id": "westminster",
+  "x0": 16005,
+  "y0": 166,
+  "x1": 16347,
+  "y1": 400,
+  "scene": 26,
+  "evidence": "labelled",
+  "note": "abbey with man fixing weathercock"
+ },
+ {
+  "id": "edward",
+  "x0": 16416,
+  "y0": 237,
+  "x1": 16544,
+  "y1": 338,
+  "scene": 26,
+  "evidence": "labelled",
+  "note": "shrouded body on bier"
+ },
+ {
+  "id": "edward",
+  "x0": 16799,
+  "y0": 325,
+  "x1": 16987,
+  "y1": 381,
+  "scene": 28,
+  "evidence": "narrative",
+  "note": "corpse being shrouded, lower level"
+ },
+ {
+  "id": "harold",
+  "x0": 16887,
+  "y0": 196,
+  "x1": 16932,
+  "y1": 270,
+  "scene": 27,
+  "evidence": "narrative",
+  "note": "man Edward reaches toward, conventionally Harold"
+ },
+ {
+  "id": "edward",
+  "x0": 16934,
+  "y0": 199,
+  "x1": 16990,
+  "y1": 272,
+  "scene": 27,
+  "evidence": "labelled",
+  "note": "crowned, dying in bed upstairs"
+ },
+ {
+  "id": "harold",
+  "x0": 17240,
+  "y0": 206,
+  "x1": 17335,
+  "y1": 394,
+  "scene": 29,
+  "evidence": "labelled",
+  "note": "offered crown, holding axe"
+ },
+ {
+  "id": "harold",
+  "x0": 17477,
+  "y0": 195,
+  "x1": 17558,
+  "y1": 385,
+  "scene": 30,
+  "evidence": "labelled",
+  "note": "enthroned with orb and sceptre"
+ },
+ {
+  "id": "stigand",
+  "x0": 17575,
+  "y0": 228,
+  "x1": 17645,
+  "y1": 381,
+  "scene": 31,
+  "evidence": "labelled",
+  "note": "archbishop in chasuble beside throne"
+ },
+ {
+  "id": "comet",
+  "x0": 18064,
+  "y0": 125,
+  "x1": 18136,
+  "y1": 156,
+  "scene": 32,
+  "evidence": "labelled",
+  "note": "star with flaming tail, STELLA"
+ },
+ {
+  "id": "harold",
+  "x0": 18195,
+  "y0": 225,
+  "x1": 18289,
+  "y1": 381,
+  "scene": 33,
+  "evidence": "labelled",
+  "note": "enthroned, leaning toward messenger"
+ },
+ {
+  "id": "william",
+  "x0": 19288,
+  "y0": 222,
+  "x1": 19375,
+  "y1": 375,
+  "scene": 35,
+  "evidence": "labelled",
+  "note": "seated, ordering fleet"
+ },
+ {
+  "id": "odo",
+  "x0": 19359,
+  "y0": 209,
+  "x1": 19434,
+  "y1": 369,
+  "scene": 35,
+  "evidence": "narrative",
+  "note": "seated beside William, gesturing"
+ },
+ {
+  "id": "wine-cart",
+  "x0": 21385,
+  "y0": 188,
+  "x1": 21572,
+  "y1": 380,
+  "scene": 37,
+  "evidence": "labelled",
+  "note": "Cart with barrel and spears under CARRUM CUM VINO"
+ },
+ {
+  "id": "mora",
+  "x0": 23352,
+  "y0": 132,
+  "x1": 23705,
+  "y1": 378,
+  "scene": 38,
+  "evidence": "narrative",
+  "note": "Ship with cross at masthead"
+ },
+ {
+  "id": "wadard",
+  "x0": 25694,
+  "y0": 206,
+  "x1": 25806,
+  "y1": 332,
+  "scene": 41,
+  "evidence": "labelled",
+  "note": "Mounted knight under HIC EST WADARD"
+ },
+ {
+  "id": "odo",
+  "x0": 26780,
+  "y0": 225,
+  "x1": 26845,
+  "y1": 294,
+  "scene": 43,
+  "evidence": "labelled",
+  "note": "Bearded figure blessing at curved table"
+ },
+ {
+  "id": "odo",
+  "x0": 27008,
+  "y0": 245,
+  "x1": 27072,
+  "y1": 369,
+  "scene": 44,
+  "evidence": "labelled",
+  "note": "Seated left under ODO EPS"
+ },
+ {
+  "id": "william",
+  "x0": 27077,
+  "y0": 239,
+  "x1": 27155,
+  "y1": 378,
+  "scene": 44,
+  "evidence": "labelled",
+  "note": "Seated centre with sword, WILLELM"
+ },
+ {
+  "id": "robert",
+  "x0": 27152,
+  "y0": 244,
+  "x1": 27206,
+  "y1": 378,
+  "scene": 44,
+  "evidence": "labelled",
+  "note": "Seated right, ROTBERT"
+ },
+ {
+  "id": "hastings-castle",
+  "x0": 27732,
+  "y0": 166,
+  "x1": 27926,
+  "y1": 375,
+  "scene": 45,
+  "evidence": "labelled",
+  "note": "Motte being dug, CEASTRA"
+ },
+ {
+  "id": "william",
+  "x0": 27973,
+  "y0": 201,
+  "x1": 28079,
+  "y1": 366,
+  "scene": 46,
+  "evidence": "labelled",
+  "note": "Seated, receiving news, WILLELM"
+ },
+ {
+  "id": "william",
+  "x0": 28700,
+  "y0": 170,
+  "x1": 28770,
+  "y1": 366,
+  "scene": 48,
+  "evidence": "narrative",
+  "note": "Armed, holding pennon lance, groom brings horse"
+ },
+ {
+  "id": "william",
+  "x0": 30405,
+  "y0": 184,
+  "x1": 30518,
+  "y1": 306,
+  "scene": 49,
+  "evidence": "narrative",
+  "note": "Club-bearing rider gesturing towards Vital"
+ },
+ {
+  "id": "vital",
+  "x0": 30636,
+  "y0": 191,
+  "x1": 30768,
+  "y1": 309,
+  "scene": 49,
+  "evidence": "labelled",
+  "note": "Rider under VITAL, pointing back"
+ },
+ {
+  "id": "harold",
+  "x0": 31623,
+  "y0": 188,
+  "x1": 31760,
+  "y1": 295,
+  "scene": 50,
+  "evidence": "labelled",
+  "note": "Mounted under HAROLDUM REGE, scout reports"
+ },
+ {
+  "id": "william",
+  "x0": 31913,
+  "y0": 178,
+  "x1": 32041,
+  "y1": 294,
+  "scene": 51,
+  "evidence": "labelled",
+  "note": "Under HIC WILLELM DUX, club raised"
+ },
+ {
+  "id": "leofwine",
+  "x0": 35790,
+  "y0": 186,
+  "x1": 35846,
+  "y1": 369,
+  "scene": 52,
+  "evidence": "labelled",
+  "note": "Standing spearman at end of LEUUINE caption"
+ },
+ {
+  "id": "gyrth",
+  "x0": 35948,
+  "y0": 186,
+  "x1": 36022,
+  "y1": 369,
+  "scene": 52,
+  "evidence": "labelled",
+  "note": "Under GYRD, speared by horseman"
+ },
+ {
+  "id": "odo",
+  "x0": 37655,
+  "y0": 208,
+  "x1": 37722,
+  "y1": 328,
+  "scene": 54,
+  "evidence": "labelled",
+  "note": "Mounted, raising club, under ODO EPS"
+ },
+ {
+  "id": "william",
+  "x0": 38136,
+  "y0": 188,
+  "x1": 38198,
+  "y1": 315,
+  "scene": 55,
+  "evidence": "labelled",
+  "note": "Mounted, lifting helmet, under HIC EST WILLELM"
+ },
+ {
+  "id": "eustace",
+  "x0": 38204,
+  "y0": 182,
+  "x1": 38326,
+  "y1": 315,
+  "scene": 55,
+  "evidence": "labelled",
+  "note": "Rider pointing at William; E..TIUS above"
+ },
+ {
+  "id": "harold",
+  "x0": 39936,
+  "y0": 190,
+  "x1": 40003,
+  "y1": 369,
+  "scene": 57,
+  "evidence": "narrative",
+  "note": "Arrow-in-eye figure under HAROLD"
+ },
+ {
+  "id": "harold",
+  "x0": 40146,
+  "y0": 280,
+  "x1": 40282,
+  "y1": 369,
+  "scene": 57,
+  "evidence": "narrative",
+  "note": "Falling figure cut down by horseman's sword"
+ }
+]

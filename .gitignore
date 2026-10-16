@@ -1,0 +1,6 @@
+node_modules/
+dist/
+.DS_Store
+__pycache__/
+# Regenerate with: python3 v2/annotate/make_crops.py
+v2/annotate/crops/

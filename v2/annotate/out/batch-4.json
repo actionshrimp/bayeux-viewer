@@ -1,0 +1,7 @@
+[
+  {"id": "william", "x0": 28700, "y0": 170, "x1": 28770, "y1": 366, "scene": 48, "evidence": "narrative", "note": "Armed, holding pennon lance, groom brings horse"},
+  {"id": "william", "x0": 30405, "y0": 184, "x1": 30518, "y1": 306, "scene": 49, "evidence": "narrative", "note": "Club-bearing rider gesturing towards Vital"},
+  {"id": "vital", "x0": 30636, "y0": 191, "x1": 30768, "y1": 309, "scene": 49, "evidence": "labelled", "note": "Rider under VITAL, pointing back"},
+  {"id": "harold", "x0": 31623, "y0": 188, "x1": 31760, "y1": 295, "scene": 50, "evidence": "labelled", "note": "Mounted under HAROLDUM REGE, scout reports"},
+  {"id": "william", "x0": 31913, "y0": 178, "x1": 32041, "y1": 294, "scene": 51, "evidence": "labelled", "note": "Under HIC WILLELM DUX, club raised"}
+]

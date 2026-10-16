@@ -1,0 +1,16 @@
+[
+{"id":"edward","x0":386,"y0":208,"x1":478,"y1":383,"scene":1,"evidence":"labelled","note":"enthroned with sceptre, labelled EDWARD REX"},
+{"id":"harold","x0":334,"y0":234,"x1":394,"y1":384,"scene":1,"evidence":"narrative","note":"standing before Edward, hands touching"},
+{"id":"harold","x0":1000,"y0":198,"x1":1120,"y1":320,"scene":2,"evidence":"narrative","note":"leading rider with hawk on wrist"},
+{"id":"harold","x0":1380,"y0":274,"x1":1428,"y1":382,"scene":3,"evidence":"narrative","note":"front man entering Bosham church"},
+{"id":"bosham-church","x0":1420,"y0":200,"x1":1568,"y1":385,"scene":3,"evidence":"labelled","note":"church labelled ECCLESIA"},
+{"id":"harold","x0":2050,"y0":224,"x1":2112,"y1":385,"scene":4,"evidence":"narrative","note":"wading to ship holding hawk"},
+{"id":"harold","x0":3378,"y0":187,"x1":3440,"y1":294,"scene":6,"evidence":"labelled","note":"standing in ship prow under HAROLD"},
+{"id":"guy","x0":3725,"y0":189,"x1":3825,"y1":320,"scene":7,"evidence":"labelled","note":"mounted, pointing, under WIDO"},
+{"id":"harold","x0":5088,"y0":233,"x1":5152,"y1":362,"scene":9,"evidence":"labelled","note":"standing with sword point down"},
+{"id":"guy","x0":5193,"y0":213,"x1":5294,"y1":352,"scene":9,"evidence":"labelled","note":"seated on throne, pointing at Harold"},
+{"id":"beaurain","x0":5045,"y0":175,"x1":5435,"y1":372,"scene":9,"evidence":"narrative","note":"Guy's hall with canopy and pillars"},
+{"id":"guy","x0":5605,"y0":210,"x1":5715,"y1":376,"scene":10,"evidence":"narrative","note":"standing with axe facing messengers"},
+{"id":"turold","x0":5898,"y0":265,"x1":5948,"y1":345,"scene":10,"evidence":"labelled","note":"small bearded man holding horses"},
+{"id":"william","x0":6950,"y0":205,"x1":7045,"y1":360,"scene":12,"evidence":"labelled","note":"seated duke with sword, messenger kneeling"}
+]

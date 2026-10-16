@@ -1,0 +1,182 @@
+[
+  {
+    "id": "harold", "kind": "person", "name": "Harold Godwinson", "latin": "HAROLD",
+    "role": "Earl of Wessex, then King Harold II of England",
+    "bio": "The most powerful man in England after the king, and Edward's brother-in-law. The tapestry follows him more closely than anyone: sailing to France, rescuing soldiers in Brittany, swearing the oath, taking the crown and dying at Hastings. He is usually shown with a moustache, which marks out the English.",
+    "lookFor": "Moustache; often carries a hawk early on; labelled HAROLD many times."
+  },
+  {
+    "id": "william", "kind": "person", "name": "William of Normandy", "latin": "WILLELM",
+    "role": "Duke of Normandy, later William the Conqueror",
+    "bio": "Edward's cousin, who claimed Edward had promised him the throne. The tapestry presents him as a generous lord who rescues Harold, arms him and receives his oath, then as the wronged claimant who invades and wins. Normans are shown clean-shaven with the backs of their heads shaved.",
+    "lookFor": "Often seated on a throne holding a sword, or mounted holding a baton; labelled WILLELM / WILGELM."
+  },
+  {
+    "id": "edward", "kind": "person", "name": "Edward the Confessor", "latin": "EDWARD REX",
+    "role": "King of England, 1042–1066",
+    "bio": "A pious king who rebuilt Westminster Abbey and died childless on 5 January 1066. His silence about the succession is the tapestry's central puzzle: he sends Harold off at the start, appears to scold him on his return, and speaks words we never hear on his deathbed.",
+    "lookFor": "Crowned, white-bearded, seated; later lying in bed and as a shrouded corpse."
+  },
+  {
+    "id": "guy", "kind": "person", "name": "Guy of Ponthieu", "latin": "WIDO",
+    "role": "Count of Ponthieu",
+    "bio": "The count whose coast Harold landed on. By the custom of the coast he could hold shipwrecked nobles for ransom, so he seized Harold and kept him at Beaurain until William, his overlord, demanded him.",
+    "lookFor": "Labelled WIDO; seated with a sword at Beaurain, mounted when he hands Harold over."
+  },
+  {
+    "id": "odo", "kind": "person", "name": "Bishop Odo", "latin": "ODO EPISCOPUS",
+    "role": "Bishop of Bayeux, William's half-brother",
+    "bio": "Almost certainly the man who commissioned the tapestry, probably for his new cathedral at Bayeux in 1077. He gets a starring role: blessing the feast, advising William, and rallying the young soldiers with a club, since a churchman was not supposed to shed blood. He later became Earl of Kent, which is where English embroiderers likely made the tapestry.",
+    "lookFor": "Labelled ODO EPISCOPUS; at the feast blessing food, beside William at council, in battle holding a club (BACULUM)."
+  },
+  {
+    "id": "robert", "kind": "person", "name": "Robert of Mortain", "latin": "ROTBERT",
+    "role": "Count of Mortain, William's half-brother",
+    "bio": "Odo's brother and one of the biggest landholders after the Conquest. He sits with William and Odo at the council before Hastings.",
+    "lookFor": "Labelled ROTBERT, seated beside William and Odo in scene 44."
+  },
+  {
+    "id": "conan", "kind": "person", "name": "Conan of Brittany", "latin": "CONAN",
+    "role": "Duke of Brittany",
+    "bio": "William's rival to the west. The tapestry shows him escaping from Dol down a rope, then surrendering the keys of Dinan on the end of a lance.",
+    "lookFor": "Labelled CONAN; climbing down a rope from Dol's walls; handing keys on a lance at Dinan."
+  },
+  {
+    "id": "aelfgyva", "kind": "person", "name": "Ælfgyva", "latin": "ÆLFGYVA",
+    "role": "Unknown woman",
+    "bio": "One of only three women in the main frieze, and the tapestry's great mystery. A cleric touches or strikes her face, and the caption breaks off with no verb. Theories include a scandal everyone knew at the time, a sister of Harold offered in marriage, or Ælfgifu of Northampton.",
+    "lookFor": "Woman in a doorway framed by dragon-headed posts; a cleric reaches for her face."
+  },
+  {
+    "id": "cleric", "kind": "person", "name": "The cleric", "latin": "CLERICUS",
+    "role": "Unnamed priest",
+    "bio": "The tonsured man reaching for Ælfgyva's face. Below him, a naked man in the border copies his pose, which suggests a scandal.",
+    "lookFor": "Tonsured man with outstretched hand beside Ælfgyva."
+  },
+  {
+    "id": "turold", "kind": "person", "name": "Turold", "latin": "TUROLD",
+    "role": "Small man holding the horses",
+    "bio": "A tiny bearded figure who holds the messengers' horses at Guy's court. He is named, so he mattered to the makers. He may have been one of Odo's tenants in Kent, which hints at who paid for the tapestry.",
+    "lookFor": "Very short bearded man holding two horses, labelled TUROLD."
+  },
+  {
+    "id": "wadard", "kind": "person", "name": "Wadard", "latin": "WADARD",
+    "role": "Norman knight",
+    "bio": "A mounted knight overseeing the foraging after the landing. The Domesday Book records a Wadard holding land from Odo in Kent and elsewhere, so naming him points to Odo's circle.",
+    "lookFor": "Mounted knight labelled HIC EST WADARD, scene 41."
+  },
+  {
+    "id": "vital", "kind": "person", "name": "Vital", "latin": "VITAL",
+    "role": "Norman scout",
+    "bio": "The knight William asks whether he has seen Harold's army. A Vital also held land from Odo in Kent.",
+    "lookFor": "Mounted knight pointing back, being questioned by William, scene 49."
+  },
+  {
+    "id": "stigand", "kind": "person", "name": "Archbishop Stigand", "latin": "STIGANT ARCHIEPISCOPUS",
+    "role": "Archbishop of Canterbury",
+    "bio": "Shown beside the newly crowned Harold. Stigand had been excommunicated by several popes, so placing him at the coronation hints to Norman viewers that Harold's kingship was tainted. English sources say Ealdred of York did the crowning.",
+    "lookFor": "Churchman in vestments standing beside Harold's throne, labelled STIGANT."
+  },
+  {
+    "id": "eustace", "kind": "person", "name": "Eustace of Boulogne", "latin": "EUSTATIUS",
+    "role": "Count of Boulogne",
+    "bio": "A French ally riding beside William at Hastings and pointing to him as William raises his helmet. Some historians argue his role was emphasised because he wanted to be back in favour, or even that he commissioned the tapestry.",
+    "lookFor": "Mounted figure carrying a banner and pointing at William, partly labelled E...TIUS."
+  },
+  {
+    "id": "leofwine", "kind": "person", "name": "Leofwine", "latin": "LEWINE",
+    "role": "Harold's brother",
+    "bio": "Earl of Kent and Essex, killed early in the battle alongside his brother Gyrth.",
+    "lookFor": "English foot soldier falling, labelled LEWINE, scene 52."
+  },
+  {
+    "id": "gyrth", "kind": "person", "name": "Gyrth", "latin": "GYRD",
+    "role": "Harold's brother",
+    "bio": "Earl of East Anglia, killed with Leofwine. Their deaths are the first named losses of the battle.",
+    "lookFor": "English soldier falling, labelled GYRD, scene 52."
+  },
+  {
+    "id": "comet", "kind": "object", "name": "Halley's comet", "latin": "ISTI MIRANT STELLAM",
+    "role": "Omen, April 1066",
+    "bio": "A 'long-haired star' that crossed the sky from late April 1066. People read it as a sign of disaster. In the border below, ghostly ships foretell the invasion.",
+    "lookFor": "Star with flaming tail in the upper part of the main frieze, men pointing up at it."
+  },
+  {
+    "id": "relics", "kind": "object", "name": "The reliquaries", "latin": "SACRAMENTUM",
+    "role": "Holy relics of the oath",
+    "bio": "Harold swears with a hand on each of two reliquaries, boxes holding saints' remains. An oath on relics bound the swearer before God, so breaking it was perjury and sacrilege, the core of William's case.",
+    "lookFor": "Two shrines either side of Harold in scene 23, one on an altar."
+  },
+  {
+    "id": "mora", "kind": "object", "name": "The Mora", "latin": "MAGNO NAVIGIO",
+    "role": "William's flagship",
+    "bio": "The 'great ship' that leads the fleet. A later list says William's wife Matilda gave it to him, with a golden child at the stern. On the tapestry it carries a lantern or cross at the masthead to guide the fleet by night.",
+    "lookFor": "Leading ship with a cross or lantern at the masthead, scene 38."
+  },
+  {
+    "id": "keys", "kind": "object", "name": "The keys of Dinan", "latin": "CLAVES",
+    "role": "Surrender",
+    "bio": "Conan hands over the keys of Dinan on the end of a lance while a Norman knight receives them on his. It is the visual moment of Brittany's surrender.",
+    "lookFor": "Keys passed between two lances at Dinan, scene 20."
+  },
+  {
+    "id": "wine-cart", "kind": "object", "name": "The wine cart", "latin": "CARRUM CUM VINO",
+    "role": "Supplies",
+    "bio": "Two men drag a cart loaded with a wine barrel and helmets to the ships. Armies ran on wine as much as weapons.",
+    "lookFor": "Cart with a large barrel and spears, scene 37."
+  },
+  {
+    "id": "bosham-church", "kind": "place", "place": "bosham", "name": "Bosham church", "latin": "ECCLESIA",
+    "role": "Harold prays before sailing",
+    "bio": "Holy Trinity, Bosham, still stands on Chichester Harbour. Harold's family held the manor, and the tapestry shows him praying there before he sails.",
+    "lookFor": "Small church with two men entering, scene 3."
+  },
+  {
+    "id": "beaurain", "kind": "place", "place": "beaurain", "name": "Beaurain", "latin": "BELREM",
+    "role": "Guy's stronghold",
+    "bio": "Guy of Ponthieu's castle, where Harold was held. Only earthworks survive near Beaurainville.",
+    "lookFor": "Guy's hall where he sits with Harold, scenes 8–9."
+  },
+  {
+    "id": "mont-saint-michel", "kind": "place", "place": "mont-saint-michel", "name": "Mont-Saint-Michel", "latin": "MONTEM MICHAELIS",
+    "role": "The abbey on the tidal island",
+    "bio": "The army passes the abbey before crossing the treacherous sands of the bay, where the Couesnon reaches the sea.",
+    "lookFor": "Building on a mound at the start of scene 16."
+  },
+  {
+    "id": "dol", "kind": "place", "place": "dol", "name": "Dol", "latin": "DOL",
+    "role": "Conan's escape",
+    "bio": "A Breton fortress. Conan escapes down a rope as the Normans arrive.",
+    "lookFor": "Motte with a timber tower and a man sliding down a rope, scene 18."
+  },
+  {
+    "id": "rennes", "kind": "place", "place": "rennes", "name": "Rennes", "latin": "REDNES",
+    "role": "Capital of Brittany",
+    "bio": "Shown as a castle on a mound as the army moves on.",
+    "lookFor": "Castle on a mound labelled REDNES, scene 18."
+  },
+  {
+    "id": "dinan", "kind": "place", "place": "dinan", "name": "Dinan", "latin": "DINANTES",
+    "role": "The siege",
+    "bio": "Norman soldiers set fire to the wooden palisade with torches until Conan surrenders. It is one of the earliest pictures of a motte-and-bailey castle.",
+    "lookFor": "Castle on a mound with soldiers holding torches, scene 19."
+  },
+  {
+    "id": "bayeux", "kind": "place", "place": "bayeux", "name": "Bayeux", "latin": "BAGIAS",
+    "role": "Where the oath is sworn",
+    "bio": "Odo's cathedral city, where the tapestry was most likely first displayed. Putting the oath here flatters Odo; other sources place it at Bonneville or Rouen.",
+    "lookFor": "Castle or town building labelled BAGIAS, scene 22."
+  },
+  {
+    "id": "westminster", "kind": "place", "place": "westminster", "name": "Westminster Abbey", "latin": "ECCLESIAM SANCTI PETRI",
+    "role": "Edward's new church",
+    "bio": "Edward's great Romanesque church, consecrated a week before he died. A man fixes the weathercock on the roof, a sign it had just been finished.",
+    "lookFor": "Large church with a man on the roof, the funeral procession approaching, scene 26."
+  },
+  {
+    "id": "hastings-castle", "kind": "place", "place": "hastings", "name": "Hastings castle", "latin": "HESTENGA CEASTRA",
+    "role": "The first Norman castle in England",
+    "bio": "Men with shovels throw up a motte at Hastings. Prefabricated timber defences may have been brought over with the fleet.",
+    "lookFor": "Men digging a mound with a building on top, scene 45."
+  }
+]

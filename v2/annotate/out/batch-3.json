@@ -1,0 +1,11 @@
+[
+{"id": "wine-cart", "x0": 21385, "y0": 188, "x1": 21572, "y1": 380, "scene": 37, "evidence": "labelled", "note": "Cart with barrel and spears under CARRUM CUM VINO"},
+{"id": "mora", "x0": 23352, "y0": 132, "x1": 23705, "y1": 378, "scene": 38, "evidence": "narrative", "note": "Ship with cross at masthead"},
+{"id": "wadard", "x0": 25694, "y0": 206, "x1": 25806, "y1": 332, "scene": 41, "evidence": "labelled", "note": "Mounted knight under HIC EST WADARD"},
+{"id": "odo", "x0": 26780, "y0": 225, "x1": 26845, "y1": 294, "scene": 43, "evidence": "labelled", "note": "Bearded figure blessing at curved table"},
+{"id": "odo", "x0": 27008, "y0": 245, "x1": 27072, "y1": 369, "scene": 44, "evidence": "labelled", "note": "Seated left under ODO EPS"},
+{"id": "william", "x0": 27077, "y0": 239, "x1": 27155, "y1": 378, "scene": 44, "evidence": "labelled", "note": "Seated centre with sword, WILLELM"},
+{"id": "robert", "x0": 27152, "y0": 244, "x1": 27206, "y1": 378, "scene": 44, "evidence": "labelled", "note": "Seated right, ROTBERT"},
+{"id": "hastings-castle", "x0": 27732, "y0": 166, "x1": 27926, "y1": 375, "scene": 45, "evidence": "labelled", "note": "Motte being dug, CEASTRA"},
+{"id": "william", "x0": 27973, "y0": 201, "x1": 28079, "y1": 366, "scene": 46, "evidence": "labelled", "note": "Seated, receiving news, WILLELM"}
+]

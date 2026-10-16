@@ -1,0 +1,831 @@
+[
+  {
+    "n": 1,
+    "latin": "EDWARD REX",
+    "english": "King Edward",
+    "title": "Edward and Harold at Westminster",
+    "summary": "King Edward the Confessor sits enthroned in his palace and talks with Harold Godwinson and a companion. The tapestry does not say what Edward tells him. Norman writers claim Harold was sent to confirm William as Edward's heir, while English sources suggest other reasons for the trip.",
+    "place": "westminster",
+    "journey": "harold-voyage",
+    "obstacle": null,
+    "details": [
+      "Edward holds a sceptre and wears a crown",
+      "Edward touches the hands of two men, probably Harold and a companion",
+      "Musset thinks the word EDWARD may be a later restorers' addition"
+    ]
+  },
+  {
+    "n": 2,
+    "latin": "UBI HAROLD DUX ANGLORUM ET SUI MILITES EQUITANT AD BOSHAM",
+    "english": "Where Harold, a leader of the English, and his knights ride to Bosham",
+    "title": "Harold rides to Bosham",
+    "summary": "Harold and his men ride towards Bosham, the Godwin family estate on the Sussex coast. They travel as lords at leisure rather than as men going to war. The caption runs on into the next scene.",
+    "place": "bosham",
+    "journey": "harold-voyage",
+    "obstacle": null,
+    "details": [
+      "Harold carries a hawk on his wrist",
+      "Hunting dogs run ahead of the riders"
+    ]
+  },
+  {
+    "n": 3,
+    "latin": "ECCLESIA",
+    "english": "Church (of Bosham)",
+    "title": "Prayer and feast at Bosham",
+    "summary": "Harold and a companion enter Bosham church to pray before the journey. Upstairs in a hall, Harold's party feasts and drinks from horns. A man on the stairs calls them down because the ship is ready.",
+    "place": "bosham",
+    "journey": "harold-voyage",
+    "obstacle": null,
+    "details": [
+      "Two men kneel at the door of Bosham church",
+      "Drinkers use horns and bowls in the upper room",
+      "A man on the stairs points out to sea"
+    ]
+  },
+  {
+    "n": 4,
+    "latin": "HIC HAROLD MARE NAVIGAVIT",
+    "english": "Here Harold sailed by sea",
+    "title": "Harold sets sail",
+    "summary": "Harold's men wade out to the ships with their hounds and hawk, their legs bare. The ships are pushed off and set sail across the Channel. The tapestry gives no reason for the voyage.",
+    "place": "channel-1064",
+    "journey": "harold-voyage",
+    "obstacle": "Harold puts to sea across the Channel in 1064 or 1065.",
+    "details": [
+      "Men wade with their tunics hitched up, carrying a hound",
+      "Harold still holds his hawk as he boards",
+      "Sailors use a pole to push the ship off"
+    ]
+  },
+  {
+    "n": 5,
+    "latin": "ET VELIS VENTO PLENIS VENIT IN TERRA WIDONIS COMITIS",
+    "english": "And with sails filled with wind he came to the land of Count Guy",
+    "title": "Wind drives Harold to Ponthieu",
+    "summary": "Full sails carry Harold's ships to the coast of Ponthieu, the land of Count Guy. Some later writers say a storm blew him off course, but the tapestry only shows a strong wind. The exact landing place is unknown; suggestions include the mouths of the Somme or the Authie.",
+    "place": "ponthieu-coast",
+    "journey": "harold-voyage",
+    "obstacle": "Strong winds carry Harold's ships to the coast of Ponthieu, which may not have been where he meant to go.",
+    "details": [
+      "A lookout at the masthead watches the coast",
+      "Sailors drop anchor as they near the shore"
+    ]
+  },
+  {
+    "n": 6,
+    "latin": "HAROLD",
+    "english": "Harold",
+    "title": "Harold comes ashore",
+    "summary": "Harold's ship lands and he steps into the shallows. One of Count Guy's men watches the arrival from the shore. The scene leads straight into Harold's arrest.",
+    "place": "ponthieu-coast",
+    "journey": "harold-voyage",
+    "obstacle": null,
+    "details": [
+      "The anchor is thrown overboard",
+      "Harold wades ashore"
+    ]
+  },
+  {
+    "n": 7,
+    "latin": "HIC APPREHENDIT WIDO HAROLDUM",
+    "english": "Here Guy seized Harold",
+    "title": "Guy seizes Harold",
+    "summary": "Count Guy of Ponthieu arrives with armed riders and arrests Harold on the beach. Under local custom, a lord could hold shipwrecked or stranded travellers for ransom. Harold's journey has turned into captivity.",
+    "place": "ponthieu-coast",
+    "journey": "harold-voyage",
+    "obstacle": "Count Guy's men capture Harold on the beach to hold him for ransom.",
+    "details": [
+      "Guy points from horseback as Harold is taken",
+      "Guy's men are armed with swords and shields"
+    ]
+  },
+  {
+    "n": 8,
+    "latin": "ET DUXIT EUM AD BELREM ET IBI EUM TENUIT",
+    "english": "And led him to Beaurain and held him there",
+    "title": "Harold taken to Beaurain",
+    "summary": "Guy leads Harold on horseback to his stronghold at Beaurain. Harold rides as a high-ranking prisoner, still holding his hawk. Guy keeps him there as a hostage.",
+    "place": "beaurain",
+    "journey": "harold-voyage",
+    "obstacle": "Harold is held prisoner at Guy's stronghold at Beaurain.",
+    "details": [
+      "Guy and Harold both carry hawks",
+      "Hounds run alongside the riders"
+    ]
+  },
+  {
+    "n": 9,
+    "latin": "UBI HAROLD ET WIDO PARABOLANT",
+    "english": "Where Harold and Guy confer",
+    "title": "Harold and Guy confer",
+    "summary": "Guy sits enthroned in his hall at Beaurain and talks with Harold. Harold stands holding his sword point down, and it is unclear whether he is bargaining or arguing. A figure peers from behind a pillar.",
+    "place": "beaurain",
+    "journey": "harold-voyage",
+    "obstacle": null,
+    "details": [
+      "Harold holds his sword pointing downward",
+      "A man peeps round a column as if eavesdropping"
+    ]
+  },
+  {
+    "n": 10,
+    "latin": "UBI NUNTII WILLELMI DUCIS VENERUNT AD WIDONEM / TUROLD",
+    "english": "Where the messengers of Duke William came to Guy / Turold",
+    "title": "William's messengers reach Guy",
+    "summary": "Duke William's messengers arrive at Beaurain and demand that Guy hand Harold over. Guy stands with his axe and talks with them. A small bearded man named Turold holds the messengers' horses.",
+    "place": "beaurain",
+    "journey": "harold-voyage",
+    "obstacle": null,
+    "details": [
+      "Turold, a dwarf or small man, holds the horses and is named in the caption",
+      "Guy leans on a long axe"
+    ]
+  },
+  {
+    "n": 11,
+    "latin": "NUNTII WILLELMI",
+    "english": "The messengers of William",
+    "title": "Messengers gallop",
+    "summary": "Two of William's messengers ride at full speed. Reading right to left, the tapestry shows the ride before their arrival in scene 10. The order of scenes 10 to 12 is reversed compared with the actual events.",
+    "place": null,
+    "journey": "harold-voyage",
+    "obstacle": null,
+    "details": [
+      "The riders have the shaved backs of the head typical of Normans",
+      "The horses are shown at a full gallop"
+    ]
+  },
+  {
+    "n": 12,
+    "latin": "HIC VENIT NUNTIUS AD WILGELMUM DUCEM",
+    "english": "Here the messenger comes to Duke William",
+    "title": "News reaches William",
+    "summary": "A messenger kneels before Duke William to tell him that Harold is held by Guy. In the story this happens before the messengers ride to Guy, so the tapestry shows events 10 to 12 in reverse. Some think the messenger is an Englishman from Harold's party, because of his moustache.",
+    "place": "rouen",
+    "journey": "harold-voyage",
+    "obstacle": null,
+    "details": [
+      "A cross marks the start of the caption",
+      "William sits enthroned as the messenger speaks",
+      "The messenger's moustache may mark him as English"
+    ]
+  },
+  {
+    "n": 13,
+    "latin": "HIC WIDO ADDUXIT HAROLDUM AD WILGELMUM NORMANNORUM DUCEM",
+    "english": "Here Guy led Harold to William, Duke of the Normans",
+    "title": "Guy hands Harold to William",
+    "summary": "Guy rides with Harold to meet Duke William and hands him over. William of Poitiers says this happened at Eu, on the border between Ponthieu and Normandy. The tapestry does not name the place.",
+    "place": "eu",
+    "journey": "harold-voyage",
+    "obstacle": null,
+    "details": [
+      "Guy points Harold out to William",
+      "Harold still carries his hawk",
+      "Fables such as the fox and the crow appear in the borders of this part"
+    ]
+  },
+  {
+    "n": 14,
+    "latin": "HIC DUX WILGELM CUM HAROLDO VENIT AD PALATIUM SUUM",
+    "english": "Here Duke William comes with Harold to his palace",
+    "title": "William's palace",
+    "summary": "William brings Harold to his palace, usually taken to be Rouen. William sits enthroned while Harold speaks to him, gesturing as he talks. Harold is now an honoured guest, though he is still in William's power.",
+    "place": "rouen",
+    "journey": "harold-voyage",
+    "obstacle": null,
+    "details": [
+      "Harold gestures as he speaks to the seated William",
+      "Armed men stand behind the duke"
+    ]
+  },
+  {
+    "n": 15,
+    "latin": "UBI UNUS CLERICUS ET AELFGYVA",
+    "english": "Where a cleric and Ælfgyva",
+    "title": "The mystery of Ælfgyva",
+    "summary": "A cleric touches or strikes the face of a woman named Ælfgyva, who stands in a doorway. The caption has no verb, so the meaning is lost. Historians disagree about who she was and why she is here; suggestions include a scandal of the time, a sister of Harold offered in marriage, or Ælfgifu of Northampton.",
+    "place": "rouen",
+    "journey": "harold-voyage",
+    "obstacle": null,
+    "details": [
+      "The caption breaks off with no verb",
+      "A naked man in the lower border copies the cleric's pose",
+      "The tapestry does not say where this scene takes place"
+    ]
+  },
+  {
+    "n": 16,
+    "latin": "HIC WILLEM DUX ET EXERCITUS EIUS VENERUNT AD MONTEM MICHAELIS",
+    "english": "Here Duke William and his army came to the Mount of Michael",
+    "title": "The army reaches Mont-Saint-Michel",
+    "summary": "William leads his army, with Harold riding alongside, west towards Brittany. They pass the abbey of Mont-Saint-Michel on its rocky island. The campaign was against Duke Conan II of Brittany.",
+    "place": "mont-saint-michel",
+    "journey": "breton-campaign",
+    "obstacle": null,
+    "details": [
+      "Mont-Saint-Michel is drawn as a church on a hill",
+      "The knights ride with lances and kite shields"
+    ]
+  },
+  {
+    "n": 17,
+    "latin": "ET HIC TRANSIERUNT FLUMEN COSNONIS / HIC HAROLD DUX TRAHEBAT EOS DE ARENA",
+    "english": "And here they crossed the river Couesnon / Here Duke Harold dragged them from the sand",
+    "title": "Harold rescues men from quicksand",
+    "summary": "The army crosses the river Couesnon, and some soldiers sink into the quicksand. Harold carries one man on his back and pulls another out by the hand. The tapestry shows him as brave and strong.",
+    "place": "couesnon",
+    "journey": "breton-campaign",
+    "obstacle": "Soldiers sink in the quicksand of the Couesnon estuary and Harold drags them out.",
+    "details": [
+      "Harold carries a soldier on his back",
+      "Men hold their shields over their heads to keep them dry",
+      "A horse and rider tumble in the sand"
+    ]
+  },
+  {
+    "n": 18,
+    "latin": "ET VENERUNT AD DOL ET CONAN FUGA VERTIT / REDNES",
+    "english": "And they came to Dol and Conan turned in flight / Rennes",
+    "title": "Conan flees from Dol",
+    "summary": "The Normans reach Dol, and Duke Conan escapes from the walls by sliding down a rope. Rennes is labelled further along, although the Normans did not fight there. The army moves on in pursuit.",
+    "place": "dol",
+    "journey": "breton-campaign",
+    "obstacle": "The army besieges Dol and Conan escapes.",
+    "details": [
+      "Conan slides down a rope from the castle at Dol",
+      "Rennes is drawn as a castle on a mound"
+    ]
+  },
+  {
+    "n": 19,
+    "latin": "HIC MILITES WILLELMI DUCIS PUGNANT CONTRA DINANTES",
+    "english": "Here Duke William's knights fight against the men of Dinan",
+    "title": "Siege of Dinan",
+    "summary": "William's knights attack Dinan, a wooden castle on a motte. Two soldiers try to set the palisade on fire with torches. The defenders fight back with lances.",
+    "place": "dinan",
+    "journey": "breton-campaign",
+    "obstacle": "The Normans storm Dinan's wooden castle and set it on fire.",
+    "details": [
+      "Two men hold torches to the base of the palisade",
+      "Knights charge with lances held overarm"
+    ]
+  },
+  {
+    "n": 20,
+    "latin": "ET CUNAN CLAVES PORREXIT",
+    "english": "And Conan handed over the keys",
+    "title": "Conan surrenders the keys",
+    "summary": "Conan surrenders by handing the keys of Dinan out on the tip of a lance. William receives them on his own lance. The campaign ends in a Norman victory.",
+    "place": "dinan",
+    "journey": "breton-campaign",
+    "obstacle": null,
+    "details": [
+      "The keys pass from lance to lance",
+      "The castle is still burning"
+    ]
+  },
+  {
+    "n": 21,
+    "latin": "HIC WILLELM DEDIT ARMA HAROLDO",
+    "english": "Here William gave arms to Harold",
+    "title": "William gives Harold arms",
+    "summary": "William presents Harold with arms and armour, probably after the campaign. Normans would have seen this as making Harold William's man. The tapestry does not say where it happened.",
+    "place": "dinan",
+    "journey": "breton-campaign",
+    "obstacle": null,
+    "details": [
+      "William places a helmet on Harold's head",
+      "Harold holds a banner on a lance"
+    ]
+  },
+  {
+    "n": 22,
+    "latin": "HIE WILLELM VENIT BAGIAS",
+    "english": "Here William came to Bayeux",
+    "title": "William comes to Bayeux",
+    "summary": "William and Harold ride to Bayeux, shown as a castle on a mound. The caption misspells HIC as HIE. This leads to the oath, the most important scene for the Norman case.",
+    "place": "bayeux",
+    "journey": "breton-campaign",
+    "obstacle": null,
+    "details": [
+      "Bayeux is drawn as a castle on a motte",
+      "HIE is a needle slip for HIC"
+    ]
+  },
+  {
+    "n": 23,
+    "latin": "UBI HAROLD SACRAMENTUM FECIT WILLELMO DUCI",
+    "english": "Where Harold made an oath to Duke William",
+    "title": "Harold swears the oath",
+    "summary": "Harold stands between two reliquaries and swears an oath to William, who sits enthroned. Norman writers say he swore to support William's claim to the English throne. The tapestry puts the oath at Bayeux, but William of Poitiers says Bonneville-sur-Touques and Orderic Vitalis says Rouen.",
+    "place": "bayeux",
+    "journey": "breton-campaign",
+    "obstacle": null,
+    "details": [
+      "Harold touches two reliquaries, one on an altar",
+      "William points at Harold from his throne"
+    ]
+  },
+  {
+    "n": 24,
+    "latin": "HIC HAROLD DUX REVERSUS EST AD ANGLICAM TERRAM",
+    "english": "Here Duke Harold returned to English land",
+    "title": "Harold sails home",
+    "summary": "Harold sails back to England. Watchers on a building look out as his ship arrives. The tapestry does not name the port he left from or where he landed.",
+    "place": "channel-1065",
+    "journey": "harold-return",
+    "obstacle": "Harold makes the return crossing of the Channel.",
+    "details": [
+      "A lookout on a building watches for the ship",
+      "The tapestry names neither the departure nor the landing port"
+    ]
+  },
+  {
+    "n": 25,
+    "latin": "ET VENIT AD EDWARDUM REGEM",
+    "english": "And he came to King Edward",
+    "title": "Harold reports to Edward",
+    "summary": "Harold comes before King Edward, bowing his head. Edward looks old and frail and seems to scold him. The tapestry does not say what passed between them.",
+    "place": "westminster",
+    "journey": "harold-return",
+    "obstacle": null,
+    "details": [
+      "Harold leans forward humbly",
+      "Edward raises a pointing finger"
+    ]
+  },
+  {
+    "n": 26,
+    "latin": "HIC PORTATUR CORPUS EADWARDI REGIS AD ECCLESIAM SANCTI PETRI APOSTOLI",
+    "english": "Here the body of King Edward is carried to the Church of Saint Peter the Apostle",
+    "title": "Edward's funeral",
+    "summary": "Edward's body is carried in a shrouded bier to Westminster Abbey, the church of St Peter that he had built. The funeral appears before his death, so scenes 26 to 28 run backwards in time. Edward died on 5 January 1066.",
+    "place": "westminster",
+    "journey": "crown-and-comet",
+    "obstacle": null,
+    "details": [
+      "The hand of God reaches down over the abbey",
+      "A workman fixes the weathercock on the roof",
+      "Two boys carry bells beside the bier"
+    ]
+  },
+  {
+    "n": 27,
+    "latin": "HIC EADWARDUS REX IN LECTO ALLOQUITUR FIDELES",
+    "english": "Here King Edward in bed speaks to his faithful followers",
+    "title": "Edward on his deathbed",
+    "summary": "In the upper part of a two-level scene, the dying Edward speaks to those around his bed. He reaches towards a man usually taken to be Harold. English sources say he left the kingdom in Harold's care.",
+    "place": "westminster",
+    "journey": "crown-and-comet",
+    "obstacle": null,
+    "details": [
+      "A weeping woman, probably Queen Edith, sits at the foot of the bed",
+      "Edward stretches his hand towards Harold"
+    ]
+  },
+  {
+    "n": 28,
+    "latin": "ET HIC DEFUNCTUS EST",
+    "english": "And here he died",
+    "title": "Edward's death",
+    "summary": "In the lower part of the scene, Edward has died. A priest stands by as servants wrap his body in a shroud. This happens before the funeral shown in scene 26.",
+    "place": "westminster",
+    "journey": "crown-and-comet",
+    "obstacle": null,
+    "details": [
+      "The body is wrapped in a shroud",
+      "A priest stands at the head of the body"
+    ]
+  },
+  {
+    "n": 29,
+    "latin": "HIC DEDERUNT HAROLDO CORONAM REGIS",
+    "english": "Here they gave Harold the king's crown",
+    "title": "Harold offered the crown",
+    "summary": "Two nobles offer Harold the crown and a battle-axe. Harold was crowned on 6 January 1066, the day after Edward died. The Normans saw this as breaking his oath.",
+    "place": "westminster",
+    "journey": "crown-and-comet",
+    "obstacle": null,
+    "details": [
+      "One man points back towards Edward's death",
+      "Harold is offered an axe as well as the crown"
+    ]
+  },
+  {
+    "n": 30,
+    "latin": "HIC RESIDET HAROLD REX ANGLORUM",
+    "english": "Here sits Harold, King of the English",
+    "title": "King Harold enthroned",
+    "summary": "Harold sits enthroned as king, holding an orb and sceptre. Men on his right present a sword. People below cheer the new king.",
+    "place": "westminster",
+    "journey": "crown-and-comet",
+    "obstacle": null,
+    "details": [
+      "Harold holds an orb and a sceptre",
+      "A sword is held upright beside the throne"
+    ]
+  },
+  {
+    "n": 31,
+    "latin": "STIGANT ARCHIEPISCOPUS",
+    "english": "Archbishop Stigand",
+    "title": "Archbishop Stigand",
+    "summary": "Archbishop Stigand of Canterbury stands at Harold's left in his robes. The pope had excommunicated Stigand, so the Normans could use his presence to undermine the coronation. English sources say Ealdred of York crowned Harold.",
+    "place": "westminster",
+    "journey": "crown-and-comet",
+    "obstacle": null,
+    "details": [
+      "Stigand holds a maniple and spreads his hands",
+      "Who actually crowned Harold is disputed"
+    ]
+  },
+  {
+    "n": 32,
+    "latin": "ISTI MIRANTUR STELLAM",
+    "english": "These men marvel at the star",
+    "title": "Halley's comet",
+    "summary": "A group of men point in amazement at a star with a fiery tail. This is Halley's comet, seen in April 1066 and taken as an omen. Its message suits the Norman version of events.",
+    "place": "westminster",
+    "journey": "crown-and-comet",
+    "obstacle": null,
+    "details": [
+      "Halley's comet blazes in the top border",
+      "Men point up at the comet"
+    ]
+  },
+  {
+    "n": 33,
+    "latin": "HAROLD",
+    "english": "Harold",
+    "title": "Harold receives bad news",
+    "summary": "Harold sits on his throne and leans towards a man bringing news. He looks worried. Below him, ghostly empty ships in the lower border hint at the invasion to come.",
+    "place": "westminster",
+    "journey": "crown-and-comet",
+    "obstacle": null,
+    "details": [
+      "A ghost fleet of empty ships appears in the lower border",
+      "Harold turns to listen to a messenger"
+    ]
+  },
+  {
+    "n": 34,
+    "latin": "HIC NAVIS ANGLICA VENIT IN TERRAM WILLELMI DUCIS",
+    "english": "Here an English ship came to the land of Duke William",
+    "title": "English ship reaches Normandy",
+    "summary": "An English ship crosses to Normandy, probably bringing news of Harold's coronation. The tapestry does not name where it landed. In the next scene William reacts and orders a fleet.",
+    "place": "normandy-coast",
+    "journey": "crown-and-comet",
+    "obstacle": null,
+    "details": [
+      "The English ship crosses alone",
+      "Its landing place is not named"
+    ]
+  },
+  {
+    "n": 35,
+    "latin": "HIC WILLELM DUX IUSSIT NAVES EDIFICARE",
+    "english": "Here Duke William ordered ships to be built",
+    "title": "William orders a fleet",
+    "summary": "William, seated with Bishop Odo beside him, orders a fleet to be built. Workmen fell trees and shape planks with axes and adzes. Shipwrights build hulls with overlapping planks.",
+    "place": "dives",
+    "journey": "invasion",
+    "obstacle": null,
+    "details": [
+      "Odo sits beside William and gives orders",
+      "Men use broad axes and adzes on planks",
+      "The shipwrights build clinker-built hulls"
+    ]
+  },
+  {
+    "n": 36,
+    "latin": "HIC TRAHUNT NAVES AD MARE",
+    "english": "Here they drag the ships to the sea",
+    "title": "Launching the ships",
+    "summary": "Men haul the finished ships down to the water with ropes. The fleet gathered at the mouth of the Dives during the summer of 1066. The ships are ready to load.",
+    "place": "dives",
+    "journey": "invasion",
+    "obstacle": null,
+    "details": [
+      "Men pull ropes to drag the ships",
+      "The ships have dragon-head prows"
+    ]
+  },
+  {
+    "n": 37,
+    "latin": "ISTI PORTANT ARMAS AD NAVES ET HIC TRAHUNT CARRUM CUM VINO ET ARMIS",
+    "english": "These men carry arms to the ships and here they drag a cart with wine and arms",
+    "title": "Loading arms and wine",
+    "summary": "Men carry mail shirts, helmets, swords and spears to the ships. Others pull a cart loaded with a wine barrel and weapons. The fleet later moved from Dives to Saint-Valery-sur-Somme and sailed from there, but the tapestry does not show the move.",
+    "place": "dives",
+    "journey": "invasion",
+    "obstacle": null,
+    "details": [
+      "Two men carry a mail hauberk on a pole",
+      "A cart carries a large wine barrel",
+      "The tapestry does not name the loading port"
+    ]
+  },
+  {
+    "n": 38,
+    "latin": "HIC WILLELM DUX IN MAGNO NAVIGIO MARE TRANSIVIT ET VENIT AD PEVENESAE",
+    "english": "Here Duke William crossed the sea in a great ship and came to Pevensey",
+    "title": "The fleet crosses the Channel",
+    "summary": "The Norman fleet sails across the Channel, its ships packed with horses and men. William's ship leads, with a lantern or cross at the masthead. They sailed on the night of 27 to 28 September 1066.",
+    "place": "channel-1066",
+    "journey": "invasion",
+    "obstacle": "The invasion fleet crosses the Channel at night with horses on board.",
+    "details": [
+      "Horses look over the gunwales",
+      "William's ship carries a lantern or cross at its masthead",
+      "A cross marks the start of the caption"
+    ]
+  },
+  {
+    "n": 39,
+    "latin": "HIC EXEUNT CABALLI DE NAVIBUS",
+    "english": "Here the horses leave the ships",
+    "title": "Landing at Pevensey",
+    "summary": "The ships beach at Pevensey, and the men lower the masts. Horses are led ashore. The landing met no opposition because Harold's army was in the north.",
+    "place": "pevensey",
+    "journey": "invasion",
+    "obstacle": null,
+    "details": [
+      "Masts are lowered and ships beached",
+      "Horses step out of the ships"
+    ]
+  },
+  {
+    "n": 40,
+    "latin": "ET HIC MILITES FESTINAVERUNT HESTINGA UT CIBUM RAPERENTUR",
+    "english": "And here the knights hurried to Hastings to seize food",
+    "title": "Riding to Hastings for food",
+    "summary": "Mounted knights hurry towards Hastings to gather supplies. The army needed food and took it from the local people. This raiding also put pressure on Harold to fight quickly.",
+    "place": "hastings",
+    "journey": "invasion",
+    "obstacle": "The army has to forage for food in hostile country.",
+    "details": [
+      "Knights gallop with lances raised"
+    ]
+  },
+  {
+    "n": 41,
+    "latin": "HIC EST WADARD",
+    "english": "Here is Wadard",
+    "title": "Wadard and the foragers",
+    "summary": "Wadard, a vassal of Bishop Odo, supervises the foraging on horseback. Men on foot bring in sheep, a pig and an ox. A man with an axe kills an animal.",
+    "place": "hastings",
+    "journey": "invasion",
+    "obstacle": null,
+    "details": [
+      "Wadard is named, though he is little known elsewhere",
+      "A man carries a sheep on his shoulders",
+      "An axe is raised over an ox"
+    ]
+  },
+  {
+    "n": 42,
+    "latin": "HIC COQUITUR CARO ET HIC MINISTRAVERUNT MINISTRI",
+    "english": "Here the meat is cooked and here the servants served it",
+    "title": "Cooking the meat",
+    "summary": "Cooks boil meat in a cauldron hung over a fire and roast birds on spits. A baker takes bread from an oven. Servants carry the food to a makeshift table.",
+    "place": "hastings",
+    "journey": "invasion",
+    "obstacle": null,
+    "details": [
+      "Meat on spits is laid across a table",
+      "A cauldron hangs from a pole over the fire"
+    ]
+  },
+  {
+    "n": 43,
+    "latin": "HIC FECERUNT PRANDIUM / ET HIC EPISCOPUS CIBUM ET POTUM BENEDICIT",
+    "english": "Here they have a meal / And here the bishop blesses the food and drink",
+    "title": "The feast",
+    "summary": "The leaders eat at a curved table. Bishop Odo blesses the food and drink. Some scholars see an echo of the Last Supper in the layout.",
+    "place": "hastings",
+    "journey": "invasion",
+    "obstacle": null,
+    "details": [
+      "Odo raises his hand in blessing",
+      "The table is curved like a half-moon",
+      "A servant kneels with a bowl"
+    ]
+  },
+  {
+    "n": 44,
+    "latin": "ODO EPISCOPUS WILLELM ROTBERT",
+    "english": "Bishop Odo, William, Robert",
+    "title": "William and his half-brothers",
+    "summary": "William sits between his half-brothers, Bishop Odo and Robert of Mortain, holding a council. Odo appears to speak while William holds a sword. Odo is often thought to have commissioned the tapestry.",
+    "place": "hastings",
+    "journey": "invasion",
+    "obstacle": null,
+    "details": [
+      "William sits in the centre with a drawn sword",
+      "Odo is on his right and Robert on his left"
+    ]
+  },
+  {
+    "n": 45,
+    "latin": "ISTE IUSSIT UT FODERETUR CASTELLUM AT HESTENGA / CEASTRA",
+    "english": "He ordered that a castle be dug at Hastings / The camp",
+    "title": "Building the castle at Hastings",
+    "summary": "A man orders the digging of a castle mound at Hastings. Workmen dig with spades, and two of them seem to fight each other with their tools. The odd spellings AT and CEASTRA have been taken as signs of English makers.",
+    "place": "hastings",
+    "journey": "invasion",
+    "obstacle": null,
+    "details": [
+      "Two workmen hit each other with spades",
+      "The motte is drawn in coloured layers",
+      "CEASTRA looks like an English spelling"
+    ]
+  },
+  {
+    "n": 46,
+    "latin": "HIC NUNTIATUM EST WILLELMO DE HAROLDO",
+    "english": "Here William was told about Harold",
+    "title": "News of Harold's approach",
+    "summary": "A messenger tells William, who holds a banner on a lance, about Harold. Harold had marched south after defeating the Norwegians at Stamford Bridge. A battle is now close.",
+    "place": "hastings",
+    "journey": "invasion",
+    "obstacle": null,
+    "details": [
+      "William holds a pennoned lance",
+      "His horse is held ready behind him"
+    ]
+  },
+  {
+    "n": 47,
+    "latin": "HIC DOMUS INCENDITUR",
+    "english": "Here a house is burned",
+    "title": "A house is burned",
+    "summary": "Two soldiers set fire to a house with torches. A woman leads a child out of the burning building. The scene shows the Normans laying waste to the land around Hastings.",
+    "place": "hastings",
+    "journey": "invasion",
+    "obstacle": "Normans burn local homes to draw Harold into battle.",
+    "details": [
+      "A woman and child flee the burning house",
+      "Soldiers hold flaming torches to the roof"
+    ]
+  },
+  {
+    "n": 48,
+    "latin": "HIC MILITES EXIERUNT DE HESTENGA ET VENERUNT AD PRELIUM CONTRA HAROLDUM REGEM",
+    "english": "Here the knights left Hastings and came to the battle against King Harold",
+    "title": "The knights ride out",
+    "summary": "William mounts his horse, and his knights leave Hastings to meet the English army. They ride in armour with lances. The battle took place on 14 October 1066.",
+    "place": "hastings",
+    "journey": "battle",
+    "obstacle": null,
+    "details": [
+      "A groom brings William his horse",
+      "The knights ride in a long column"
+    ]
+  },
+  {
+    "n": 49,
+    "latin": "HIC WILLELM DUX INTERROGAT VITALEM SI VIDISSET HAROLDI EXERCITUM",
+    "english": "Here Duke William asks Vital if he has seen Harold's army",
+    "title": "William questions Vital",
+    "summary": "William, holding a club, asks a knight named Vital whether he has seen Harold's army. Vital points back towards the enemy. Scouts look out from a hill.",
+    "place": "senlac",
+    "journey": "battle",
+    "obstacle": null,
+    "details": [
+      "Vital points the way",
+      "Scouts on a hilltop peer into the distance"
+    ]
+  },
+  {
+    "n": 50,
+    "latin": "ISTE NUNTIAT HAROLDUM REGEM DE EXERCITU WILLELMI DUCIS",
+    "english": "This man tells King Harold about Duke William's army",
+    "title": "Harold hears of the Normans",
+    "summary": "An English scout reports to King Harold, who rides on horseback, about William's army. Both commanders now know where the other is. The two armies are about to meet.",
+    "place": "senlac",
+    "journey": "battle",
+    "obstacle": null,
+    "details": [
+      "The English scout stands among trees",
+      "Harold sits on horseback"
+    ]
+  },
+  {
+    "n": 51,
+    "latin": "HIC WILLELM DUX ALLOQUITUR SUIS MILITIBUS UT PREPARARENT SE VIRILITER ET SAPIENTER AD PRELIUM CONTRA ANGLORUM EXERCITUM",
+    "english": "Here Duke William speaks to his knights to prepare themselves manfully and wisely for the battle against the English army",
+    "title": "The Norman charge",
+    "summary": "William urges his knights to fight bravely and wisely. The Norman cavalry charges uphill at the English, who stand on foot in a shield wall. Archers shoot from the lower border.",
+    "place": "senlac",
+    "journey": "battle",
+    "obstacle": "The Normans have to charge uphill against a dense English shield wall.",
+    "details": [
+      "Archers fill the lower border",
+      "The English shield wall bristles with spears",
+      "The knights charge with lances"
+    ]
+  },
+  {
+    "n": 52,
+    "latin": "HIC CECIDERUNT LEWINE ET GYRTH FRATRES HAROLDI REGIS",
+    "english": "Here fell Leofwine and Gyrth, brothers of King Harold",
+    "title": "Harold's brothers fall",
+    "summary": "The English fight with axes, spears and javelins as the Normans attack. Harold's brothers Leofwine and Gyrth are killed. Their deaths weaken Harold's command.",
+    "place": "senlac",
+    "journey": "battle",
+    "obstacle": "Harold loses his brothers Leofwine and Gyrth in the fighting.",
+    "details": [
+      "An Englishman swings a two-handed Danish axe",
+      "Bodies and shields litter the lower border"
+    ]
+  },
+  {
+    "n": 53,
+    "latin": "HIC CECIDERUNT SIMUL ANGLI ET FRANCI IN PRELIO",
+    "english": "Here English and French fell together in battle",
+    "title": "Slaughter at the hillock",
+    "summary": "English and Norman soldiers die together in the thick of the fighting. Norman horses crash head over heels around a small hill or ditch. Some English soldiers stand on the hillock, perhaps cut off from the main line.",
+    "place": "senlac",
+    "journey": "battle",
+    "obstacle": "Horses fall in a ditch or on the slope during the fighting.",
+    "details": [
+      "Horses tumble head over heels",
+      "Englishmen fight from a small hillock"
+    ]
+  },
+  {
+    "n": 54,
+    "latin": "HIC ODO EPISCOPUS BACULUM TENENS CONFORTAT PUEROS",
+    "english": "Here Bishop Odo, holding a club, encourages the young men",
+    "title": "Odo rallies the troops",
+    "summary": "Bishop Odo rides among the young knights with a club and urges them back into battle. A churchman was not supposed to shed blood, so he carries a club instead of a sword. The Normans were close to panic at this point.",
+    "place": "senlac",
+    "journey": "battle",
+    "obstacle": null,
+    "details": [
+      "Odo carries a club or baton, not a sword",
+      "He wears a mail coat like the knights"
+    ]
+  },
+  {
+    "n": 55,
+    "latin": "HIC EST WILLELMUS DUX",
+    "english": "Here is Duke William",
+    "title": "William shows he is alive",
+    "summary": "A rumour spreads that William has been killed. He pushes up his helmet to show his face and prove he is alive. This stops the Normans from fleeing.",
+    "place": "senlac",
+    "journey": "battle",
+    "obstacle": "A rumour of William's death threatens to break the Norman army.",
+    "details": [
+      "William tips back his helmet to show his face",
+      "Eustace of Boulogne points at him with a banner"
+    ]
+  },
+  {
+    "n": 56,
+    "latin": "EUSTATIUS / HIC FRANCI PUGNANT ET CECIDERUNT QUI ERANT CUM HAROLDO",
+    "english": "Eustace / Here the French fight and those who were with Harold fell",
+    "title": "Eustace and the final assault",
+    "summary": "Count Eustace of Boulogne carries a banner as the Normans press the attack. Many of the men around Harold are killed. The English line begins to break.",
+    "place": "senlac",
+    "journey": "battle",
+    "obstacle": null,
+    "details": [
+      "Eustace carries a banner",
+      "Archers shoot volleys from the lower border",
+      "Looters strip mail from the dead"
+    ]
+  },
+  {
+    "n": 57,
+    "latin": "HIC HAROLD REX INTERFECTUS EST",
+    "english": "Here King Harold was killed",
+    "title": "Harold is killed",
+    "summary": "King Harold is killed among his housecarls. One figure grips an arrow near his eye and another is cut down by a horseman's sword. Historians disagree about which figure is Harold, and the arrow may be partly the work of later restorers.",
+    "place": "senlac",
+    "journey": "battle",
+    "obstacle": null,
+    "details": [
+      "The 'arrow in the eye' figure stands under the name HAROLD",
+      "A second figure falls to a sword blow",
+      "Corpses are stripped of mail in the lower border"
+    ]
+  },
+  {
+    "n": 58,
+    "latin": "ET FUGA VERTERUNT ANGLI",
+    "english": "And the English turned in flight",
+    "title": "The English flee",
+    "summary": "With Harold dead, the surviving English flee, chased by Norman horsemen. The tapestry breaks off here, and its original ending is lost. Musset thinks this caption was added by restorers because it is missing from 18th-century copies.",
+    "place": "senlac",
+    "journey": "battle",
+    "obstacle": null,
+    "details": [
+      "Englishmen run and ride from the field",
+      "The end of the tapestry is a later restoration",
+      "The original final scene, possibly William's coronation, is lost"
+    ]
+  }
+]

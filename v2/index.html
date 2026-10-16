@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#1b1814">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="description" content="Scroll the Bayeux Tapestry and follow its journeys across a 3D map.">
+  <title>Bayeux Journeys</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icon-192.png">
+  <link rel="apple-touch-icon" href="icon-192.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alegreya+SC:wght@400;500;700&family=Alegreya+Sans:ital,wght@0,400;0,500;0,700;1,400&family=Alegreya:ital@1&display=swap">
+</head>
+<body>
+  <a class="skip" href="#panel">Skip to scene text</a>
+  <div class="app" id="app" data-map="open">
+    <header class="bar">
+      <h1 class="brand">Bayeux <span>Journeys</span></h1>
+      <div class="when" id="when" title="">
+        <b id="when-year">1064</b>
+        <span id="when-text"></span>
+      </div>
+      <form class="jump" id="jump" role="search" aria-label="Jump to a scene">
+        <label for="jump-n">Scene</label>
+        <input id="jump-n" name="n" inputmode="numeric" pattern="[0-9]*" maxlength="2" autocomplete="off" placeholder="1–58">
+        <button type="submit" aria-label="Go to scene">Go</button>
+      </form>
+      <button type="button" class="bar-btn" id="btn-map" aria-pressed="true" aria-controls="map-wrap" title="Show or hide the map">Map</button>
+      <button type="button" class="bar-btn" id="btn-layers" aria-expanded="false" aria-controls="layers">Layers</button>
+    </header>
+
+    <div class="layers-pop" id="layers" hidden>
+      <h2>Layers</h2>
+      <label class="switch"><input type="checkbox" id="layer-people"><span><b>People &amp; places</b> Tap figures on the tapestry</span></label>
+      <label class="switch"><input type="checkbox" id="layer-bias"><span><b>Who shaped this?</b> Patrons, makers and restorers</span></label>
+      <label class="switch"><input type="checkbox" id="layer-penis"><span><b>Penis watch</b> Garnett's count of 93</span></label>
+      <label class="switch"><input type="checkbox" id="layer-context"><span><b>Beyond the tapestry</b> Hardrada and Stamford Bridge</span></label>
+      <hr>
+      <label class="switch"><input type="checkbox" id="opt-awake"><span><b>Keep screen on</b> For reading in the gallery</span></label>
+      <button type="button" class="btn" id="btn-offline" hidden>Save for offline use</button>
+      <p class="muted small" id="offline-status" aria-live="polite"></p>
+      <p class="muted small credits">Tapestry photographs: public domain, via Wikimedia Commons. Map: Natural Earth. Figure outlines were placed by AI from the captions and may be a little off.</p>
+    </div>
+
+    <section class="map-wrap" id="map-wrap" aria-label="3D map of the journeys">
+      <div id="map" class="map"></div>
+      <nav class="journey-chips" id="journey-chips" aria-label="Journeys"></nav>
+      <div class="map-tools">
+        <button type="button" class="chip-btn is-on" id="btn-follow" aria-pressed="true">Follow</button>
+        <button type="button" class="chip-btn" id="btn-whole">Whole story</button>
+      </div>
+    </section>
+
+    <section class="tapestry" aria-label="The Bayeux Tapestry. Scroll sideways to move through the story.">
+      <div class="strip" id="strip" tabindex="0" aria-describedby="strip-help">
+        <div class="strip-inner">
+          <div class="strip-images"></div>
+          <div class="strip-overlay"></div>
+        </div>
+      </div>
+      <p id="strip-help" class="sr-only">Scroll or swipe sideways. Arrow keys move one scene. Highlighted figures can be selected.</p>
+      <div class="needle" aria-hidden="true"><span id="needle-label">Scene 1</span></div>
+      <div class="strip-tools">
+        <button type="button" class="round" id="btn-prev" aria-label="Previous scene">‹</button>
+        <button type="button" class="round" id="btn-play" aria-label="Play">▶</button>
+        <button type="button" class="round" id="btn-next" aria-label="Next scene">›</button>
+        <button type="button" class="round" id="btn-zout" aria-label="Zoom out">−</button>
+        <button type="button" class="round" id="btn-zin" aria-label="Zoom in">+</button>
+      </div>
+      <div class="overview" id="overview" aria-hidden="true"><div class="ov-win" id="ov-win"></div></div>
+    </section>
+
+    <section class="panel" id="panel" aria-label="Scene details">
+      <div class="tabs" role="tablist" aria-label="Panel">
+        <button type="button" role="tab" id="t-scene" data-tab="scene" aria-controls="tab-scene" aria-selected="true">Scene</button>
+        <button type="button" role="tab" id="t-people" data-tab="people" aria-controls="tab-people" aria-selected="false">People</button>
+        <button type="button" role="tab" id="t-why" data-tab="why" aria-controls="tab-why" aria-selected="false">Why</button>
+      </div>
+      <div class="tabpanel" id="tab-scene" role="tabpanel" aria-labelledby="t-scene"></div>
+      <div class="tabpanel" id="tab-people" role="tabpanel" aria-labelledby="t-people" hidden></div>
+      <div class="tabpanel" id="tab-why" role="tabpanel" aria-labelledby="t-why" hidden></div>
+    </section>
+  </div>
+  <div class="sr-only" id="announce" aria-live="polite"></div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>

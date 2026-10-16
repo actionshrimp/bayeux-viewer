@@ -1,0 +1,236 @@
+{
+  "parties": [
+    {"id": "odo", "name": "Bishop Odo of Bayeux", "short": "Odo", "blurb": "William's half-brother, Bishop of Bayeux and Earl of Kent after 1066. Most historians think he commissioned the tapestry, probably for his new cathedral at Bayeux, consecrated in 1077."},
+    {"id": "norman", "name": "The Norman case", "short": "Normans", "blurb": "William needed to show that he was Edward's rightful heir and that Harold was an oath-breaker. The tapestry's story closely matches the Norman chroniclers William of Poitiers and William of Jumièges."},
+    {"id": "english-makers", "name": "English designers and embroiderers", "short": "English makers", "blurb": "The tapestry was very probably designed and stitched in England, most likely in Canterbury and perhaps at St Augustine's Abbey. Some scholars see touches of sympathy for Harold and the English in what they chose to show."},
+    {"id": "eustace", "name": "Eustace II of Boulogne", "short": "Eustace", "blurb": "Count of Boulogne and a leading commander at Hastings, later at odds with Odo over Kent. Andrew Bridgeford argues that the tapestry gives him unusual prominence and that he may have been its patron."},
+    {"id": "restorers", "name": "Later restorers and copyists", "short": "Restorers", "blurb": "The tapestry was repaired several times, most heavily in the 19th century. Comparing 18th-century engravings, Charles Stothard's 1816 to 1819 drawings and the cloth today shows where restorers changed what we see."},
+    {"id": "later-users", "name": "Later political users", "short": "Later users", "blurb": "Napoleon and the Nazi regime both put the tapestry to work for their own causes. Their uses shaped how the public read the scenes, though they did not alter the stitching."}
+  ],
+  "entries": [
+    {
+      "scenes": [1, 1],
+      "party": "norman",
+      "title": "Why Edward sends Harold abroad",
+      "text": "Edward talks with Harold, but the tapestry does not say what he tells him. William of Poitiers says Edward sent Harold to confirm William as his heir, while the English writer Eadmer says Harold went to free family hostages against Edward's advice. Norman viewers would read the silence in their favour, but the design leaves room for the English version too.",
+      "strength": "argued",
+      "source": "Wikipedia, Bayeux Tapestry: https://en.wikipedia.org/wiki/Bayeux_Tapestry"
+    },
+    {
+      "scenes": [1, 1],
+      "party": "restorers",
+      "title": "EDWARD REX probably a restorer's word",
+      "text": "The opening caption reads EDWARD REX, but elsewhere the tapestry spells his name EADWARDUS. Lucien Musset argued that the word EDWARD is anachronistic and was almost certainly added by restorers. The first caption we read may therefore not be medieval at all.",
+      "strength": "argued",
+      "source": "Wikipedia, Bayeux Tapestry tituli (citing Musset): https://en.wikipedia.org/wiki/Bayeux_Tapestry_tituli"
+    },
+    {
+      "scenes": [4, 13],
+      "party": "english-makers",
+      "title": "Fables in the borders as commentary",
+      "text": "A run of Aesop's fables, including the fox and the crow, fills the borders as Harold sails, is captured by Guy and is handed to William. The fox flatters the crow into dropping its cheese, a warning about flattery and trickery. Scholars disagree on whether this mocks Harold as a dupe or warns that the Normans cannot be trusted, which may be exactly the double meaning an English designer wanted.",
+      "strength": "argued",
+      "source": "S. D. White, 'The Fables in the Borders', in The Bayeux Tapestry and its Contexts (Boydell): https://www.cambridge.org/core/books/bayeux-tapestry-and-its-contexts/fables-in-the-borders-white/ED91FFB8FAAECBA8A33ED44F7FA68477"
+    },
+    {
+      "scenes": [10, 10],
+      "party": "odo",
+      "title": "Turold, a man from Odo's circle?",
+      "text": "A small man holding the horses is named Turold, a rare honour for so minor a figure. Many scholars link him to a Turold who held land from Odo in Kent in Domesday Book, though the name was common. If the link holds, the caption is a nod to one of the patron's own men.",
+      "strength": "argued",
+      "source": "Wikipedia, Bayeux Tapestry: https://en.wikipedia.org/wiki/Bayeux_Tapestry"
+    },
+    {
+      "scenes": [17, 17],
+      "party": "english-makers",
+      "title": "Harold the hero of the quicksand",
+      "text": "Harold carries one soldier on his back and drags another from the quicksand of the Couesnon. William of Poitiers does not mention this rescue, and it shows Harold as brave and strong just before his oath. Some read this as English sympathy, while others think it makes his later betrayal look worse.",
+      "strength": "argued",
+      "source": "Wikipedia, Bayeux Tapestry: https://en.wikipedia.org/wiki/Bayeux_Tapestry"
+    },
+    {
+      "scenes": [21, 21],
+      "party": "norman",
+      "title": "Arms make Harold William's man",
+      "text": "William places a helmet on Harold's head and gives him arms. To a Norman audience this was a ceremony that bound the receiver to the giver as his man. It prepares the viewer to see Harold's later kingship as a betrayal of his lord.",
+      "strength": "argued",
+      "source": "Wikipedia, Bayeux Tapestry: https://en.wikipedia.org/wiki/Bayeux_Tapestry"
+    },
+    {
+      "scenes": [22, 23],
+      "party": "odo",
+      "title": "The oath moved to Odo's Bayeux",
+      "text": "The tapestry sets Harold's oath at Bayeux, Odo's own city. William of Poitiers places it at Bonneville-sur-Touques and Orderic Vitalis at Rouen. Placing the decisive moment in Bayeux, perhaps on the relics of its cathedral, flatters the patron and the church where the tapestry probably hung.",
+      "strength": "argued",
+      "source": "Wikipedia, Bayeux Tapestry: https://en.wikipedia.org/wiki/Bayeux_Tapestry"
+    },
+    {
+      "scenes": [23, 23],
+      "party": "norman",
+      "title": "The oath on holy relics",
+      "text": "Harold touches two reliquaries while William watches from his throne. The Norman chroniclers made this oath the heart of William's claim, because breaking an oath sworn on relics was perjury against God. Everything after this scene can be read as Harold's punishment.",
+      "strength": "documented",
+      "source": "Wikipedia, Bayeux Tapestry: https://en.wikipedia.org/wiki/Bayeux_Tapestry"
+    },
+    {
+      "scenes": [25, 25],
+      "party": "english-makers",
+      "title": "Edward's rebuke left unexplained",
+      "text": "Harold returns with bowed head and Edward raises a finger, seeming to scold him. Eadmer says Edward had warned Harold not to go, so the rebuke could mean 'I told you so' rather than 'you have sworn to William'. The tapestry gives no words, letting each audience supply its own.",
+      "strength": "argued",
+      "source": "Wikipedia, Bayeux Tapestry: https://en.wikipedia.org/wiki/Bayeux_Tapestry"
+    },
+    {
+      "scenes": [26, 28],
+      "party": "english-makers",
+      "title": "Deathbed that hints at Harold's claim",
+      "text": "The dying Edward reaches out to a man usually taken to be Harold, and the funeral is shown before the death. English sources such as the Vita Ædwardi say Edward entrusted the kingdom to Harold on his deathbed. The tapestry shows the gesture without condemning it, which leaves the English claim visible inside a Norman story.",
+      "strength": "argued",
+      "source": "Wikipedia, Bayeux Tapestry: https://en.wikipedia.org/wiki/Bayeux_Tapestry"
+    },
+    {
+      "scenes": [30, 30],
+      "party": "english-makers",
+      "title": "The tapestry calls Harold king",
+      "text": "The caption names him HAROLD REX ANGLORUM, King of the English, and calls him REX again at his death. Norman writers usually treated him as a usurper and avoided the title. This even-handed wording is one reason some scholars think the English makers had room to shape the text.",
+      "strength": "documented",
+      "source": "Wikipedia, Bayeux Tapestry tituli: https://en.wikipedia.org/wiki/Bayeux_Tapestry_tituli"
+    },
+    {
+      "scenes": [31, 31],
+      "party": "norman",
+      "title": "Stigand placed beside the new king",
+      "text": "Archbishop Stigand stands beside the enthroned Harold. The pope had excommunicated Stigand, so showing him at the coronation made Harold's kingship look invalid, and Norman sources claimed he crowned Harold. English sources say Ealdred of York performed the coronation.",
+      "strength": "argued",
+      "source": "Wikipedia, Bayeux Tapestry: https://en.wikipedia.org/wiki/Bayeux_Tapestry"
+    },
+    {
+      "scenes": [32, 33],
+      "party": "norman",
+      "title": "Comet as a sign against Harold",
+      "text": "Men point at Halley's comet, seen in April 1066, and below Harold a ghostly fleet appears in the border. Medieval viewers read comets as omens of the fall of kings. Placing it straight after the coronation casts heaven's judgement on Harold's reign.",
+      "strength": "argued",
+      "source": "Wikipedia, Bayeux Tapestry: https://en.wikipedia.org/wiki/Bayeux_Tapestry"
+    },
+    {
+      "scenes": [35, 35],
+      "party": "odo",
+      "title": "Odo at William's side for the fleet",
+      "text": "A tonsured figure, usually identified as Odo, sits beside William as he orders the ships to be built. The 'Ship List' of William records that Odo supplied 100 ships, one of the largest contributions. The scene gives Odo a share in planning the conquest that the Norman chroniclers rarely give him.",
+      "strength": "argued",
+      "source": "Wikipedia, Odo of Bayeux: https://en.wikipedia.org/wiki/Odo_of_Bayeux"
+    },
+    {
+      "scenes": [41, 41],
+      "party": "odo",
+      "title": "Wadard, Odo's Kentish tenant",
+      "text": "A rider named Wadard oversees the foraging at Hastings. A Wadard appears in Domesday Book as Odo's tenant, holding land in Kent and several other counties. Naming so obscure a man only makes sense to an audience that knew him, which points to Odo's household.",
+      "strength": "documented",
+      "source": "Wikipedia, Wadard: https://en.wikipedia.org/wiki/Wadard"
+    },
+    {
+      "scenes": [43, 44],
+      "party": "odo",
+      "title": "Odo blesses the feast and counsels",
+      "text": "Odo blesses the food and drink at the feast, then sits named at William's right in council with Robert of Mortain. The Norman chroniclers give Odo far less attention than this. The tapestry makes him the army's spiritual leader and William's chief adviser.",
+      "strength": "documented",
+      "source": "Wikipedia, Bayeux Tapestry: https://en.wikipedia.org/wiki/Bayeux_Tapestry"
+    },
+    {
+      "scenes": [45, 45],
+      "party": "english-makers",
+      "title": "English words in the Latin captions",
+      "text": "Beside the camp the caption uses CEASTRA, an Old English word, and other names use English spellings such as GYRTH and LEWINE. These forms suggest designers who thought in English. They support the view that the work was made in England, probably in Canterbury.",
+      "strength": "documented",
+      "source": "Wikipedia, Bayeux Tapestry tituli: https://en.wikipedia.org/wiki/Bayeux_Tapestry_tituli"
+    },
+    {
+      "scenes": [49, 49],
+      "party": "odo",
+      "title": "Vital, another of Odo's men",
+      "text": "William asks a knight named Vital whether he has seen Harold's army. Domesday Book records a Vital holding land from Odo in Kent, including at Canterbury. Like Turold and Wadard, his presence ties the tapestry to Odo's following.",
+      "strength": "documented",
+      "source": "Wikipedia, Vital of Bayeux: https://en.wikipedia.org/wiki/Vital_of_Bayeux"
+    },
+    {
+      "scenes": [54, 54],
+      "party": "odo",
+      "title": "Odo with a club rallies the boys",
+      "text": "Odo rides into the battle holding a club and urges the young knights to stand. William of Poitiers does not give Odo this role, and the club may be meant to let a bishop fight without wielding a sword. The scene casts Odo as a saviour of the day at a crisis point in the battle.",
+      "strength": "documented",
+      "source": "Wikipedia, Bayeux Tapestry: https://en.wikipedia.org/wiki/Bayeux_Tapestry"
+    },
+    {
+      "scenes": [55, 56],
+      "party": "eustace",
+      "title": "Eustace points to the living duke",
+      "text": "As William lifts his helmet to show he is alive, a figure with a banner points at him, labelled with a damaged name read as EUSTATIUS. Eustace of Boulogne is one of very few nobles named in the battle. Andrew Bridgeford argues that giving him this key moment shows his influence over the design, though most scholars see it as simple recognition of his role.",
+      "strength": "argued",
+      "source": "A. Bridgeford, 1066: The Hidden History in the Bayeux Tapestry (2004), reviewed: https://www.publishersweekly.com/9780802714503"
+    },
+    {
+      "scenes": null,
+      "party": "eustace",
+      "title": "Bridgeford's Eustace patron theory",
+      "text": "Bridgeford argues that Eustace, not Odo, commissioned the tapestry from English monks at St Augustine's, Canterbury, and that it carries a hidden anti-Norman message. Eustace attacked Odo's Dover in 1067 and was later reconciled with William, which gives him a motive to tell his own version. Reviewers found the case readable but unconvincing, and Odo remains the usual answer.",
+      "strength": "argued",
+      "source": "Publishers Weekly review of Bridgeford: https://www.publishersweekly.com/9780802714503; H-France review: https://www.h-france.net/vol6reviews/Vol6no124foys.pdf"
+    },
+    {
+      "scenes": [57, 57],
+      "party": "restorers",
+      "title": "The arrow in Harold's eye",
+      "text": "Under the name HAROLD a figure grips an arrow near his eye. Benoît's engraving of 1729 shows a spear or lance in his hand, and Stothard's drawings of 1816 to 1819 first show a line ending near the eye. Needle holes in the linen suggest stitching was removed or changed and fletchings added, so the famous arrow may be partly a restorer's work.",
+      "strength": "documented",
+      "source": "Wikipedia, Bayeux Tapestry: https://en.wikipedia.org/wiki/Bayeux_Tapestry; History Today, 'Shot through the Eye and Who's to Blame?': https://www.historytoday.com/shot-through-eye-and-who%E2%80%99s-blame"
+    },
+    {
+      "scenes": [57, 57],
+      "party": "norman",
+      "title": "Harold's death as divine punishment",
+      "text": "Harold falls in the same scene that names him king. David Bernstein argued that a wound to the eye echoed the medieval punishment of blinding for perjury, so the image fits the Norman story of an oath-breaker struck down. Others think the second figure, cut down by a sword, is Harold, which would weaken that reading.",
+      "strength": "argued",
+      "source": "D. Bernstein, 'The Blinding of Harold and the Meaning of the Bayeux Tapestry', Anglo-Norman Studies 5 (1982), summarised in History Today: https://www.historytoday.com/shot-through-eye-and-who%E2%80%99s-blame"
+    },
+    {
+      "scenes": [58, 58],
+      "party": "restorers",
+      "title": "A restored ending and spurious caption",
+      "text": "The original end of the tapestry has been lost for as long as records exist, and the last section is almost entirely restored. Lucien Musset called the final caption, ET FUGA VERTERUNT ANGLI, entirely spurious, added shortly before 1814 at a time of anti-English feeling. The scene of the English in flight is therefore partly a 19th-century French addition.",
+      "strength": "documented",
+      "source": "Wikipedia, Bayeux Tapestry tituli (citing Musset): https://en.wikipedia.org/wiki/Bayeux_Tapestry_tituli"
+    },
+    {
+      "scenes": null,
+      "party": "restorers",
+      "title": "Stothard's drawings and 19th-century repairs",
+      "text": "The Society of Antiquaries sent Charles Stothard to Bayeux in 1816 to make an accurate coloured facsimile. His drawings, with the earlier engravings, are the main record of the tapestry before the heavy restorations of the 19th century, including work around its 1842 display. Restorers filled gaps with new wool, much of which has since faded, so some details everywhere are modern.",
+      "strength": "documented",
+      "source": "Wikipedia, Bayeux Tapestry: https://en.wikipedia.org/wiki/Bayeux_Tapestry"
+    },
+    {
+      "scenes": null,
+      "party": "english-makers",
+      "title": "Made in Canterbury for a Norman patron",
+      "text": "The drawing style matches manuscripts from the Canterbury monasteries, and Odo held his English lands in Kent. Many scholars think monks of St Augustine's designed it and English needlewomen stitched it. Stephen D. White has argued that Turold, Wadard and Vital also link to St Augustine's, which would mean the abbey's own interests shaped the work.",
+      "strength": "argued",
+      "source": "S. D. White, 'Prosopography of the Bayeux Embroidery and the Community of St Augustine's, Canterbury': https://www.cambridge.org/core/books/bayeux-tapestry-and-its-contexts/prosopography-of-the-bayeux-embroidery-and-the-community-of-st-augustines-canterbury-white/2AAD338CCD15B462CB7444E4E1ADFDC8"
+    },
+    {
+      "scenes": null,
+      "party": "later-users",
+      "title": "Napoleon's invasion propaganda",
+      "text": "While planning to invade England, Napoleon had the tapestry shown at the Musée Napoléon in the Louvre from December 1803 to February 1804. It presented the Norman conquest as a French triumph and a model for crossing the Channel. This display helped fix the reading of the tapestry as a story of a successful invasion of England.",
+      "strength": "documented",
+      "source": "Bayeux Museum, 'From the cathedral to the Louvre': https://www.bayeuxmuseum.com/en/the-bayeux-tapestry/over-the-centuries/from-the-cathedral-to-the-louvre/"
+    },
+    {
+      "scenes": null,
+      "party": "later-users",
+      "title": "Nazi study as Germanic heritage",
+      "text": "In 1941 the SS research body Ahnenerbe sent a team under Herbert Jankuhn to study and record the tapestry, and in 1944 it was taken to the Louvre. The project aimed to present the Normans as Nordic ancestors of the Germans. The team also removed small fragments from the back, which were found in 2023 and returned to Bayeux.",
+      "strength": "documented",
+      "source": "Trinity College Dublin, 'Why the Nazis stole a fragment of the Bayeux tapestry': https://www.tcd.ie/news_events/articles/2025/why-the-nazis-stole-a-fragment-of-the-bayeux-tapestry/"
+    }
+  ]
+}
