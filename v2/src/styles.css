@@ -133,6 +133,10 @@ a { color: inherit; }
   display: flex; flex-direction: column; gap: 8px;
 }
 .layers-pop h2 { margin: 0 0 2px; font: 500 1rem var(--font-display); }
+.layers-pop { max-height: calc(100svh - 70px); overflow-y: auto; }
+.about { display: flex; flex-direction: column; gap: 6px; }
+.about p { margin: 0; font-size: .9rem; }
+.about a { color: var(--accent); }
 .layers-pop hr { border: 0; border-top: 1px solid var(--rule); margin: 4px 0; width: 100%; }
 .switch { display: flex; gap: 10px; align-items: flex-start; cursor: pointer; min-height: 40px; }
 .switch input { width: 20px; height: 20px; margin-top: 2px; accent-color: var(--accent); flex: none; }
@@ -414,3 +418,4 @@ a { color: inherit; }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation: none !important; transition: none !important; }
 }
+.layers-pop p:empty { display: none; }

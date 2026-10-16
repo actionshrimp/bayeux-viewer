@@ -31,7 +31,7 @@
         <button type="submit" aria-label="Go to scene">Go</button>
       </form>
       <button type="button" class="bar-btn" id="btn-map" aria-pressed="true" aria-controls="map-wrap" title="Show or hide the map">Map</button>
-      <button type="button" class="bar-btn" id="btn-layers" aria-expanded="false" aria-controls="layers">Layers</button>
+      <button type="button" class="bar-btn" id="btn-layers" aria-expanded="false" aria-controls="layers">Menu</button>
     </header>
 
     <div class="layers-pop" id="layers" hidden>
@@ -41,10 +41,16 @@
       <label class="switch"><input type="checkbox" id="layer-penis"><span><b>Penis watch</b> Garnett's count of 93</span></label>
       <label class="switch"><input type="checkbox" id="layer-context"><span><b>Beyond the tapestry</b> Hardrada and Stamford Bridge</span></label>
       <hr>
+      <h2>Options</h2>
       <label class="switch"><input type="checkbox" id="opt-awake"><span><b>Keep screen on</b> For reading in the gallery</span></label>
       <button type="button" class="btn" id="btn-offline" hidden>Save for offline use</button>
       <p class="muted small" id="offline-status" aria-live="polite"></p>
-      <p class="muted small credits">Tapestry photographs: public domain, via Wikimedia Commons. Map: Natural Earth. Figure outlines were placed by AI from the captions and may be a little off.</p>
+      <hr>
+      <section class="about" aria-labelledby="about-h">
+        <h2 id="about-h">About</h2>
+        <p>Built by <a href="https://github.com/actionshrimp" target="_blank" rel="noopener">@actionshrimp</a>. Source on <a href="https://github.com/actionshrimp/bayeux-viewer" target="_blank" rel="noopener">GitHub</a>.</p>
+        <p class="muted small">Tapestry photographs: public domain, via <a href="https://commons.wikimedia.org/wiki/Category:Bayeux_Tapestry" target="_blank" rel="noopener">Wikimedia Commons</a>. Map: <a href="https://www.naturalearthdata.com/" target="_blank" rel="noopener">Natural Earth</a>. Figure outlines and horse markers were placed with AI help and checked by hand, so a few may be a little off.</p>
+      </section>
     </div>
 
     <section class="map-wrap" id="map-wrap" aria-label="3D map of the journeys">
