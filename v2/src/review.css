@@ -1,0 +1,34 @@
+/* Review tool: a dark workbench, canvas left, decisions right. */
+:root { --bg: #16130f; --panel: #211d18; --ink: #efe6d3; --soft: #b5a891; --rule: #3e362c; --pink: #ff4f8b; --amber: #ffb03a; color-scheme: dark; }
+* { box-sizing: border-box; }
+html, body { height: 100%; margin: 0; }
+body { background: var(--bg); color: var(--ink); font: 15px/1.45 "Alegreya Sans", system-ui, sans-serif; }
+.rv { height: 100%; display: grid; grid-template-columns: minmax(0, 1fr) 300px; }
+.viewer { position: relative; min-width: 0; display: flex; flex-direction: column; }
+#view { display: block; cursor: crosshair; touch-action: none; }
+.hint { margin: 0; padding: 10px 14px; font-size: .8rem; color: var(--soft); }
+kbd { font: 600 .75rem ui-monospace, monospace; border: 1px solid var(--rule); border-bottom-width: 2px; border-radius: 4px; padding: 0 4px; color: var(--ink); }
+.side { background: var(--panel); border-left: 1px solid var(--rule); padding: 16px; display: flex; flex-direction: column; gap: 12px; overflow-y: auto; }
+.side h1 { margin: 0; font-size: 1.2rem; font-weight: 500; }
+.totals { font-size: .85rem; color: var(--soft); }
+.totals b { font-size: 1.6rem; color: var(--pink); }
+.filter { display: flex; gap: 8px; align-items: center; font-size: .85rem; color: var(--soft); }
+select, button { font: inherit; color: inherit; background: var(--bg); border: 1px solid var(--rule); border-radius: 8px; padding: 6px 10px; }
+button { cursor: pointer; text-align: left; }
+button:hover { border-color: var(--soft); }
+button:focus-visible, select:focus-visible { outline: 3px solid #8cc2ff; outline-offset: 1px; }
+.progress { margin: 0; font-variant-numeric: tabular-nums; color: var(--soft); }
+.item p { margin: 2px 0; }
+.item .id { font-size: .8rem; color: var(--soft); }
+.item .status { font-weight: 700; }
+.s-yes { color: var(--pink); }
+.s-unclear { color: var(--amber); }
+.s-no { color: var(--soft); }
+.item .note { font-style: italic; color: var(--soft); }
+.decide, .nav { display: flex; flex-direction: column; gap: 6px; }
+.nav { flex-direction: row; }
+.nav button { flex: 1; text-align: center; }
+.b-yes { border-color: var(--pink); }
+.b-unclear { border-color: var(--amber); }
+.save, .small { margin: 0; font-size: .78rem; color: var(--soft); }
+.done { color: var(--soft); }

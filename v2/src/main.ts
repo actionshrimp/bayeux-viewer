@@ -1,10 +1,11 @@
 import './styles.css';
-import type { BiasData, Character, Figure, PenisData, Scene, StripData } from './types';
+import type { BiasData, Character, Figure, Horse, PenisData, Scene, StripData } from './types';
 import scenesJson from './data/scenes.json';
 import charactersJson from './data/characters.json';
 import figuresJson from './data/figures.json';
 import biasJson from './data/bias.json';
 import penisJson from './data/penises.json';
+import horsesJson from './data/horses.json';
 import { JOURNEYS as STORY } from './data/journeys';
 import { Timeline, buildMarkers, dateFor, journeyForScene, sceneAt, N_SCENES } from './story';
 import { store, type Layers, type State } from './store';
@@ -32,7 +33,8 @@ async function boot() {
     journey: journeyForScene(sceneAt(startP)), selected: null, tab: 'scene',
   });
 
-  const stripView = new Strip($('strip'), strip, tl, figures, chars, biasJson as BiasData, penisJson as PenisData, hi.map((h) => h.file));
+  const stripView = new Strip($('strip'), strip, tl, figures, chars, biasJson as BiasData, penisJson as PenisData, hi.map((h) => h.file), horsesJson as Horse[]);
+  const penisXs = stripView.penisXs();
   const panel = new Panel($('panel'), chars, figures, biasJson as BiasData, penisJson as PenisData);
   panel.goToFigure = (f) => stripView.goToFigure(f);
   panel.goToScene = (n) => stripView.goToScene(n);
@@ -93,6 +95,15 @@ async function boot() {
       const el = document.getElementById(`layer-${k}`) as HTMLInputElement | null;
       if (el) el.checked = s.layers[k];
     });
+    const pc = $('pcount');
+    pc.hidden = !s.layers.penis;
+    if (s.layers.penis) {
+      const cx = stripView.centreX();
+      let seen = 0;
+      while (seen < penisXs.length && penisXs[seen] <= cx) seen++;
+      pc.textContent = `Penis watch ${seen} / ${(penisJson as PenisData).total}`;
+      pc.title = `${penisXs.length} located so far; George Garnett counted ${(penisJson as PenisData).total}.`;
+    }
     const k = ov.clientWidth / strip.total;
     const vw = stripEl.clientWidth / stripView.scale;
     ovWin.style.left = `${(stripView.centreX() - vw / 2) * k}px`;

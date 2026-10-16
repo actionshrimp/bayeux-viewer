@@ -148,6 +148,17 @@ export interface PenisEntry {
   r?: number;
 }
 
+/** One horse from the image pass; gx/gy marks the genitals when present or likely. */
+export interface Horse {
+  id: string;
+  x0: number; y0: number; x1: number; y1: number;
+  stallion: 'yes' | 'no' | 'unclear';
+  gx?: number; gy?: number;
+  facing?: string;
+  scene: number;
+  note?: string;
+}
+
 export interface PenisData {
   source: string;
   total: number;

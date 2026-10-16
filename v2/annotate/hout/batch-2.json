@@ -1,0 +1,21 @@
+[
+{"x0": 11010, "y0": 225, "x1": 11180, "y1": 372, "stallion": "yes", "gx": 11101, "gy": 306, "facing": "right", "scene": 17, "note": "dark horse, genitals before hind legs"},
+{"x0": 11150, "y0": 200, "x1": 11275, "y1": 368, "stallion": "yes", "gx": 11213, "gy": 303, "facing": "right", "scene": 18, "note": "tan horse behind, testicles visible"},
+{"x0": 11225, "y0": 225, "x1": 11320, "y1": 372, "stallion": "unclear", "gx": 11280, "gy": 300, "facing": "right", "scene": 18, "note": "striped horse, belly hidden by legs"},
+{"x0": 11280, "y0": 220, "x1": 11460, "y1": 375, "stallion": "yes", "gx": 11308, "gy": 304, "facing": "right", "scene": 18, "note": "red horse, testicles near hind legs"},
+{"x0": 11620, "y0": 175, "x1": 11780, "y1": 330, "stallion": "unclear", "gx": 11700, "gy": 320, "facing": "right", "scene": 18, "note": "rear brown horse, belly hidden"},
+{"x0": 11625, "y0": 260, "x1": 11795, "y1": 385, "stallion": "yes", "gx": 11698, "gy": 325, "facing": "right", "scene": 18, "note": "dark front horse"},
+{"x0": 11800, "y0": 180, "x1": 11880, "y1": 300, "stallion": "unclear", "gx": 11820, "gy": 300, "facing": "right", "scene": 18, "note": "only head visible behind riders"},
+{"x0": 11755, "y0": 230, "x1": 11935, "y1": 380, "stallion": "yes", "gx": 11831, "gy": 311, "facing": "right", "scene": 18, "note": "red horse, sheath under belly"},
+{"x0": 12045, "y0": 185, "x1": 12195, "y1": 320, "stallion": "yes", "gx": 12129, "gy": 267, "facing": "right", "scene": 19, "note": "tan horse, red penis clear"},
+{"x0": 12185, "y0": 215, "x1": 12385, "y1": 345, "stallion": "yes", "gx": 12261, "gy": 297, "facing": "right", "scene": 19, "note": "green horse, light testicles"},
+{"x0": 12370, "y0": 190, "x1": 12530, "y1": 300, "stallion": "unclear", "gx": 12430, "gy": 300, "facing": "right", "scene": 19, "note": "red horse behind, belly hidden"},
+{"x0": 12340, "y0": 250, "x1": 12560, "y1": 375, "stallion": "yes", "gx": 12415, "gy": 328, "facing": "right", "scene": 19, "note": "tan horse, green testicles"},
+{"x0": 12980, "y0": 215, "x1": 13145, "y1": 380, "stallion": "yes", "gx": 13124, "gy": 322, "facing": "left", "scene": 20, "note": "red horse, Conan's surrender"},
+{"x0": 13075, "y0": 235, "x1": 13285, "y1": 385, "stallion": "yes", "gx": 13225, "gy": 319, "facing": "left", "scene": 20, "note": "green horse behind red"},
+{"x0": 13490, "y0": 240, "x1": 13600, "y1": 380, "stallion": "unclear", "gx": 13560, "gy": 330, "facing": "right", "scene": 21, "note": "tan horse, mostly hidden"},
+{"x0": 13510, "y0": 230, "x1": 13700, "y1": 385, "stallion": "no", "facing": "right", "scene": 21, "note": "dark horse, belly smooth"},
+{"x0": 13670, "y0": 230, "x1": 13850, "y1": 385, "stallion": "yes", "gx": 13732, "gy": 329, "facing": "right", "scene": 22, "note": "William's red horse to Bayeux"},
+{"x0": 15175, "y0": 255, "x1": 15310, "y1": 400, "stallion": "yes", "gx": 15227, "gy": 348, "facing": "right", "scene": 24, "note": "Harold's dark horse, penis clear"},
+{"x0": 15280, "y0": 260, "x1": 15420, "y1": 400, "stallion": "no", "facing": "right", "scene": 24, "note": "tan horse, belly smooth"}
+]

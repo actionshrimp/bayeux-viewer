@@ -4,3 +4,5 @@ dist/
 __pycache__/
 # Regenerate with: python3 v2/annotate/make_crops.py
 v2/annotate/crops/
+# Regenerate with: python3 v2/annotate/make_hcrops.py
+v2/annotate/hcrops/

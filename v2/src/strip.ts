@@ -2,7 +2,7 @@
  * needle, clickable figures, and layer overlays. Everything is positioned in strip units
  * (480px tier) multiplied by the current scale.
  */
-import type { BiasData, Character, Figure, PenisData, StripData } from './types';
+import type { BiasData, Character, Figure, Horse, PenisData, StripData } from './types';
 import { Timeline, N_SCENES } from './story';
 import { DATES } from './data/dates';
 import { JOURNEYS as STORY } from './data/journeys';
@@ -40,6 +40,7 @@ export class Strip {
     private bias: BiasData,
     private pen: PenisData,
     hiFiles: string[],
+    private horses: Horse[] = [],
   ) {
     this.hiFiles = new Set(hiFiles);
     this.inner = el.querySelector('.strip-inner')!;
@@ -47,6 +48,7 @@ export class Strip {
     this.overlay = el.querySelector('.strip-overlay')!;
     this.buildTiles();
     this.buildOverlays();
+    this.buildHorseMarks();
     this.bindInput();
     new ResizeObserver(() => this.layout()).observe(el);
   }
@@ -184,7 +186,39 @@ export class Strip {
     }
   }
 
-  /* ------------------------------------------------------------- layout */
+  /** Every penis position along the strip (named entries plus stallions from the horse pass), for the counter. */
+  penisXs(): number[] {
+    const xs: number[] = [];
+    for (const e of this.pen.entries) {
+      const n = e.count ?? 1;
+      const x = e.x ?? this.tl.xFromP(e.scene);
+      for (let i = 0; i < n; i++) xs.push(x);
+    }
+    for (const h of this.extraStallions()) xs.push(h.gx!);
+    return xs.sort((a, b) => a - b);
+  }
+
+  /** Stallions from the horse pass that aren't already a named entry. */
+  private extraStallions(status: Horse['stallion'] = 'yes') {
+    const named = this.pen.entries.filter((e) => e.kind === 'horse' && e.x != null);
+    return this.horses.filter((h) => h.stallion === status && h.gx != null &&
+      !named.some((e) => Math.abs(e.x! - h.gx!) < 30 && Math.abs(e.y! - h.gy!) < 30));
+  }
+
+  private buildHorseMarks() {
+    for (const status of ['yes', 'unclear'] as const) {
+      for (const h of this.extraStallions(status)) {
+        const el = document.createElement('div');
+        el.className = `layer-penis pmark horse${status === 'unclear' ? ' unsure' : ''}`;
+        el.title = `Scene ${h.scene}: ${status === 'yes' ? 'stallion' : 'possibly a stallion'}${h.note ? ` (${h.note})` : ''}`;
+        this.place(el, (s) => {
+          const d = Math.max(16, 18 * s);
+          Object.assign(el.style, { left: `${h.gx! * s}px`, top: `${h.gy! * s}px`, width: `${d}px`, height: `${d}px`, margin: `${-d / 2}px 0 0 ${-d / 2}px` });
+        });
+      }
+    }
+  }
+
   layout() {
     const keepP = store.get()?.p ?? 1;
     const H0 = this.el.clientHeight, W = this.el.clientWidth;

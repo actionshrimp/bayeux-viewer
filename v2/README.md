@@ -70,6 +70,25 @@ annotate/             how the figure boxes were made (see below)
 
 Boxes are in 480px strip units: `{id, x0, y0, x1, y1, scene, evidence, note}`. They're rough: some figures are missed, and crowded battle scenes are sparse. To fix or add one, edit the JSON (crops show the grid coordinates) and rebuild. A drag-to-edit mode is the obvious next step.
 
+## Horse pass and review tool
+
+The penis layer combines the named entries in `src/data/penises.json` with a full pass over every horse in `src/data/horses.json`. There are 158 horses, each with a box, a `stallion` value of `yes`, `no` or `unclear`, and a marker point `gx`/`gy`.
+
+**How it was made:** `annotate/make_hcrops.py` cuts gridded crops from the 1200px tier. Agents recorded each horse into `annotate/hout/batch-*.json`. Then `python3 annotate/merge_horses.py` removes duplicates and prints the totals against Garnett's 88. Re-merging keeps anything you've reviewed.
+
+**Checking it by hand:**
+
+```sh
+npm run dev
+# open http://localhost:5180/review.html
+```
+
+The review tool shows one horse at a time:
+- **Keys:** Y stallion, N not, U unsure, H can't tell (no marker), ← → previous/next, [ ] zoom out/in.
+- **Marker:** click or drag on the image to move it.
+- **Filters:** unclear, unreviewed, stallion, not, can't tell.
+- **Saving:** every change saves straight to `src/data/horses.json` through a dev-only endpoint, so it only works under `npm run dev`. When you're done, `npm run deploy`.
+
 ## Debugging
 
 `window.bayeux` exposes `{ map, strip, store, panel }`.
