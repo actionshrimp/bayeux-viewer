@@ -16,14 +16,13 @@
   "y0": 225,
   "x1": 790,
   "y1": 375,
-  "stallion": "unclear",
-  "gx": 660,
-  "gy": 320,
+  "stallion": "no",
   "facing": "right",
   "scene": 2,
   "note": "dark blue horse, mostly hidden",
   "batch": "batch-0.json",
-  "id": "h001"
+  "id": "h001",
+  "reviewed": true
  },
  {
   "x0": 785,
@@ -42,14 +41,13 @@
   "y0": 228,
   "x1": 960,
   "y1": 370,
-  "stallion": "unclear",
-  "gx": 880,
-  "gy": 320,
+  "stallion": "no",
   "facing": "right",
   "scene": 2,
   "note": "reddish horse behind tan, body hidden",
   "batch": "batch-0.json",
-  "id": "h003"
+  "id": "h003",
+  "reviewed": true
  },
  {
   "x0": 960,
@@ -84,56 +82,52 @@
   "y0": 210,
   "x1": 4120,
   "y1": 375,
-  "stallion": "unclear",
-  "gx": 4010,
-  "gy": 318,
+  "stallion": "no",
   "facing": "left",
   "scene": 8,
   "note": "grey lead horse, rider with shield",
   "batch": "batch-0.json",
-  "id": "h006"
+  "id": "h006",
+  "reviewed": true
  },
  {
   "x0": 4040,
   "y0": 245,
   "x1": 4170,
   "y1": 372,
-  "stallion": "unclear",
-  "gx": 4100,
-  "gy": 315,
+  "stallion": "no",
   "facing": "left",
   "scene": 8,
   "note": "tan horse, black tail, group",
   "batch": "batch-0.json",
-  "id": "h007"
+  "id": "h007",
+  "reviewed": true
  },
  {
   "x0": 4340,
   "y0": 255,
   "x1": 4440,
   "y1": 372,
-  "stallion": "unclear",
-  "gx": 4400,
-  "gy": 318,
+  "stallion": "no",
   "facing": "right",
   "scene": 8,
   "note": "tan horse at rear of riders",
   "batch": "batch-0.json",
-  "id": "h008"
+  "id": "h008",
+  "reviewed": true
  },
  {
   "x0": 4430,
   "y0": 255,
   "x1": 4520,
   "y1": 372,
-  "stallion": "unclear",
-  "gx": 4500,
-  "gy": 318,
+  "stallion": "no",
   "facing": "right",
   "scene": 8,
   "note": "tan horse behind grey, mostly hidden",
   "batch": "batch-0.json",
-  "id": "h009"
+  "id": "h009",
+  "reviewed": true
  },
  {
   "x0": 4475,
@@ -154,14 +148,15 @@
   "y0": 205,
   "x1": 4848,
   "y1": 368,
-  "stallion": "unclear",
+  "stallion": "yes",
   "gx": 4740,
   "gy": 301,
   "facing": "right",
   "scene": 8,
   "note": "red horse, second hawk rider",
   "batch": "batch-0.json",
-  "id": "h011"
+  "id": "h011",
+  "reviewed": true
  },
  {
   "x0": 5558,
@@ -206,14 +201,13 @@
   "y0": 205,
   "x1": 6635,
   "y1": 362,
-  "stallion": "unclear",
-  "gx": 6532,
-  "gy": 303,
+  "stallion": "no",
   "facing": "left",
   "scene": 11,
   "note": "blue galloping horse, possible sheath oval",
   "batch": "batch-1.json",
-  "id": "h015"
+  "id": "h015",
+  "reviewed": true
  },
  {
   "x0": 7255,
@@ -246,14 +240,13 @@
   "y0": 220,
   "x1": 7585,
   "y1": 378,
-  "stallion": "unclear",
-  "gx": 7470,
-  "gy": 310,
+  "stallion": "no",
   "facing": "right",
   "scene": 13,
   "note": "grey horse behind red, hidden",
   "batch": "batch-1.json",
-  "id": "h018"
+  "id": "h018",
+  "reviewed": true
  },
  {
   "x0": 7532,
@@ -300,14 +293,15 @@
   "y0": 255,
   "x1": 8340,
   "y1": 375,
-  "stallion": "unclear",
-  "gx": 8260,
-  "gy": 325,
+  "stallion": "yes",
+  "gx": 8195,
+  "gy": 318,
   "facing": "left",
   "scene": 13,
   "note": "dark blue horse, overlapped by red",
   "batch": "batch-1.json",
-  "id": "h022"
+  "id": "h022",
+  "reviewed": true
  },
  {
   "x0": 8485,
@@ -368,14 +362,13 @@
   "y0": 215,
   "x1": 9985,
   "y1": 380,
-  "stallion": "unclear",
-  "gx": 9860,
-  "gy": 302,
+  "stallion": "no",
   "facing": "right",
   "scene": 16,
   "note": "red horse, rear hidden",
   "batch": "batch-1.json",
-  "id": "h027"
+  "id": "h027",
+  "reviewed": true
  },
  {
   "x0": 9988,
@@ -396,14 +389,13 @@
   "y0": 225,
   "x1": 10245,
   "y1": 385,
-  "stallion": "unclear",
-  "gx": 10170,
-  "gy": 320,
+  "stallion": "no",
   "facing": "right",
   "scene": 16,
   "note": "red horse, belly obscured by legs",
   "batch": "batch-1.json",
-  "id": "h029"
+  "id": "h029",
+  "reviewed": true
  },
  {
   "x0": 10200,
@@ -450,14 +442,13 @@
   "y0": 255,
   "x1": 10840,
   "y1": 360,
-  "stallion": "unclear",
-  "gx": 10760,
-  "gy": 300,
+  "stallion": "no",
   "facing": "right",
   "scene": 17,
   "note": "tumbling horse in river, upside down",
   "batch": "batch-1.json",
-  "id": "h033"
+  "id": "h033",
+  "reviewed": true
  },
  {
   "x0": 11010,
@@ -492,14 +483,13 @@
   "y0": 225,
   "x1": 11320,
   "y1": 372,
-  "stallion": "unclear",
-  "gx": 11280,
-  "gy": 300,
+  "stallion": "no",
   "facing": "right",
   "scene": 18,
   "note": "striped horse, belly hidden by legs",
   "batch": "batch-2.json",
-  "id": "h036"
+  "id": "h036",
+  "reviewed": true
  },
  {
   "x0": 11280,
@@ -590,14 +580,13 @@
   "y0": 190,
   "x1": 12530,
   "y1": 300,
-  "stallion": "unclear",
-  "gx": 12430,
-  "gy": 300,
+  "stallion": "no",
   "facing": "right",
   "scene": 19,
   "note": "red horse behind, belly hidden",
   "batch": "batch-2.json",
-  "id": "h043"
+  "id": "h043",
+  "reviewed": true
  },
  {
   "x0": 12980,
@@ -632,14 +621,13 @@
   "y0": 240,
   "x1": 13600,
   "y1": 380,
-  "stallion": "unclear",
-  "gx": 13560,
-  "gy": 330,
+  "stallion": "no",
   "facing": "right",
   "scene": 21,
   "note": "tan horse, mostly hidden",
   "batch": "batch-2.json",
-  "id": "h046"
+  "id": "h046",
+  "reviewed": true
  },
  {
   "x0": 13670,
@@ -700,14 +688,13 @@
   "y0": 215,
   "x1": 22045,
   "y1": 375,
-  "stallion": "unclear",
-  "gx": 21990,
-  "gy": 308,
+  "stallion": "no",
   "facing": "right",
   "scene": 37,
   "note": "William's horse, belly hidden by rider",
   "batch": "batch-4.json",
-  "id": "h051"
+  "id": "h051",
+  "reviewed": true
  },
  {
   "x0": 22015,
@@ -1118,14 +1105,15 @@
   "y0": 255,
   "x1": 25125,
   "y1": 372,
-  "stallion": "unclear",
-  "gx": 25063,
-  "gy": 302,
+  "stallion": "yes",
+  "gx": 25064,
+  "gy": 311,
   "facing": "right",
   "scene": 40,
   "note": "grey horse, tiny bump at belly",
   "batch": "batch-4.json",
-  "id": "h085"
+  "id": "h085",
+  "reviewed": true
  },
  {
   "x0": 25150,
@@ -1210,42 +1198,39 @@
   "y0": 220,
   "x1": 29490,
   "y1": 372,
-  "stallion": "unclear",
-  "gx": 29428,
-  "gy": 305,
+  "stallion": "no",
   "facing": "right",
   "scene": 48,
   "note": "blue horse, heavily overlapped",
   "batch": "batch-5.json",
-  "id": "h092"
+  "id": "h092",
+  "reviewed": true
  },
  {
   "x0": 29478,
   "y0": 205,
   "x1": 29595,
   "y1": 372,
-  "stallion": "unclear",
-  "gx": 29500,
-  "gy": 288,
+  "stallion": "no",
   "facing": "right",
   "scene": 48,
   "note": "tan horse, belly against red horse",
   "batch": "batch-5.json",
-  "id": "h093"
+  "id": "h093",
+  "reviewed": true
  },
  {
   "x0": 29590,
   "y0": 210,
   "x1": 29692,
   "y1": 372,
-  "stallion": "unclear",
-  "gx": 29640,
-  "gy": 310,
+  "stallion": "no",
   "facing": "right",
   "scene": 48,
   "note": "olive horse, rider's foot covers belly",
   "batch": "batch-5.json",
-  "id": "h094"
+  "id": "h094",
+  "reviewed": true
  },
  {
   "x0": 29685,
@@ -1434,14 +1419,13 @@
   "y0": 200,
   "x1": 32745,
   "y1": 358,
-  "stallion": "unclear",
-  "gx": 32590,
-  "gy": 297,
+  "stallion": "no",
   "facing": "right",
   "scene": 51,
   "note": "tan horse, red blob ambiguous",
   "batch": "batch-5.json",
-  "id": "h108"
+  "id": "h108",
+  "reviewed": true
  },
  {
   "x0": 32700,
@@ -1504,14 +1488,13 @@
   "y0": 220,
   "x1": 33510,
   "y1": 365,
-  "stallion": "unclear",
-  "gx": 33365,
-  "gy": 309,
+  "stallion": "no",
   "facing": "right",
   "scene": 51,
   "note": "dark horse, area overlapped by legs",
   "batch": "batch-6.json",
-  "id": "h113"
+  "id": "h113",
+  "reviewed": true
  },
  {
   "x0": 33660,
@@ -1532,14 +1515,13 @@
   "y0": 185,
   "x1": 33925,
   "y1": 365,
-  "stallion": "unclear",
-  "gx": 33815,
-  "gy": 300,
+  "stallion": "no",
   "facing": "right",
   "scene": 51,
   "note": "red rearing horse, belly hidden",
   "batch": "batch-6.json",
-  "id": "h115"
+  "id": "h115",
+  "reviewed": true
  },
  {
   "x0": 33840,
@@ -1574,14 +1556,13 @@
   "y0": 255,
   "x1": 34370,
   "y1": 370,
-  "stallion": "unclear",
-  "gx": 34228,
-  "gy": 319,
+  "stallion": "no",
   "facing": "right",
   "scene": 51,
   "note": "dark horse, small outline, overlapped",
   "batch": "batch-6.json",
-  "id": "h118"
+  "id": "h118",
+  "reviewed": true
  },
  {
   "x0": 34855,
@@ -1602,42 +1583,39 @@
   "y0": 245,
   "x1": 35130,
   "y1": 360,
-  "stallion": "unclear",
-  "gx": 35100,
-  "gy": 300,
+  "stallion": "no",
   "facing": "left",
   "scene": 52,
   "note": "blue horse, mostly hidden",
   "batch": "batch-6.json",
-  "id": "h120"
+  "id": "h120",
+  "reviewed": true
  },
  {
   "x0": 35090,
   "y0": 235,
   "x1": 35200,
   "y1": 365,
-  "stallion": "unclear",
-  "gx": 35175,
-  "gy": 315,
+  "stallion": "no",
   "facing": "left",
   "scene": 52,
   "note": "tan horse, rear hidden",
   "batch": "batch-6.json",
-  "id": "h121"
+  "id": "h121",
+  "reviewed": true
  },
  {
   "x0": 35150,
   "y0": 255,
   "x1": 35250,
   "y1": 365,
-  "stallion": "unclear",
-  "gx": 35215,
-  "gy": 315,
+  "stallion": "no",
   "facing": "left",
   "scene": 52,
   "note": "dark green horse, belly obscured",
   "batch": "batch-6.json",
-  "id": "h122"
+  "id": "h122",
+  "reviewed": true
  },
  {
   "x0": 35300,
@@ -1658,14 +1636,15 @@
   "y0": 215,
   "x1": 35630,
   "y1": 375,
-  "stallion": "unclear",
+  "stallion": "yes",
   "gx": 35496,
   "gy": 309,
   "facing": "right",
   "scene": 52,
   "note": "red horse, tiny white mark only",
   "batch": "batch-6.json",
-  "id": "h124"
+  "id": "h124",
+  "reviewed": true
  },
  {
   "x0": 35600,
@@ -1756,14 +1735,13 @@
   "y0": 185,
   "x1": 37160,
   "y1": 372,
-  "stallion": "unclear",
-  "gx": 37036,
-  "gy": 258,
+  "stallion": "no",
   "facing": "upside-down",
   "scene": 53,
   "note": "tan horse somersault, belly obscured",
   "batch": "batch-6.json",
-  "id": "h131"
+  "id": "h131",
+  "reviewed": true
  },
  {
   "x0": 37020,
@@ -1784,14 +1762,13 @@
   "y0": 280,
   "x1": 37275,
   "y1": 375,
-  "stallion": "unclear",
-  "gx": 37190,
-  "gy": 340,
+  "stallion": "no",
   "facing": "right",
   "scene": 53,
   "note": "red horse sinking, rider covers belly",
   "batch": "batch-6.json",
-  "id": "h133"
+  "id": "h133",
+  "reviewed": true
  },
  {
   "x0": 37490,
@@ -1824,42 +1801,39 @@
   "y0": 255,
   "x1": 37850,
   "y1": 375,
-  "stallion": "unclear",
-  "gx": 37770,
-  "gy": 316,
+  "stallion": "no",
   "facing": "right",
   "scene": 54,
   "note": "tan horse, red strands likely tail",
   "batch": "batch-6.json",
-  "id": "h136"
+  "id": "h136",
+  "reviewed": true
  },
  {
   "x0": 37845,
   "y0": 240,
   "x1": 37990,
   "y1": 375,
-  "stallion": "unclear",
-  "gx": 37875,
-  "gy": 325,
+  "stallion": "no",
   "facing": "right",
   "scene": 54,
   "note": "red horse, rider leg covers",
   "batch": "batch-6.json",
-  "id": "h137"
+  "id": "h137",
+  "reviewed": true
  },
  {
   "x0": 37980,
   "y0": 215,
   "x1": 38050,
   "y1": 345,
-  "stallion": "unclear",
-  "gx": 38010,
-  "gy": 300,
+  "stallion": "no",
   "facing": "right",
   "scene": 54,
   "note": "dark horse, mostly hidden",
   "batch": "batch-6.json",
-  "id": "h138"
+  "id": "h138",
+  "reviewed": true
  },
  {
   "x0": 38010,
@@ -1894,14 +1868,13 @@
   "y0": 240,
   "x1": 38385,
   "y1": 362,
-  "stallion": "unclear",
-  "gx": 38307,
-  "gy": 325,
+  "stallion": "no",
   "facing": "right",
   "scene": 55,
   "note": "J-shaped line, maybe hind leg",
   "batch": "batch-7.json",
-  "id": "h141"
+  "id": "h141",
+  "reviewed": true
  },
  {
   "x0": 38358,
@@ -1922,14 +1895,13 @@
   "y0": 215,
   "x1": 38602,
   "y1": 360,
-  "stallion": "unclear",
-  "gx": 38540,
-  "gy": 312,
+  "stallion": "no",
   "facing": "right",
   "scene": 55,
   "note": "belly hidden by rider's leg",
   "batch": "batch-7.json",
-  "id": "h143"
+  "id": "h143",
+  "reviewed": true
  },
  {
   "x0": 38605,
@@ -1964,28 +1936,26 @@
   "y0": 232,
   "x1": 38968,
   "y1": 342,
-  "stallion": "unclear",
-  "gx": 38895,
-  "gy": 305,
+  "stallion": "no",
   "facing": "right",
   "scene": 56,
   "note": "mostly hidden behind red horse",
   "batch": "batch-7.json",
-  "id": "h146"
+  "id": "h146",
+  "reviewed": true
  },
  {
   "x0": 38915,
   "y0": 225,
   "x1": 39030,
   "y1": 362,
-  "stallion": "unclear",
-  "gx": 38965,
-  "gy": 305,
+  "stallion": "no",
   "facing": "right",
   "scene": 56,
   "note": "rider legs obscure belly",
   "batch": "batch-7.json",
-  "id": "h147"
+  "id": "h147",
+  "reviewed": true
  },
  {
   "x0": 39325,
