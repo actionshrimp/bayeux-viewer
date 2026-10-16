@@ -142,6 +142,10 @@ export interface PenisEntry {
   pos: number | null;
   note: string;
   confidence: 'documented' | 'likely';
+  /** Exact centre and radius in 480px strip units, when located on the image. */
+  x?: number;
+  y?: number;
+  r?: number;
 }
 
 export interface PenisData {

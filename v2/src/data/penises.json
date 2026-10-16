@@ -12,7 +12,10 @@
       "where": "main frieze",
       "pos": null,
       "note": "Garnett says Harold is 'first shown mounted on an exceptionally well-endowed steed', which is Harold's ride to Bosham.",
-      "confidence": "likely"
+      "confidence": "likely",
+      "x": 1030,
+      "y": 311,
+      "r": 10
     },
     {
       "scene": 13,
@@ -21,7 +24,10 @@
       "where": "lower border",
       "pos": null,
       "note": "Below the scene where Guy brings Harold to William, a naked man with an erection reaches for a naked woman who covers herself; Stephen White links it to a fable about a father who raped his daughter.",
-      "confidence": "documented"
+      "confidence": "documented",
+      "x": 7566,
+      "y": 412,
+      "r": 8
     },
     {
       "scene": 15,
@@ -30,7 +36,10 @@
       "where": "lower border",
       "pos": 0.25,
       "note": "Under Ælfgyva and the cleric, a naked man squats in a 'grand plié' and copies the cleric's pose, his genitals in full view.",
-      "confidence": "documented"
+      "confidence": "documented",
+      "x": 9461,
+      "y": 405,
+      "r": 9
     },
     {
       "scene": 15,
@@ -39,7 +48,10 @@
       "where": "lower border",
       "pos": 0.12,
       "note": "Just to the left of the squatting man, a second naked man works with an axe or adze, possibly the fable of the axe-maker who tricks the trees.",
-      "confidence": "likely"
+      "confidence": "likely",
+      "x": 9287,
+      "y": 398,
+      "r": 8
     },
     {
       "scene": 48,
@@ -48,7 +60,10 @@
       "where": "main frieze",
       "pos": 0.1,
       "note": "A groom brings Duke William his charger before Hastings; Garnett calls its penis 'the largest equine penis by far' and a sign of William's greater virility.",
-      "confidence": "documented"
+      "confidence": "documented",
+      "x": 28968,
+      "y": 320,
+      "r": 18
     },
     {
       "scene": 48,
@@ -57,7 +72,10 @@
       "where": "upper border",
       "pos": null,
       "note": "Above the Normans riding to battle, a naked man whose penis is hidden by the axe he holds (his testicles still visible) offers something to a naked woman, perhaps the fable of the widow and the cemetery guard.",
-      "confidence": "likely"
+      "confidence": "likely",
+      "x": 29284,
+      "y": 164,
+      "r": 9
     },
     {
       "scene": 48,
@@ -66,7 +84,10 @@
       "where": "upper border",
       "pos": null,
       "note": "A few inches to the right of the axe man is another naked couple, perhaps the fable of the prostitute and her doubting client.",
-      "confidence": "likely"
+      "confidence": "likely",
+      "x": 29612,
+      "y": 155,
+      "r": 9
     },
     {
       "scene": 54,
@@ -75,7 +96,10 @@
       "where": "main frieze",
       "pos": null,
       "note": "Bishop Odo rallies the troops on a very large horse whose genitals Garnett calls 'modest indeed' next to William's horse.",
-      "confidence": "documented"
+      "confidence": "documented",
+      "x": 37708,
+      "y": 318,
+      "r": 8
     },
     {
       "scene": 57,
@@ -84,7 +108,10 @@
       "where": "lower border",
       "pos": null,
       "note": "Possible extra, not in Garnett's 93: a dead soldier stripped of his mail in the battle's lower border shows one curved line at the crotch that may be a penis.",
-      "confidence": "likely"
+      "confidence": "likely",
+      "x": 39938,
+      "y": 405,
+      "r": 8
     }
   ]
 }

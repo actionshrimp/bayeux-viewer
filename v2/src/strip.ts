@@ -163,10 +163,16 @@ export class Strip {
     // Penis markers.
     for (const e of this.pen.entries) {
       const el = document.createElement('div');
-      const band = e.pos == null && (e.count ?? 1) > 1;
+      const exact = e.x != null && e.y != null;
+      const band = !exact && e.pos == null && (e.count ?? 1) > 1;
       el.className = `layer-penis ${band ? 'pband' : 'pmark'}${e.confidence === 'likely' ? ' likely' : ''}`;
       el.title = `Scene ${e.scene}: ${e.note}`;
       this.place(el, (s, H) => {
+        if (exact) {
+          const d = Math.max(18, 2 * (e.r ?? 10) * s);
+          Object.assign(el.style, { left: `${e.x! * s}px`, top: `${e.y! * s}px`, width: `${d}px`, height: `${d}px`, margin: `${-d / 2}px 0 0 ${-d / 2}px` });
+          return;
+        }
         const [a, b] = tl.sceneRange(e.scene);
         const y = PENIS_Y[e.where] ?? 0.83;
         if (band) {
