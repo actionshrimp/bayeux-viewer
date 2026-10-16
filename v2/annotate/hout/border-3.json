@@ -1,0 +1,7 @@
+[
+{"x0": 31901, "y0": 129, "x1": 31972, "y1": 174, "stallion": "no", "facing": "right", "scene": 0, "where": "upper border", "note": "grazing horse, winged/saddle-like thing on back"},
+{"x0": 32047, "y0": 128, "x1": 32118, "y1": 169, "stallion": "no", "facing": "left", "scene": 0, "where": "upper border", "note": "grazing horse, winged/saddle-like thing on back"},
+{"x0": 33027, "y0": 131, "x1": 33085, "y1": 178, "stallion": "no", "facing": "right", "scene": 0, "where": "upper border", "note": "tan horse facing dark horse"},
+{"x0": 33100, "y0": 130, "x1": 33157, "y1": 178, "stallion": "no", "facing": "left", "scene": 0, "where": "upper border", "note": "dark horse facing tan horse"},
+{"x0": 33487, "y0": 133, "x1": 33538, "y1": 180, "stallion": "no", "facing": "left", "scene": 0, "where": "upper border", "note": "dark horse with pale mane"}
+]

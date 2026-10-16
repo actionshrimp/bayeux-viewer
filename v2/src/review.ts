@@ -49,6 +49,7 @@ function buildList() {
       : f === 'unreviewed' ? !h.reviewed
       : f === 'unclear' ? h.stallion === 'unclear' && h.gx != null
       : f === 'hidden' ? h.stallion === 'unclear' && h.gx == null
+      : f === 'no-unchecked' ? h.stallion === 'no' && !h.reviewed
       : h.stallion === f);
 }
 

@@ -155,6 +155,7 @@ export interface Horse {
   stallion: 'yes' | 'no' | 'unclear';
   gx?: number; gy?: number;
   facing?: string;
+  where?: string;
   scene: number;
   note?: string;
 }

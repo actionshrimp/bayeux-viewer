@@ -18,11 +18,24 @@ def iou(a, b):
 
 RANK = {"yes": 2, "unclear": 1, "no": 0}
 horses = []
-for f in sorted(glob.glob(os.path.join(HERE, "hout", "batch-*.json"))):
+# Scene for a strip x: scene n is centred on marker n (see story.ts).
+_m = {int(k): v for k, v in json.load(open(os.path.join(HERE, "crops", "index.json")))["markers"].items()}
+def scene_at(x):
+    return min(range(1, 59), key=lambda n: abs(_m[n] - x))
+
+# Main-frieze batches first, then the border pass.
+files = sorted(glob.glob(os.path.join(HERE, "hout", "batch-*.json"))) + sorted(glob.glob(os.path.join(HERE, "hout", "border-*.json")))
+for f in files:
     for h in json.load(open(f)):
         h["x0"], h["x1"] = sorted((h["x0"], h["x1"]))
         h["y0"], h["y1"] = sorted((h["y0"], h["y1"]))
         h["batch"] = os.path.basename(f)
+        if not h.get("scene"):
+            h["scene"] = scene_at((h["x0"] + h["x1"]) / 2)
+        # Heads over ship hulls / bodies hidden behind other horses: can't be judged, so no marker.
+        note = (h.get("note") or "").lower()
+        if h["stallion"] == "unclear" and ((h["y1"] - h["y0"]) < 70 or "head" in note or "ship" in note) and h.get("where") is None:
+            h.pop("gx", None); h.pop("gy", None)
         dup = next((o for o in horses if iou(o, h) > 0.3 or (
             "gx" in o and "gx" in h and abs(o["gx"] - h["gx"]) < 12 and abs(o["gy"] - h["gy"]) < 12)), None)
         if dup:
