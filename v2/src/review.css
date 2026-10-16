@@ -33,4 +33,5 @@ button:focus-visible, select:focus-visible { outline: 3px solid #8cc2ff; outline
 .b-yes { border-color: var(--pink); }
 .b-unclear { border-color: var(--amber); }
 .save, .small { margin: 0; font-size: .78rem; color: var(--soft); }
+.save.error { color: #ff8a7a; font-weight: 700; font-size: .85rem; }
 .done { color: var(--soft); }

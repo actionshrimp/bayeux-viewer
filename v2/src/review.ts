@@ -23,10 +23,14 @@ const imgs = new Map<string, HTMLImageElement>();
 let cuts: number[] = [];
 let tl: Timeline;
 let lastAdded: ReviewHorse | null = null;
+let dataVersion = '';
+let stale = false;
 
 async function boot() {
   strip = await fetch('img/tapestry/strip.json').then((r) => r.json());
-  horses = await fetch('/__data/horses').then((r) => r.json());
+  const res = await fetch('/__data/horses');
+  dataVersion = res.headers.get('X-Data-Version') ?? '';
+  horses = await res.json();
   tl = new Timeline(buildMarkers(strip));
   const ims = strip.images;
   cuts = ims.map((im, i) => (ims[i + 1] ? (ims[i + 1].x + im.x + im.width) / 2 : im.x + im.width));
@@ -256,8 +260,16 @@ function save() {
   clearTimeout(saveTimer);
   $('save').textContent = 'Saving…';
   saveTimer = window.setTimeout(async () => {
-    const res = await fetch('/__data/horses', { method: 'POST', body: JSON.stringify(horses) });
-    $('save').textContent = res.ok ? `Saved ${new Date().toLocaleTimeString()}` : `Save failed: ${await res.text()}`;
+    if (stale) return;
+    const res = await fetch('/__data/horses', { method: 'POST', body: JSON.stringify(horses), headers: { 'X-Data-Version': dataVersion } });
+    if (res.ok) {
+      dataVersion = res.headers.get('X-Data-Version') ?? dataVersion;
+      $('save').textContent = `Saved ${new Date().toLocaleTimeString()}`;
+    } else {
+      stale = res.status === 409;
+      $('save').textContent = `Not saved: ${await res.text()}`;
+      $('save').classList.add('error');
+    }
   }, 300);
 }
 

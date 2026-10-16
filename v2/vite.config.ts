@@ -1,5 +1,5 @@
 import { defineConfig, type Plugin } from 'vite';
-import { readFileSync, writeFileSync } from 'node:fs';
+import { readFileSync, statSync, writeFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 
 /** Dev-only endpoints for the review tool: GET/POST /__data/<name> reads/writes src/data/<name>.json. */
@@ -20,8 +20,12 @@ function dataEndpoint(): Plugin {
         const name = (req.url ?? '').replace(/^\//, '').split('?')[0];
         if (!allowed.has(name)) { res.statusCode = 404; res.end('unknown data file'); return; }
         const file = resolve(__dirname, 'src/data', `${name}.json`);
+        // The file's mtime is its version: a save must name the version it was based on,
+        // so a stale tab can't overwrite changes made on disk since it loaded.
+        const version = () => String(Math.floor(statSync(file).mtimeMs));
         if (req.method === 'GET') {
           res.setHeader('Content-Type', 'application/json');
+          res.setHeader('X-Data-Version', version());
           res.end(readFileSync(file));
           return;
         }
@@ -29,10 +33,16 @@ function dataEndpoint(): Plugin {
           let body = '';
           req.on('data', (c) => { body += c; });
           req.on('end', () => {
+            if (req.headers['x-data-version'] !== version()) {
+              res.statusCode = 409;
+              res.end('The data file changed on disk since this page loaded. Reload the page to get the latest version.');
+              return;
+            }
             try {
               const data = JSON.parse(body);
               justWritten.set(file, Date.now());
               writeFileSync(file, JSON.stringify(data, null, 1) + '\n');
+              res.setHeader('X-Data-Version', version());
               res.end('saved');
             } catch (e) {
               res.statusCode = 400;

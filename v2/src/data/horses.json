@@ -9,7 +9,8 @@
   "scene": 2,
   "note": "Harold's party, brown horse, first rider",
   "batch": "batch-0.json",
-  "id": "h000"
+  "id": "h000",
+  "reviewed": true
  },
  {
   "x0": 690,
@@ -34,7 +35,8 @@
   "scene": 2,
   "note": "tan horse, three riders group",
   "batch": "batch-0.json",
-  "id": "h002"
+  "id": "h002",
+  "reviewed": true
  },
  {
   "x0": 900,
@@ -61,7 +63,8 @@
   "scene": 2,
   "note": "dark horse of falcon rider, hounds ahead",
   "batch": "batch-0.json",
-  "id": "h004"
+  "id": "h004",
+  "reviewed": true
  },
  {
   "x0": 2955,
@@ -88,7 +91,8 @@
   "scene": 7,
   "note": "Guy's brown horse at Harold's arrest",
   "batch": "batch-0.json",
-  "id": "h006"
+  "id": "h005",
+  "reviewed": true
  },
  {
   "x0": 3895,
@@ -100,7 +104,7 @@
   "scene": 8,
   "note": "grey lead horse, rider with shield",
   "batch": "batch-0.json",
-  "id": "h007",
+  "id": "h006",
   "reviewed": true
  },
  {
@@ -113,7 +117,7 @@
   "scene": 8,
   "note": "tan horse, black tail, group",
   "batch": "batch-0.json",
-  "id": "h008",
+  "id": "h007",
   "reviewed": true
  },
  {
@@ -126,7 +130,7 @@
   "scene": 8,
   "note": "tan horse at rear of riders",
   "batch": "batch-0.json",
-  "id": "h009",
+  "id": "h008",
   "reviewed": true
  },
  {
@@ -139,7 +143,7 @@
   "scene": 8,
   "note": "tan horse behind grey, mostly hidden",
   "batch": "batch-0.json",
-  "id": "h010",
+  "id": "h009",
   "reviewed": true
  },
  {
@@ -154,7 +158,8 @@
   "scene": 8,
   "note": "grey horse, red rider holding hawk",
   "batch": "batch-0.json",
-  "id": "h011"
+  "id": "h010",
+  "reviewed": true
  },
  {
   "x0": 4658,
@@ -168,7 +173,7 @@
   "scene": 8,
   "note": "red horse, second hawk rider",
   "batch": "batch-0.json",
-  "id": "h012",
+  "id": "h011",
   "reviewed": true
  },
  {
@@ -181,7 +186,8 @@
   "scene": 10,
   "note": "border donkey/mule pulling plough",
   "batch": "batch-1.json",
-  "id": "h013"
+  "id": "h012",
+  "reviewed": true
  },
  {
   "x0": 5728,
@@ -193,7 +199,8 @@
   "scene": 10,
   "note": "border horse pulling harrow",
   "batch": "batch-1.json",
-  "id": "h014"
+  "id": "h013",
+  "reviewed": true
  },
  {
   "x0": 5972,
@@ -207,7 +214,8 @@
   "scene": 10,
   "note": "tan horse, Turold scene, clear penis",
   "batch": "batch-1.json",
-  "id": "h015"
+  "id": "h014",
+  "reviewed": true
  },
  {
   "x0": 6385,
@@ -219,7 +227,7 @@
   "scene": 11,
   "note": "blue galloping horse, possible sheath oval",
   "batch": "batch-1.json",
-  "id": "h016",
+  "id": "h015",
   "reviewed": true
  },
  {
@@ -234,19 +242,23 @@
   "scene": 13,
   "note": "Guy's dark horse, small knob",
   "batch": "batch-1.json",
-  "id": "h017"
+  "id": "h016",
+  "reviewed": true
  },
  {
   "x0": 7372,
   "y0": 384,
   "x1": 7450,
   "y1": 430,
-  "stallion": "no",
+  "stallion": "yes",
   "facing": "left",
   "scene": 13,
   "note": "border horse with rider",
   "batch": "batch-1.json",
-  "id": "h018"
+  "id": "h017",
+  "gx": 7417,
+  "gy": 417,
+  "reviewed": true
  },
  {
   "x0": 7420,
@@ -258,7 +270,7 @@
   "scene": 13,
   "note": "grey horse behind red, hidden",
   "batch": "batch-1.json",
-  "id": "h019",
+  "id": "h018",
   "reviewed": true
  },
  {
@@ -273,7 +285,8 @@
   "scene": 13,
   "note": "Harold's tan horse, small knob",
   "batch": "batch-1.json",
-  "id": "h020"
+  "id": "h019",
+  "reviewed": true
  },
  {
   "x0": 7700,
@@ -285,7 +298,8 @@
   "scene": 13,
   "note": "dark blue horse, belly smooth",
   "batch": "batch-1.json",
-  "id": "h021"
+  "id": "h020",
+  "reviewed": true
  },
  {
   "x0": 7935,
@@ -299,7 +313,8 @@
   "scene": 13,
   "note": "William's tan horse, knob and oval",
   "batch": "batch-1.json",
-  "id": "h022"
+  "id": "h021",
+  "reviewed": true
  },
  {
   "x0": 8160,
@@ -307,13 +322,13 @@
   "x1": 8340,
   "y1": 375,
   "stallion": "yes",
-  "gx": 8195,
+  "gx": 8190,
   "gy": 318,
   "facing": "left",
   "scene": 13,
   "note": "dark blue horse, overlapped by red",
   "batch": "batch-1.json",
-  "id": "h023",
+  "id": "h022",
   "reviewed": true
  },
  {
@@ -328,7 +343,8 @@
   "scene": 14,
   "note": "tan horse, knob and oval",
   "batch": "batch-1.json",
-  "id": "h024"
+  "id": "h023",
+  "reviewed": true
  },
  {
   "x0": 8555,
@@ -342,7 +358,8 @@
   "scene": 14,
   "note": "black horse, clear penis",
   "batch": "batch-1.json",
-  "id": "h025"
+  "id": "h024",
+  "reviewed": true
  },
  {
   "x0": 8700,
@@ -354,7 +371,8 @@
   "scene": 14,
   "note": "Harold's tan horse, belly smooth",
   "batch": "batch-1.json",
-  "id": "h026"
+  "id": "h025",
+  "reviewed": true
  },
  {
   "x0": 9700,
@@ -368,7 +386,8 @@
   "scene": 16,
   "note": "green horse, clear penis",
   "batch": "batch-1.json",
-  "id": "h027"
+  "id": "h026",
+  "reviewed": true
  },
  {
   "x0": 9850,
@@ -380,7 +399,7 @@
   "scene": 16,
   "note": "red horse, rear hidden",
   "batch": "batch-1.json",
-  "id": "h028",
+  "id": "h027",
   "reviewed": true
  },
  {
@@ -395,7 +414,8 @@
   "scene": 16,
   "note": "blue striped horse, small knob",
   "batch": "batch-1.json",
-  "id": "h029"
+  "id": "h028",
+  "reviewed": true
  },
  {
   "x0": 10115,
@@ -407,7 +427,7 @@
   "scene": 16,
   "note": "red horse, belly obscured by legs",
   "batch": "batch-1.json",
-  "id": "h030",
+  "id": "h029",
   "reviewed": true
  },
  {
@@ -422,19 +442,23 @@
   "scene": 16,
   "note": "dark green horse, knob and oval",
   "batch": "batch-1.json",
-  "id": "h031"
+  "id": "h030",
+  "reviewed": true
  },
  {
   "x0": 10340,
   "y0": 245,
   "x1": 10475,
   "y1": 390,
-  "stallion": "no",
+  "stallion": "yes",
   "facing": "right",
   "scene": 16,
   "note": "tan horse, belly smooth",
   "batch": "batch-1.json",
-  "id": "h032"
+  "id": "h031",
+  "gx": 10470,
+  "gy": 342,
+  "reviewed": true
  },
  {
   "x0": 10430,
@@ -448,7 +472,8 @@
   "scene": 17,
   "note": "red horse in river, knob",
   "batch": "batch-1.json",
-  "id": "h033"
+  "id": "h032",
+  "reviewed": true
  },
  {
   "x0": 10700,
@@ -460,7 +485,7 @@
   "scene": 17,
   "note": "tumbling horse in river, upside down",
   "batch": "batch-1.json",
-  "id": "h034",
+  "id": "h033",
   "reviewed": true
  },
  {
@@ -475,7 +500,8 @@
   "scene": 17,
   "note": "dark horse, genitals before hind legs",
   "batch": "batch-2.json",
-  "id": "h035"
+  "id": "h034",
+  "reviewed": true
  },
  {
   "x0": 11150,
@@ -489,7 +515,8 @@
   "scene": 18,
   "note": "tan horse behind, testicles visible",
   "batch": "batch-2.json",
-  "id": "h036"
+  "id": "h035",
+  "reviewed": true
  },
  {
   "x0": 11225,
@@ -501,7 +528,7 @@
   "scene": 18,
   "note": "striped horse, belly hidden by legs",
   "batch": "batch-2.json",
-  "id": "h037",
+  "id": "h036",
   "reviewed": true
  },
  {
@@ -516,7 +543,8 @@
   "scene": 18,
   "note": "red horse, testicles near hind legs",
   "batch": "batch-2.json",
-  "id": "h038"
+  "id": "h037",
+  "reviewed": true
  },
  {
   "x0": 11625,
@@ -530,7 +558,8 @@
   "scene": 18,
   "note": "dark front horse",
   "batch": "batch-2.json",
-  "id": "h039"
+  "id": "h038",
+  "reviewed": true
  },
  {
   "x0": 11755,
@@ -544,7 +573,8 @@
   "scene": 18,
   "note": "red horse, sheath under belly",
   "batch": "batch-2.json",
-  "id": "h040"
+  "id": "h039",
+  "reviewed": true
  },
  {
   "x0": 11800,
@@ -570,7 +600,8 @@
   "scene": 19,
   "note": "tan horse, red penis clear",
   "batch": "batch-2.json",
-  "id": "h042"
+  "id": "h040",
+  "reviewed": true
  },
  {
   "x0": 12185,
@@ -584,7 +615,8 @@
   "scene": 19,
   "note": "green horse, light testicles",
   "batch": "batch-2.json",
-  "id": "h043"
+  "id": "h041",
+  "reviewed": true
  },
  {
   "x0": 12340,
@@ -598,7 +630,8 @@
   "scene": 19,
   "note": "tan horse, green testicles",
   "batch": "batch-2.json",
-  "id": "h044"
+  "id": "h042",
+  "reviewed": true
  },
  {
   "x0": 12370,
@@ -610,7 +643,7 @@
   "scene": 19,
   "note": "red horse behind, belly hidden",
   "batch": "batch-2.json",
-  "id": "h045",
+  "id": "h043",
   "reviewed": true
  },
  {
@@ -625,7 +658,8 @@
   "scene": 20,
   "note": "red horse, Conan's surrender",
   "batch": "batch-2.json",
-  "id": "h046"
+  "id": "h044",
+  "reviewed": true
  },
  {
   "x0": 13075,
@@ -639,7 +673,8 @@
   "scene": 20,
   "note": "green horse behind red",
   "batch": "batch-2.json",
-  "id": "h047"
+  "id": "h045",
+  "reviewed": true
  },
  {
   "x0": 13490,
@@ -651,7 +686,7 @@
   "scene": 21,
   "note": "tan horse, mostly hidden",
   "batch": "batch-2.json",
-  "id": "h048",
+  "id": "h046",
   "reviewed": true
  },
  {
@@ -666,7 +701,8 @@
   "scene": 22,
   "note": "William's red horse to Bayeux",
   "batch": "batch-2.json",
-  "id": "h049"
+  "id": "h047",
+  "reviewed": true
  },
  {
   "x0": 15175,
@@ -680,7 +716,8 @@
   "scene": 24,
   "note": "Harold's dark horse, penis clear",
   "batch": "batch-2.json",
-  "id": "h050"
+  "id": "h048",
+  "reviewed": true
  },
  {
   "x0": 15280,
@@ -692,7 +729,8 @@
   "scene": 24,
   "note": "tan horse, belly smooth",
   "batch": "batch-2.json",
-  "id": "h051"
+  "id": "h049",
+  "reviewed": true
  },
  {
   "x0": 21762,
@@ -706,7 +744,8 @@
   "scene": 37,
   "note": "brown horse, genitals below belly",
   "batch": "batch-4.json",
-  "id": "h052"
+  "id": "h050",
+  "reviewed": true
  },
  {
   "x0": 21945,
@@ -718,7 +757,7 @@
   "scene": 37,
   "note": "William's horse, belly hidden by rider",
   "batch": "batch-4.json",
-  "id": "h053",
+  "id": "h051",
   "reviewed": true
  },
  {
@@ -733,355 +772,385 @@
   "scene": 37,
   "note": "dark horse, small sheath shape",
   "batch": "batch-4.json",
-  "id": "h054"
+  "id": "h052",
+  "reviewed": true
  },
  {
   "x0": 22239,
   "y0": 284,
   "x1": 22265,
   "y1": 318,
-  "stallion": "unclear",
+  "stallion": "no",
   "facing": "right",
   "scene": 38,
   "note": "head only in ship",
   "batch": "batch-4.json",
-  "id": "h055"
+  "id": "h053",
+  "reviewed": true
  },
  {
   "x0": 22267,
   "y0": 284,
   "x1": 22281,
   "y1": 318,
-  "stallion": "unclear",
+  "stallion": "no",
   "facing": "right",
   "scene": 38,
   "note": "head only in ship",
   "batch": "batch-4.json",
-  "id": "h056"
+  "id": "h054",
+  "reviewed": true
  },
  {
   "x0": 22281,
   "y0": 284,
   "x1": 22292,
   "y1": 318,
-  "stallion": "unclear",
+  "stallion": "no",
   "facing": "right",
   "scene": 38,
   "note": "head only in ship",
   "batch": "batch-4.json",
-  "id": "h057"
+  "id": "h055",
+  "reviewed": true
  },
  {
   "x0": 22292,
   "y0": 284,
   "x1": 22307,
   "y1": 318,
-  "stallion": "unclear",
+  "stallion": "no",
   "facing": "right",
   "scene": 38,
   "note": "head only in ship",
   "batch": "batch-4.json",
-  "id": "h058"
+  "id": "h056",
+  "reviewed": true
  },
  {
   "x0": 22307,
   "y0": 284,
   "x1": 22327,
   "y1": 318,
-  "stallion": "unclear",
+  "stallion": "no",
   "facing": "right",
   "scene": 38,
   "note": "head only in ship",
   "batch": "batch-4.json",
-  "id": "h059"
+  "id": "h057",
+  "reviewed": true
  },
  {
   "x0": 22334,
   "y0": 284,
   "x1": 22350,
   "y1": 318,
-  "stallion": "unclear",
+  "stallion": "no",
   "facing": "right",
   "scene": 38,
   "note": "head only in ship",
   "batch": "batch-4.json",
-  "id": "h060"
+  "id": "h058",
+  "reviewed": true
  },
  {
   "x0": 22353,
   "y0": 284,
   "x1": 22371,
   "y1": 318,
-  "stallion": "unclear",
+  "stallion": "no",
   "facing": "right",
   "scene": 38,
   "note": "head only in ship",
   "batch": "batch-4.json",
-  "id": "h061"
+  "id": "h059",
+  "reviewed": true
  },
  {
   "x0": 22371,
   "y0": 284,
   "x1": 22389,
   "y1": 318,
-  "stallion": "unclear",
+  "stallion": "no",
   "facing": "right",
   "scene": 38,
   "note": "head only in ship",
   "batch": "batch-4.json",
-  "id": "h062"
+  "id": "h060",
+  "reviewed": true
  },
  {
   "x0": 22390,
   "y0": 284,
   "x1": 22408,
   "y1": 318,
-  "stallion": "unclear",
+  "stallion": "no",
   "facing": "right",
   "scene": 38,
   "note": "head only in ship",
   "batch": "batch-4.json",
-  "id": "h063"
+  "id": "h061",
+  "reviewed": true
  },
  {
   "x0": 22412,
   "y0": 284,
   "x1": 22438,
   "y1": 318,
-  "stallion": "unclear",
+  "stallion": "no",
   "facing": "left",
   "scene": 38,
   "note": "head only in ship",
   "batch": "batch-4.json",
-  "id": "h064"
+  "id": "h062",
+  "reviewed": true
  },
  {
   "x0": 22550,
   "y0": 282,
   "x1": 22572,
   "y1": 308,
-  "stallion": "unclear",
+  "stallion": "no",
   "facing": "right",
   "scene": 38,
   "note": "head only in ship",
   "batch": "batch-4.json",
-  "id": "h065"
+  "id": "h063",
+  "reviewed": true
  },
  {
   "x0": 22574,
   "y0": 282,
   "x1": 22596,
   "y1": 308,
-  "stallion": "unclear",
+  "stallion": "no",
   "facing": "right",
   "scene": 38,
   "note": "head only in ship",
   "batch": "batch-4.json",
-  "id": "h066"
+  "id": "h064",
+  "reviewed": true
  },
  {
   "x0": 22597,
   "y0": 282,
   "x1": 22613,
   "y1": 308,
-  "stallion": "unclear",
+  "stallion": "no",
   "facing": "right",
   "scene": 38,
   "note": "head only in ship",
   "batch": "batch-4.json",
-  "id": "h067"
+  "id": "h065",
+  "reviewed": true
  },
  {
   "x0": 22614,
   "y0": 282,
   "x1": 22638,
   "y1": 308,
-  "stallion": "unclear",
+  "stallion": "no",
   "facing": "left",
   "scene": 38,
   "note": "head only in ship",
   "batch": "batch-4.json",
-  "id": "h068"
+  "id": "h066",
+  "reviewed": true
  },
  {
   "x0": 22660,
   "y0": 282,
   "x1": 22682,
   "y1": 308,
-  "stallion": "unclear",
+  "stallion": "no",
   "facing": "right",
   "scene": 38,
   "note": "head only in ship",
   "batch": "batch-4.json",
-  "id": "h069"
+  "id": "h067",
+  "reviewed": true
  },
  {
   "x0": 22683,
   "y0": 282,
   "x1": 22710,
   "y1": 308,
-  "stallion": "unclear",
+  "stallion": "no",
   "facing": "left",
   "scene": 38,
   "note": "head only in ship",
   "batch": "batch-4.json",
-  "id": "h070"
+  "id": "h068",
+  "reviewed": true
  },
  {
   "x0": 22713,
   "y0": 282,
   "x1": 22728,
   "y1": 308,
-  "stallion": "unclear",
+  "stallion": "no",
   "facing": "right",
   "scene": 38,
   "note": "head only in ship",
   "batch": "batch-4.json",
-  "id": "h071"
+  "id": "h069",
+  "reviewed": true
  },
  {
   "x0": 22731,
   "y0": 282,
   "x1": 22758,
   "y1": 308,
-  "stallion": "unclear",
+  "stallion": "no",
   "facing": "left",
   "scene": 38,
   "note": "head only in ship",
   "batch": "batch-4.json",
-  "id": "h072"
+  "id": "h070",
+  "reviewed": true
  },
  {
   "x0": 22916,
   "y0": 276,
   "x1": 22944,
   "y1": 302,
-  "stallion": "unclear",
+  "stallion": "no",
   "facing": "right",
   "scene": 38,
   "note": "head only in ship",
   "batch": "batch-4.json",
-  "id": "h073"
+  "id": "h071",
+  "reviewed": true
  },
  {
   "x0": 22948,
   "y0": 276,
   "x1": 22974,
   "y1": 302,
-  "stallion": "unclear",
+  "stallion": "no",
   "facing": "right",
   "scene": 38,
   "note": "head only in ship",
   "batch": "batch-4.json",
-  "id": "h074"
+  "id": "h072",
+  "reviewed": true
  },
  {
   "x0": 23016,
   "y0": 276,
   "x1": 23044,
   "y1": 302,
-  "stallion": "unclear",
+  "stallion": "no",
   "facing": "right",
   "scene": 38,
   "note": "head only in ship",
   "batch": "batch-4.json",
-  "id": "h075"
+  "id": "h073",
+  "reviewed": true
  },
  {
   "x0": 23052,
   "y0": 276,
   "x1": 23076,
   "y1": 302,
-  "stallion": "unclear",
+  "stallion": "no",
   "facing": "right",
   "scene": 38,
   "note": "head only in ship",
   "batch": "batch-4.json",
-  "id": "h076"
+  "id": "h074",
+  "reviewed": true
  },
  {
   "x0": 23168,
   "y0": 268,
   "x1": 23196,
   "y1": 295,
-  "stallion": "unclear",
+  "stallion": "no",
   "facing": "left",
   "scene": 38,
   "note": "head only in ship",
   "batch": "batch-4.json",
-  "id": "h077"
+  "id": "h075",
+  "reviewed": true
  },
  {
   "x0": 23217,
   "y0": 268,
   "x1": 23243,
   "y1": 295,
-  "stallion": "unclear",
+  "stallion": "no",
   "facing": "left",
   "scene": 38,
   "note": "head only in ship",
   "batch": "batch-4.json",
-  "id": "h078"
+  "id": "h076",
+  "reviewed": true
  },
  {
   "x0": 23259,
   "y0": 268,
   "x1": 23290,
   "y1": 295,
-  "stallion": "unclear",
+  "stallion": "no",
   "facing": "left",
   "scene": 38,
   "note": "head only in ship",
   "batch": "batch-4.json",
-  "id": "h079"
+  "id": "h077",
+  "reviewed": true
  },
  {
   "x0": 23721,
   "y0": 285,
   "x1": 23742,
   "y1": 310,
-  "stallion": "unclear",
+  "stallion": "no",
   "facing": "left",
   "scene": 39,
   "note": "head only in ship",
   "batch": "batch-4.json",
-  "id": "h080"
+  "id": "h078",
+  "reviewed": true
  },
  {
   "x0": 23751,
   "y0": 280,
   "x1": 23783,
   "y1": 307,
-  "stallion": "unclear",
+  "stallion": "no",
   "facing": "left",
   "scene": 39,
   "note": "head only in ship",
   "batch": "batch-4.json",
-  "id": "h081"
+  "id": "h079",
+  "reviewed": true
  },
  {
   "x0": 23975,
   "y0": 279,
   "x1": 23997,
   "y1": 305,
-  "stallion": "unclear",
+  "stallion": "no",
   "facing": "left",
   "scene": 39,
   "note": "head only in ship",
   "batch": "batch-4.json",
-  "id": "h082"
+  "id": "h080",
+  "reviewed": true
  },
  {
   "x0": 24020,
   "y0": 278,
   "x1": 24055,
   "y1": 305,
-  "stallion": "unclear",
+  "stallion": "no",
   "facing": "right",
   "scene": 39,
   "note": "head only in ship",
   "batch": "batch-4.json",
-  "id": "h083"
+  "id": "h081",
+  "reviewed": true
  },
  {
   "x0": 24298,
@@ -1095,7 +1164,8 @@
   "scene": 39,
   "note": "unloaded tan horse, clear genitals",
   "batch": "batch-4.json",
-  "id": "h084"
+  "id": "h082",
+  "reviewed": true
  },
  {
   "x0": 24705,
@@ -1109,7 +1179,8 @@
   "scene": 40,
   "note": "dark galloping horse",
   "batch": "batch-4.json",
-  "id": "h085"
+  "id": "h083",
+  "reviewed": true
  },
  {
   "x0": 24742,
@@ -1123,7 +1194,8 @@
   "scene": 40,
   "note": "tan galloping horse",
   "batch": "batch-4.json",
-  "id": "h086"
+  "id": "h084",
+  "reviewed": true
  },
  {
   "x0": 24985,
@@ -1131,13 +1203,13 @@
   "x1": 25125,
   "y1": 372,
   "stallion": "yes",
-  "gx": 25064,
-  "gy": 311,
+  "gx": 25063,
+  "gy": 309,
   "facing": "right",
   "scene": 40,
   "note": "grey horse, tiny bump at belly",
   "batch": "batch-4.json",
-  "id": "h087",
+  "id": "h085",
   "reviewed": true
  },
  {
@@ -1150,7 +1222,8 @@
   "scene": 40,
   "note": "striped-mane horse, smooth belly",
   "batch": "batch-4.json",
-  "id": "h088"
+  "id": "h086",
+  "reviewed": true
  },
  {
   "x0": 25665,
@@ -1164,7 +1237,8 @@
   "scene": 41,
   "note": "Wadard's horse, outlined penis",
   "batch": "batch-4.json",
-  "id": "h089"
+  "id": "h087",
+  "reviewed": true
  },
  {
   "x0": 25865,
@@ -1176,7 +1250,8 @@
   "scene": 41,
   "note": "pack horse with sack",
   "batch": "batch-4.json",
-  "id": "h090"
+  "id": "h088",
+  "reviewed": true
  },
  {
   "x0": 28860,
@@ -1190,7 +1265,8 @@
   "scene": 48,
   "note": "William's charger led by groom",
   "batch": "batch-5.json",
-  "id": "h091"
+  "id": "h089",
+  "reviewed": true
  },
  {
   "x0": 29180,
@@ -1204,7 +1280,8 @@
   "scene": 48,
   "note": "red horse, rear of column",
   "batch": "batch-5.json",
-  "id": "h092"
+  "id": "h090",
+  "reviewed": true
  },
  {
   "x0": 29300,
@@ -1216,7 +1293,8 @@
   "scene": 48,
   "note": "tan horse, belly smooth",
   "batch": "batch-5.json",
-  "id": "h093"
+  "id": "h091",
+  "reviewed": true
  },
  {
   "x0": 29405,
@@ -1228,7 +1306,7 @@
   "scene": 48,
   "note": "blue horse, heavily overlapped",
   "batch": "batch-5.json",
-  "id": "h094",
+  "id": "h092",
   "reviewed": true
  },
  {
@@ -1241,7 +1319,7 @@
   "scene": 48,
   "note": "tan horse, belly against red horse",
   "batch": "batch-5.json",
-  "id": "h095",
+  "id": "h093",
   "reviewed": true
  },
  {
@@ -1254,7 +1332,7 @@
   "scene": 48,
   "note": "olive horse, rider's foot covers belly",
   "batch": "batch-5.json",
-  "id": "h096",
+  "id": "h094",
   "reviewed": true
  },
  {
@@ -1269,7 +1347,8 @@
   "scene": 48,
   "note": "blue horse charging",
   "batch": "batch-5.json",
-  "id": "h097"
+  "id": "h095",
+  "reviewed": true
  },
  {
   "x0": 29735,
@@ -1296,7 +1375,8 @@
   "scene": 48,
   "note": "tan horse, rider with lance",
   "batch": "batch-5.json",
-  "id": "h099"
+  "id": "h096",
+  "reviewed": true
  },
  {
   "x0": 29975,
@@ -1310,7 +1390,8 @@
   "scene": 48,
   "note": "red horse galloping",
   "batch": "batch-5.json",
-  "id": "h100"
+  "id": "h097",
+  "reviewed": true
  },
  {
   "x0": 30160,
@@ -1324,7 +1405,8 @@
   "scene": 49,
   "note": "blue horse",
   "batch": "batch-5.json",
-  "id": "h101"
+  "id": "h098",
+  "reviewed": true
  },
  {
   "x0": 30335,
@@ -1338,7 +1420,8 @@
   "scene": 49,
   "note": "William's tan horse, club",
   "batch": "batch-5.json",
-  "id": "h102"
+  "id": "h099",
+  "reviewed": true
  },
  {
   "x0": 30620,
@@ -1352,7 +1435,8 @@
   "scene": 49,
   "note": "Vital's blue horse",
   "batch": "batch-5.json",
-  "id": "h103"
+  "id": "h100",
+  "reviewed": true
  },
  {
   "x0": 30840,
@@ -1366,7 +1450,8 @@
   "scene": 49,
   "note": "tan scout horse",
   "batch": "batch-5.json",
-  "id": "h104"
+  "id": "h101",
+  "reviewed": true
  },
  {
   "x0": 30955,
@@ -1380,7 +1465,8 @@
   "scene": 49,
   "note": "red horse on hill",
   "batch": "batch-5.json",
-  "id": "h105"
+  "id": "h102",
+  "reviewed": true
  },
  {
   "x0": 30999,
@@ -1407,7 +1493,8 @@
   "scene": 50,
   "note": "blue horse, rider points left",
   "batch": "batch-5.json",
-  "id": "h107"
+  "id": "h103",
+  "reviewed": true
  },
  {
   "x0": 31870,
@@ -1421,7 +1508,8 @@
   "scene": 51,
   "note": "William's red horse",
   "batch": "batch-5.json",
-  "id": "h108"
+  "id": "h104",
+  "reviewed": true
  },
  {
   "x0": 31901,
@@ -1448,7 +1536,8 @@
   "scene": 51,
   "note": "blue horse",
   "batch": "batch-5.json",
-  "id": "h110"
+  "id": "h105",
+  "reviewed": true
  },
  {
   "x0": 32047,
@@ -1475,7 +1564,8 @@
   "scene": 51,
   "note": "tan horse",
   "batch": "batch-5.json",
-  "id": "h112"
+  "id": "h106",
+  "reviewed": true
  },
  {
   "x0": 32330,
@@ -1489,7 +1579,8 @@
   "scene": 51,
   "note": "blue horse",
   "batch": "batch-5.json",
-  "id": "h113"
+  "id": "h107",
+  "reviewed": true
  },
  {
   "x0": 32520,
@@ -1501,7 +1592,7 @@
   "scene": 51,
   "note": "tan horse, red blob ambiguous",
   "batch": "batch-5.json",
-  "id": "h114",
+  "id": "h108",
   "reviewed": true
  },
  {
@@ -1516,7 +1607,8 @@
   "scene": 51,
   "note": "brown horse, small genitals under belly",
   "batch": "batch-6.json",
-  "id": "h115"
+  "id": "h109",
+  "reviewed": true
  },
  {
   "x0": 32850,
@@ -1530,7 +1622,8 @@
   "scene": 51,
   "note": "blue horse, sheath under belly",
   "batch": "batch-6.json",
-  "id": "h116"
+  "id": "h110",
+  "reviewed": true
  },
  {
   "x0": 33010,
@@ -1544,7 +1637,8 @@
   "scene": 51,
   "note": "tan horse, genitals before hind legs",
   "batch": "batch-6.json",
-  "id": "h117"
+  "id": "h111",
+  "reviewed": true
  },
  {
   "x0": 33027,
@@ -1584,7 +1678,8 @@
   "scene": 51,
   "note": "red horse, genitals near hind legs",
   "batch": "batch-6.json",
-  "id": "h120"
+  "id": "h112",
+  "reviewed": true
  },
  {
   "x0": 33330,
@@ -1596,7 +1691,7 @@
   "scene": 51,
   "note": "dark horse, area overlapped by legs",
   "batch": "batch-6.json",
-  "id": "h121",
+  "id": "h113",
   "reviewed": true
  },
  {
@@ -1624,7 +1719,8 @@
   "scene": 51,
   "note": "tan horse, dark genital blob",
   "batch": "batch-6.json",
-  "id": "h123"
+  "id": "h114",
+  "reviewed": true
  },
  {
   "x0": 33790,
@@ -1636,7 +1732,7 @@
   "scene": 51,
   "note": "red rearing horse, belly hidden",
   "batch": "batch-6.json",
-  "id": "h124",
+  "id": "h115",
   "reviewed": true
  },
  {
@@ -1651,7 +1747,8 @@
   "scene": 51,
   "note": "blue horse, genitals under belly",
   "batch": "batch-6.json",
-  "id": "h125"
+  "id": "h116",
+  "reviewed": true
  },
  {
   "x0": 34030,
@@ -1665,7 +1762,8 @@
   "scene": 51,
   "note": "red horse, small sheath on belly",
   "batch": "batch-6.json",
-  "id": "h126"
+  "id": "h117",
+  "reviewed": true
  },
  {
   "x0": 34190,
@@ -1677,7 +1775,7 @@
   "scene": 51,
   "note": "dark horse, small outline, overlapped",
   "batch": "batch-6.json",
-  "id": "h127",
+  "id": "h118",
   "reviewed": true
  },
  {
@@ -1692,7 +1790,8 @@
   "scene": 52,
   "note": "red horse, genitals under belly",
   "batch": "batch-6.json",
-  "id": "h128"
+  "id": "h119",
+  "reviewed": true
  },
  {
   "x0": 35040,
@@ -1704,7 +1803,7 @@
   "scene": 52,
   "note": "blue horse, mostly hidden",
   "batch": "batch-6.json",
-  "id": "h129",
+  "id": "h120",
   "reviewed": true
  },
  {
@@ -1717,7 +1816,7 @@
   "scene": 52,
   "note": "tan horse, rear hidden",
   "batch": "batch-6.json",
-  "id": "h130",
+  "id": "h121",
   "reviewed": true
  },
  {
@@ -1730,7 +1829,7 @@
   "scene": 52,
   "note": "dark green horse, belly obscured",
   "batch": "batch-6.json",
-  "id": "h131",
+  "id": "h122",
   "reviewed": true
  },
  {
@@ -1745,7 +1844,8 @@
   "scene": 52,
   "note": "blue horse, bumps before hind legs",
   "batch": "batch-6.json",
-  "id": "h132"
+  "id": "h123",
+  "reviewed": true
  },
  {
   "x0": 35440,
@@ -1759,7 +1859,7 @@
   "scene": 52,
   "note": "red horse, tiny white mark only",
   "batch": "batch-6.json",
-  "id": "h133",
+  "id": "h124",
   "reviewed": true
  },
  {
@@ -1774,7 +1874,8 @@
   "scene": 52,
   "note": "tan horse, dark testicles visible",
   "batch": "batch-6.json",
-  "id": "h134"
+  "id": "h125",
+  "reviewed": true
  },
  {
   "x0": 35985,
@@ -1788,7 +1889,8 @@
   "scene": 52,
   "note": "red horse, outlined sheath",
   "batch": "batch-6.json",
-  "id": "h135"
+  "id": "h126",
+  "reviewed": true
  },
  {
   "x0": 36290,
@@ -1802,7 +1904,8 @@
   "scene": 52,
   "note": "tan horse, genitals before hind legs",
   "batch": "batch-6.json",
-  "id": "h136"
+  "id": "h127",
+  "reviewed": true
  },
  {
   "x0": 36590,
@@ -1816,7 +1919,8 @@
   "scene": 53,
   "note": "dark horse, red outlined genitals",
   "batch": "batch-6.json",
-  "id": "h137"
+  "id": "h128",
+  "reviewed": true
  },
  {
   "x0": 36815,
@@ -1830,7 +1934,8 @@
   "scene": 53,
   "note": "tan horse tumbling head-first",
   "batch": "batch-6.json",
-  "id": "h138"
+  "id": "h129",
+  "reviewed": true
  },
  {
   "x0": 36920,
@@ -1844,19 +1949,22 @@
   "scene": 53,
   "note": "dark horse vertical, upside down",
   "batch": "batch-6.json",
-  "id": "h139"
+  "id": "h130",
+  "reviewed": true
  },
  {
   "x0": 37000,
   "y0": 185,
   "x1": 37160,
   "y1": 372,
-  "stallion": "no",
+  "stallion": "yes",
+  "gx": 37036,
+  "gy": 258,
   "facing": "upside-down",
   "scene": 53,
   "note": "tan horse somersault, belly obscured",
   "batch": "batch-6.json",
-  "id": "h140",
+  "id": "h131",
   "reviewed": true
  },
  {
@@ -1871,7 +1979,8 @@
   "scene": 53,
   "note": "dead horse lower border",
   "batch": "batch-6.json",
-  "id": "h141"
+  "id": "h132",
+  "reviewed": true
  },
  {
   "x0": 37140,
@@ -1883,7 +1992,7 @@
   "scene": 53,
   "note": "red horse sinking, rider covers belly",
   "batch": "batch-6.json",
-  "id": "h142",
+  "id": "h133",
   "reviewed": true
  },
  {
@@ -1898,7 +2007,8 @@
   "scene": 54,
   "note": "Odo's blue horse, could be red's",
   "batch": "batch-6.json",
-  "id": "h143"
+  "id": "h134",
+  "reviewed": true
  },
  {
   "x0": 37593,
@@ -1910,7 +2020,8 @@
   "scene": 54,
   "note": "dead horse lower border",
   "batch": "batch-6.json",
-  "id": "h144"
+  "id": "h135",
+  "reviewed": true
  },
  {
   "x0": 37740,
@@ -1922,7 +2033,7 @@
   "scene": 54,
   "note": "tan horse, red strands likely tail",
   "batch": "batch-6.json",
-  "id": "h145",
+  "id": "h136",
   "reviewed": true
  },
  {
@@ -1935,7 +2046,7 @@
   "scene": 54,
   "note": "red horse, rider leg covers",
   "batch": "batch-6.json",
-  "id": "h146",
+  "id": "h137",
   "reviewed": true
  },
  {
@@ -1948,7 +2059,7 @@
   "scene": 54,
   "note": "dark horse, mostly hidden",
   "batch": "batch-6.json",
-  "id": "h147",
+  "id": "h138",
   "reviewed": true
  },
  {
@@ -1963,21 +2074,21 @@
   "scene": 55,
   "note": "tan horse, dark blob on belly",
   "batch": "batch-6.json",
-  "id": "h148"
+  "id": "h139",
+  "reviewed": true
  },
  {
   "x0": 38160,
   "y0": 245,
   "x1": 38295,
   "y1": 362,
-  "stallion": "yes",
-  "gx": 38210,
-  "gy": 316,
+  "stallion": "no",
   "facing": "right",
   "scene": 55,
   "note": "brown sheath lines on dark belly",
   "batch": "batch-7.json",
-  "id": "h149"
+  "id": "h140",
+  "reviewed": true
  },
  {
   "x0": 38265,
@@ -1989,7 +2100,7 @@
   "scene": 55,
   "note": "J-shaped line, maybe hind leg",
   "batch": "batch-7.json",
-  "id": "h150",
+  "id": "h141",
   "reviewed": true
  },
  {
@@ -2004,7 +2115,8 @@
   "scene": 55,
   "note": "brown knob at belly, legs crossing",
   "batch": "batch-7.json",
-  "id": "h151"
+  "id": "h142",
+  "reviewed": true
  },
  {
   "x0": 38490,
@@ -2016,7 +2128,7 @@
   "scene": 55,
   "note": "belly hidden by rider's leg",
   "batch": "batch-7.json",
-  "id": "h152",
+  "id": "h143",
   "reviewed": true
  },
  {
@@ -2031,7 +2143,8 @@
   "scene": 56,
   "note": "small white oval under belly",
   "batch": "batch-7.json",
-  "id": "h153"
+  "id": "h144",
+  "reviewed": true
  },
  {
   "x0": 38765,
@@ -2045,7 +2158,8 @@
   "scene": 56,
   "note": "curled sheath under grey belly",
   "batch": "batch-7.json",
-  "id": "h154"
+  "id": "h145",
+  "reviewed": true
  },
  {
   "x0": 38862,
@@ -2057,7 +2171,7 @@
   "scene": 56,
   "note": "mostly hidden behind red horse",
   "batch": "batch-7.json",
-  "id": "h155",
+  "id": "h146",
   "reviewed": true
  },
  {
@@ -2070,7 +2184,7 @@
   "scene": 56,
   "note": "rider legs obscure belly",
   "batch": "batch-7.json",
-  "id": "h156",
+  "id": "h147",
   "reviewed": true
  },
  {
@@ -2085,7 +2199,8 @@
   "scene": 56,
   "note": "brown knob and white oval",
   "batch": "batch-7.json",
-  "id": "h157"
+  "id": "h148",
+  "reviewed": true
  },
  {
   "x0": 39575,
@@ -2099,7 +2214,8 @@
   "scene": 56,
   "note": "white hooked sheath under belly",
   "batch": "batch-7.json",
-  "id": "h158"
+  "id": "h149",
+  "reviewed": true
  },
  {
   "x0": 40025,
@@ -2113,7 +2229,8 @@
   "scene": 57,
   "note": "red blob under belly",
   "batch": "batch-7.json",
-  "id": "h159"
+  "id": "h150",
+  "reviewed": true
  },
  {
   "x0": 40495,
@@ -2127,7 +2244,8 @@
   "scene": 57,
   "note": "white spiral shape at belly",
   "batch": "batch-7.json",
-  "id": "h160"
+  "id": "h151",
+  "reviewed": true
  },
  {
   "x0": 40688,
@@ -2141,7 +2259,8 @@
   "scene": 58,
   "note": "brown knob under slate belly",
   "batch": "batch-7.json",
-  "id": "h161"
+  "id": "h152",
+  "reviewed": true
  },
  {
   "x0": 40850,
@@ -2155,19 +2274,21 @@
   "scene": 58,
   "note": "clear penis and testicles",
   "batch": "batch-7.json",
-  "id": "h162"
+  "id": "h153",
+  "reviewed": true
  },
  {
   "x0": 40980,
   "y0": 225,
   "x1": 41050,
   "y1": 350,
-  "stallion": "unclear",
+  "stallion": "no",
   "facing": "right",
   "scene": 58,
   "note": "far horse, head only visible",
   "batch": "batch-7.json",
-  "id": "h163"
+  "id": "h154",
+  "reviewed": true
  },
  {
   "x0": 41115,
@@ -2179,7 +2300,8 @@
   "scene": 58,
   "note": "restored end, smooth belly",
   "batch": "batch-7.json",
-  "id": "h164"
+  "id": "h155",
+  "reviewed": true
  },
  {
   "x0": 41200,
@@ -2191,7 +2313,8 @@
   "scene": 58,
   "note": "restored end, smooth belly",
   "batch": "batch-7.json",
-  "id": "h165"
+  "id": "h156",
+  "reviewed": true
  },
  {
   "x0": 41295,
@@ -2203,6 +2326,7 @@
   "scene": 58,
   "note": "restored end, smooth belly",
   "batch": "batch-7.json",
-  "id": "h166"
+  "id": "h157",
+  "reviewed": true
  }
 ]
