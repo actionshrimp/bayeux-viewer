@@ -1,0 +1,508 @@
+[
+ {
+  "file": "scene-01.jpg",
+  "scenes": [
+   1
+  ],
+  "width": 916,
+  "height": 480,
+  "source": "https://commons.wikimedia.org/wiki/File:Bayeux_Tapestry_Scene_01.png"
+ },
+ {
+  "file": "scene-02.jpg",
+  "scenes": [
+   2
+  ],
+  "width": 1012,
+  "height": 480,
+  "source": "https://commons.wikimedia.org/wiki/File:Bayeux_Tapestry_Scene_02.png"
+ },
+ {
+  "file": "scene-03.jpg",
+  "scenes": [
+   3
+  ],
+  "width": 1097,
+  "height": 480,
+  "source": "https://commons.wikimedia.org/wiki/File:Bayeux_Tapestry_Scene_03.png"
+ },
+ {
+  "file": "scene-04.jpg",
+  "scenes": [
+   4
+  ],
+  "width": 1460,
+  "height": 480,
+  "source": "https://commons.wikimedia.org/wiki/File:Bayeux_Tapestry_Scene_04.png"
+ },
+ {
+  "file": "scene-05.jpg",
+  "scenes": [
+   5
+  ],
+  "width": 1388,
+  "height": 480,
+  "source": "https://commons.wikimedia.org/wiki/File:Bayeux_Tapestry_Scene_05.png"
+ },
+ {
+  "file": "scene-06.jpg",
+  "scenes": [
+   6
+  ],
+  "width": 739,
+  "height": 480,
+  "source": "https://commons.wikimedia.org/wiki/File:Bayeux_Tapestry_Scene_06.png"
+ },
+ {
+  "file": "scene-07.jpg",
+  "scenes": [
+   7
+  ],
+  "width": 1076,
+  "height": 480,
+  "source": "https://commons.wikimedia.org/wiki/File:Bayeux_Tapestry_Scene_07.png"
+ },
+ {
+  "file": "scene-08.jpg",
+  "scenes": [
+   8
+  ],
+  "width": 1536,
+  "height": 480,
+  "source": "https://commons.wikimedia.org/wiki/File:Bayeux_Tapestry_Scene_08.png"
+ },
+ {
+  "file": "scene-09.jpg",
+  "scenes": [
+   9
+  ],
+  "width": 1345,
+  "height": 480,
+  "source": "https://commons.wikimedia.org/wiki/File:Bayeux_Tapestry_Scene_09.png"
+ },
+ {
+  "file": "scene-10.jpg",
+  "scenes": [
+   10
+  ],
+  "width": 1292,
+  "height": 480,
+  "source": "https://commons.wikimedia.org/wiki/File:Bayeux_Tapestry_Scene_10.png"
+ },
+ {
+  "file": "scene-11.jpg",
+  "scenes": [
+   11
+  ],
+  "width": 1168,
+  "height": 480,
+  "source": "https://commons.wikimedia.org/wiki/File:Bayeux_Tapestry_Scene_11.png"
+ },
+ {
+  "file": "scene-12.jpg",
+  "scenes": [
+   12
+  ],
+  "width": 1324,
+  "height": 480,
+  "source": "https://commons.wikimedia.org/wiki/File:Bayeux_Tapestry_Scene_12.png"
+ },
+ {
+  "file": "scene-13.jpg",
+  "scenes": [
+   13
+  ],
+  "width": 1942,
+  "height": 480,
+  "source": "https://commons.wikimedia.org/wiki/File:Bayeux_Tapestry_Scene_13.png"
+ },
+ {
+  "file": "scene-14.jpg",
+  "scenes": [
+   14
+  ],
+  "width": 1688,
+  "height": 480,
+  "source": "https://commons.wikimedia.org/wiki/File:Bayeux_Tapestry_Scene_14.png"
+ },
+ {
+  "file": "scene-15.jpg",
+  "scenes": [
+   15
+  ],
+  "width": 1150,
+  "height": 480,
+  "source": "https://commons.wikimedia.org/wiki/File:Bayeux_Tapestry_Scene_15.png"
+ },
+ {
+  "file": "scene-16.jpg",
+  "scenes": [
+   16
+  ],
+  "width": 1236,
+  "height": 480,
+  "source": "https://commons.wikimedia.org/wiki/File:Bayeux_Tapestry_Scene_16.png"
+ },
+ {
+  "file": "scene-17.jpg",
+  "scenes": [
+   17
+  ],
+  "width": 1479,
+  "height": 480,
+  "source": "https://commons.wikimedia.org/wiki/File:Bayeux_Tapestry_Scene_17.png"
+ },
+ {
+  "file": "scene-18.jpg",
+  "scenes": [
+   18
+  ],
+  "width": 1786,
+  "height": 480,
+  "source": "https://commons.wikimedia.org/wiki/File:Bayeux_Tapestry_Scene_18.png"
+ },
+ {
+  "file": "scene-19.jpg",
+  "scenes": [
+   19
+  ],
+  "width": 1564,
+  "height": 480,
+  "source": "https://commons.wikimedia.org/wiki/File:Bayeux_Tapestry_Scene_19.png"
+ },
+ {
+  "file": "scene-20.jpg",
+  "scenes": [
+   20
+  ],
+  "width": 834,
+  "height": 480,
+  "source": "https://commons.wikimedia.org/wiki/File:Bayeux_Tapestry_Scene_20.png"
+ },
+ {
+  "file": "scene-21.jpg",
+  "scenes": [
+   21
+  ],
+  "width": 709,
+  "height": 480,
+  "source": "https://commons.wikimedia.org/wiki/File:Bayeux_Tapestry_Scene_21.png"
+ },
+ {
+  "file": "scene-22.jpg",
+  "scenes": [
+   22
+  ],
+  "width": 909,
+  "height": 480,
+  "source": "https://commons.wikimedia.org/wiki/File:Bayeux_Tapestry_Scene_22.png"
+ },
+ {
+  "file": "scene-23.jpg",
+  "scenes": [
+   23
+  ],
+  "width": 1181,
+  "height": 480,
+  "source": "https://commons.wikimedia.org/wiki/File:Bayeux_Tapestry_Scene_23.png"
+ },
+ {
+  "file": "scene-24.jpg",
+  "scenes": [
+   24
+  ],
+  "width": 1479,
+  "height": 480,
+  "source": "https://commons.wikimedia.org/wiki/File:Bayeux_Tapestry_Scene_24.png"
+ },
+ {
+  "file": "scene-25.jpg",
+  "scenes": [
+   25
+  ],
+  "width": 1357,
+  "height": 480,
+  "source": "https://commons.wikimedia.org/wiki/File:Bayeux_Tapestry_Scene_25.png"
+ },
+ {
+  "file": "scene-26.jpg",
+  "scenes": [
+   26
+  ],
+  "width": 1093,
+  "height": 480,
+  "source": "https://commons.wikimedia.org/wiki/File:Bayeux_Tapestry_Scene_26.png"
+ },
+ {
+  "file": "scene-27-28.jpg",
+  "scenes": [
+   27,
+   28
+  ],
+  "width": 894,
+  "height": 480,
+  "source": "https://commons.wikimedia.org/wiki/File:Bayeux_Tapestry_Scene_27,28.png"
+ },
+ {
+  "file": "scene-29.jpg",
+  "scenes": [
+   29
+  ],
+  "width": 611,
+  "height": 480,
+  "source": "https://commons.wikimedia.org/wiki/File:Bayeux_Tapestry_Scene_29.png"
+ },
+ {
+  "file": "scene-30-31.jpg",
+  "scenes": [
+   30,
+   31
+  ],
+  "width": 764,
+  "height": 480,
+  "source": "https://commons.wikimedia.org/wiki/File:Bayeux_Tapestry_Scene_30,31.png"
+ },
+ {
+  "file": "scene-32.jpg",
+  "scenes": [
+   32
+  ],
+  "width": 562,
+  "height": 480,
+  "source": "https://commons.wikimedia.org/wiki/File:Bayeux_Tapestry_Scene_32.png"
+ },
+ {
+  "file": "scene-33.jpg",
+  "scenes": [
+   33
+  ],
+  "width": 732,
+  "height": 480,
+  "source": "https://commons.wikimedia.org/wiki/File:Bayeux_Tapestry_Scene_33.png"
+ },
+ {
+  "file": "scene-34.jpg",
+  "scenes": [
+   34
+  ],
+  "width": 1125,
+  "height": 480,
+  "source": "https://commons.wikimedia.org/wiki/File:Bayeux_Tapestry_Scene_34.png"
+ },
+ {
+  "file": "scene-35.jpg",
+  "scenes": [
+   35
+  ],
+  "width": 1858,
+  "height": 480,
+  "source": "https://commons.wikimedia.org/wiki/File:Bayeux_Tapestry_Scene_35.png"
+ },
+ {
+  "file": "scene-36.jpg",
+  "scenes": [
+   36
+  ],
+  "width": 2001,
+  "height": 480,
+  "source": "https://commons.wikimedia.org/wiki/File:Bayeux_Tapestry_Scene_36.png"
+ },
+ {
+  "file": "scene-37.jpg",
+  "scenes": [
+   37
+  ],
+  "width": 2375,
+  "height": 480,
+  "source": "https://commons.wikimedia.org/wiki/File:Bayeux_Tapestry_Scene_37.png"
+ },
+ {
+  "file": "scene-38.jpg",
+  "scenes": [
+   38
+  ],
+  "width": 2939,
+  "height": 480,
+  "source": "https://commons.wikimedia.org/wiki/File:Bayeux_Tapestry_Scene_38.png"
+ },
+ {
+  "file": "scene-39.jpg",
+  "scenes": [
+   39
+  ],
+  "width": 2128,
+  "height": 480,
+  "source": "https://commons.wikimedia.org/wiki/File:Bayeux_Tapestry_Scene_39.png"
+ },
+ {
+  "file": "scene-40.jpg",
+  "scenes": [
+   40
+  ],
+  "width": 1435,
+  "height": 480,
+  "source": "https://commons.wikimedia.org/wiki/File:Bayeux_Tapestry_Scene_40.png"
+ },
+ {
+  "file": "scene-41.jpg",
+  "scenes": [
+   41
+  ],
+  "width": 1072,
+  "height": 480,
+  "source": "https://commons.wikimedia.org/wiki/File:Bayeux_Tapestry_Scene_41.png"
+ },
+ {
+  "file": "scene-42.jpg",
+  "scenes": [
+   42
+  ],
+  "width": 972,
+  "height": 480,
+  "source": "https://commons.wikimedia.org/wiki/File:Bayeux_Tapestry_Scene_42.png"
+ },
+ {
+  "file": "scene-43.jpg",
+  "scenes": [
+   43
+  ],
+  "width": 925,
+  "height": 480,
+  "source": "https://commons.wikimedia.org/wiki/File:Bayeux_Tapestry_Scene_43.png"
+ },
+ {
+  "file": "scene-44.jpg",
+  "scenes": [
+   44
+  ],
+  "width": 839,
+  "height": 480,
+  "source": "https://commons.wikimedia.org/wiki/File:Bayeux_Tapestry_Scene_44.png"
+ },
+ {
+  "file": "scene-45.jpg",
+  "scenes": [
+   45
+  ],
+  "width": 960,
+  "height": 480,
+  "source": "https://commons.wikimedia.org/wiki/File:Bayeux_Tapestry_Scene_45.png"
+ },
+ {
+  "file": "scene-46.jpg",
+  "scenes": [
+   46
+  ],
+  "width": 782,
+  "height": 480,
+  "source": "https://commons.wikimedia.org/wiki/File:Bayeux_Tapestry_Scene_46.png"
+ },
+ {
+  "file": "scene-47.jpg",
+  "scenes": [
+   47
+  ],
+  "width": 1349,
+  "height": 480,
+  "source": "https://commons.wikimedia.org/wiki/File:Bayeux_Tapestry_Scene_47.png"
+ },
+ {
+  "file": "scene-48.jpg",
+  "scenes": [
+   48
+  ],
+  "width": 2287,
+  "height": 480,
+  "source": "https://commons.wikimedia.org/wiki/File:Bayeux_Tapestry_Scene_48.png"
+ },
+ {
+  "file": "scene-49.jpg",
+  "scenes": [
+   49
+  ],
+  "width": 2136,
+  "height": 480,
+  "source": "https://commons.wikimedia.org/wiki/File:Bayeux_Tapestry_Scene_49.png"
+ },
+ {
+  "file": "scene-50.jpg",
+  "scenes": [
+   50
+  ],
+  "width": 2397,
+  "height": 480,
+  "source": "https://commons.wikimedia.org/wiki/File:Bayeux_Tapestry_Scene_50.png"
+ },
+ {
+  "file": "scene-51.jpg",
+  "scenes": [
+   51
+  ],
+  "width": 4326,
+  "height": 480,
+  "source": "https://commons.wikimedia.org/wiki/File:Bayeux_Tapestry_Scene_51.png"
+ },
+ {
+  "file": "scene-52.jpg",
+  "scenes": [
+   52
+  ],
+  "width": 3989,
+  "height": 480,
+  "source": "https://commons.wikimedia.org/wiki/File:Bayeux_Tapestry_Scene_52.png"
+ },
+ {
+  "file": "scene-53.jpg",
+  "scenes": [
+   53
+  ],
+  "width": 1836,
+  "height": 480,
+  "source": "https://commons.wikimedia.org/wiki/File:Bayeux_Tapestry_Scene_53.png"
+ },
+ {
+  "file": "scene-54.jpg",
+  "scenes": [
+   54
+  ],
+  "width": 1181,
+  "height": 480,
+  "source": "https://commons.wikimedia.org/wiki/File:Bayeux_Tapestry_Scene_54.png"
+ },
+ {
+  "file": "scene-55.jpg",
+  "scenes": [
+   55
+  ],
+  "width": 1331,
+  "height": 480,
+  "source": "https://commons.wikimedia.org/wiki/File:Bayeux_Tapestry_Scene_55.png"
+ },
+ {
+  "file": "scene-56.jpg",
+  "scenes": [
+   56
+  ],
+  "width": 1904,
+  "height": 480,
+  "source": "https://commons.wikimedia.org/wiki/File:Bayeux_Tapestry_Scene_56.png"
+ },
+ {
+  "file": "scene-57.jpg",
+  "scenes": [
+   57
+  ],
+  "width": 1817,
+  "height": 480,
+  "source": "https://commons.wikimedia.org/wiki/File:Bayeux_Tapestry_Scene_57.png"
+ },
+ {
+  "file": "scene-58.jpg",
+  "scenes": [
+   58
+  ],
+  "width": 1594,
+  "height": 480,
+  "source": "https://commons.wikimedia.org/wiki/File:Bayeux_Tapestry_Scene_58.png"
+ }
+]
